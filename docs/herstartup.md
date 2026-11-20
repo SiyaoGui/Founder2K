@@ -12,3 +12,13 @@ Founder2K 的「女性共创」打开原 Figma 所设计的 HerStartupCamp。子
 | 社区 5829、联系 6222 | 分类讨论、回复、按关注查看、联系表与运营答复。 |
 
 原始稿中的案例姓名、浏览量、投资额与导师身份是设计示例。空目录展示成员加入入口。图片可优化，历史素材以场景插图使用。内容仅在当前私密访问范围内展示。以新 kind 在 D1 保存子站记录，沿用主站认证，校验所有写操作与会话的参与者。测试手机、旧入口、注册、权限隔离、双向消息及内容持久性。
+
+## 已发布实现
+
+2026-11-20。[女性共创首页](https://founder2k.com/#women) 使用独立导航与原稿主照片。子站源码在 Sites 的 app/herstartup.tsx、app/herstartup.css 与 app/api/herstartup/route.ts。线上提交 d081a15f7ae1ca0f133abab36868cab27df5802c。D1 已确认新增独立表 her_entries，含作者、关联对象及目录索引。主站原有三张表仍在。测试资料只写入本机。
+
+核心深链接包括 #women/school、#women/courses、#women/lesson?id=problem、#women/mentors、#women/investors、#women/members、#women/projects、#women/community、#women/contact、#women/account 与 #women/inbox。档案、展品、帖子和会话详情以对象 id 定位。两个原稿课程列表变体共用筛选与卡片，三类人物详情共用按角色展示的档案。主站负责登录，俱乐部负责建档。订阅功能保存意愿，发送服务有待接入。
+
+浏览器走通父站进入、建档、项目刷新读回、发帖与回复、课程完成，以及 15 个手机视图和移动导航。在生产构建的本机副本用独立身份验证申请、接受、双向消息、关闭、第三人不可见、私人项目、联系工单和订阅隔离。真实用户身份与实际课程视频素材仍待运营使用时核验。
+
+[原稿首页](https://www.figma.com/design/Ib7mXUW2sP2AkkWrzz36fG?node-id=1-5071) 的 5086、5101、5404、6289、6411、6426、6440、6454 共八个原始照片节点已执行独立调色。网页使用同源素材生成九个 WebP 文件（含首页手机尺寸），合计约 404 KiB。Figma Starter 配额在写入成功后用尽，无法取回新的设计截图作最终视觉对照。网站已另行截图验收。
