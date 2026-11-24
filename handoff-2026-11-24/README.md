@@ -15,4 +15,8 @@ Founder2K 是母平台。女性共创沿用 HerStartupCamp 的设计、社区经
 
 ## 还原归档
 
+直接浏览网页设计可打开 `previews/`。原始 Figma 位于 `originals-herstartup` 分卷内，融资日历原始 HTML 位于 `references`。活动 slides、设计导入截图及协会登记照片位于 `reference-images`。后续维护可先检查 `website/tests`，再查看 `tooling` 中的项目专项脚本与 `site-snapshots` 内的历次交付。
+
+现有文件中已保存 AI 克隆蓝图及营销邮件的抽取结果（research 内的 S279、S280，含文字、渲染页或内嵌截图）。两个输入原件在最初提供的桌面路径缺失。微信覆盖情况以复盘报告、覆盖表和实际导出批次为准。过往云端对话提及的会场设计补丁需要与本地交付区别核对，现有本地下载包括占位补丁和对应的源码 ZIP。
+
 将同一类别全部 .7z 分卷下载到同一目录，用 7-Zip 打开 .7z.001 并输入项目所有者本机 handoff-recovery/RECOVERY-KEY.txt 内的口令。GitHub 转私密后仍使用同一口令。在每个归档内，files 保留资料和相对目录，MANIFEST.csv 包含原文件大小及 SHA-256。根目录 inventory.csv 提供分组数量，SHA256SUMS.txt 用于校验分卷。交接其它 AI 时请通过私密渠道另行交付口令。
