@@ -1,0 +1,5866 @@
+[
+ {
+  "id": "innofounder",
+  "title": "Innofounder",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "创始人津贴与项目开发经费，须核对教育背景、投入时长及公司设立时点。",
+  "source": "https://innovationsfonden.dk/en/p/innofounder",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额",
+    "27,500 DKK/月 ×12 + 100,000 DKK"
+   ]
+  ],
+  "organizer": "Innovationsfonden"
+ },
+ {
+  "id": "cal-dtu-skylab-funding-3db498",
+  "title": "DTU Skylab Funding",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "面向 DTU 创业生态的项目资金，核对与学校的关联和当期征集条件。",
+  "source": "https://www.skylab.dtu.dk/for-startups/skylab-funding",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额",
+    "15,000–150,000 DKK(申请120,000)"
+   ],
+   [
+    "评审标准(官网原文)",
+    "四条:新颖性(想法是否通过新技术或现有技术的新用途,明显不同于已有的东西)、影响(能否说清创业公司对社会的益处,例如联合国可持续发展目标或通用设计)、可行性(想法是否现实,做得出来也卖得出去)、多样性(团队有没有性别和能力构成上的混合)。多样性这一条,页面没写单人团队怎么算"
+   ],
+   [
+    "资金能做什么(官网原文)",
+    "能用于:原型材料;原型的开发和测试;相关的会议参加和差旅;外部知识提供方(顾问、开发者、制造商);设备租赁;专用软件或硬件。不能用于:工资;日常运营;普通办公用品;日常办公用的 IT 硬件和手机等;餐饮。申请要交:两页的创业公司说明、预算(用官网模板)、团队照片、全体成员的联系方式;只能走在线表单,邮件交的不保证评审;迟交的不保证评审;缺预算等必需文件的申请视为不完整,可能不评,截止后一般不能补交"
+   ]
+  ],
+  "organizer": "DTU Skylab"
+ },
+ {
+  "id": "cal-mikrolegat-4e0bb6",
+  "title": "Mikrolegat",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "面向学生创业者的微型资助，核对学校资格及有无公司时对应的申请路径。",
+  "source": "https://mikrolegat.ffefonden.dk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额",
+    "至60,000 DKK(申请60,000 + 15,000自筹)"
+   ]
+  ],
+  "organizer": "Fonden for Entreprenørskab"
+ },
+ {
+  "id": "cal-card-7732c1",
+  "title": "联合创始人与项目资格指南",
+  "type": "工具与创业服务",
+  "region": "待确认",
+  "stage": "依当期条件",
+  "body": "比较团队人数、学术挂靠和联合申请条件。重点项目包括 BII Venture Lab、SOSV、Hello Tomorrow、Nucleate 与 EIT Jumpstarter。",
+  "source": "https://bii.dk/programs/venture-lab/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "整理自本日历各卡片和官方页面"
+ },
+ {
+  "id": "cal-aps-ad93dc",
+  "title": "丹麦 ApS 注册路径",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "设立公司前核对资本、注册、主体资格和官方手续。",
+  "source": "https://erhvervsstyrelsen.dk/vejledning-stiftelse-af-aps-og-as",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Erhvervsstyrelsen · Virk"
+ },
+ {
+  "id": "cal-card-c7bf2d",
+  "title": "创业资助的人员费用口径",
+  "type": "工具与创业服务",
+  "region": "待确认",
+  "stage": "依当期条件",
+  "body": "核对人员津贴、可报销人力成本、配套比例与实际到账时间。",
+  "source": "https://danmarksinnovationsfond.dk/en/programmes/innofounder/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "整理自本日历各卡片和官方 Guidelines"
+ },
+ {
+  "id": "cal-otto-bruuns-fond-43a799",
+  "title": "Otto Bruuns Fond",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "基金会项目，核对批次和本轮截止日。",
+  "source": "https://ottobruunsfond.dk/ansoeg/stoetteomraader/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "label": "本批截止(11-01 之前)",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-01-31",
+    "end": "2027-01-31",
+    "label": "下一批(按年度节奏)",
+    "kind": "截止",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "通常20,000–50,000 DKK"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eic-pathfinder-challenges-bd9701",
+  "title": "EIC Pathfinder Challenges 2026: Biotechnology for Healthy Ageing",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "针对健康老龄化的特定研究挑战，须阅读征集主题与指南。",
+  "source": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-28",
+    "end": "2026-10-28",
+    "label": "提案截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "单项目至€4M(可视论证提高)"
+   ],
+   [
+    "门槛",
+    "单一法人技术上可申请:EIC Pathfinder 页(10-18 读)写\"Pathfinder Challenges 可以是单一申请人、两个伙伴的小联合体或更大的联合体\",区别于必须有 3 个独立法人、分属不同国家的\"Open\"轨道;页面写 Pathfinder 面向 TRL 1-4。Challenge Guide(助手读取)没有写申请人数量的规则"
+   ],
+   [
+    "另有小额补充",
+    "Booster grant最高€50,000,专门用于测试研究成果的商业化潜力(不是主申请这条,是拿到Pathfinder资助后的补充选项)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-euipo-sme-fund-00b4b7",
+  "title": "EUIPO SME Fund 2026: Voucher 3(专利)",
+  "type": "工具与创业服务",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "滚动至2026-12-04或额度用尽",
+  "source": "https://www.euipo.europa.eu/en/sme-corner/sme-fund/2026",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-04",
+    "end": "2026-12-04",
+    "label": "Voucher 3 截止(或额度用尽)",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "覆盖",
+    "官网写 IP 权利申请费用最高报销 75%(IP Scan 最高 90%),按国家或地区不同;专利档的具体比例和上限官网没有写明(2026-10-16 读)"
+   ],
+   [
+    "其他voucher",
+    "Voucher 1(IP Scan)和 Voucher 2(商标/外观设计)2026年额度已用尽,2027年会重新开放"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-y-combinator-w27-e5bc40",
+  "title": "Y Combinator",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "单人可咨询",
+  "body": "Y Combinator 加速器。原卡对应 Winter 2027 批次，需核对申请时间、到场要求与股权条款。",
+  "source": "https://www.ycombinator.com/apply",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-03",
+    "end": "2026-11-03",
+    "label": "Winter 2027 常规截止（20:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "资格",
+    "长期公开、非常稳定的政策:不限创始人国籍,不要求公司预先在美国注册,多年来接受来自全球任何国家的团队申请;申请前不用先注册公司;单人创始人可以申请(FAQ 写 YC 经常录取单人创始人,同时建议找联合创始人)"
+   ],
+   [
+    "⭐当期批次(官网原文,本轮首次成功抓取)",
+    "Winter 2027批次:常规截止 11月2日晚8点(太平洋时间) ,按时申请者12月11日前出结果;超过截止日仍会被考虑,但不承诺回复时间;批次本身2027年1-3月在旧金山进行"
+   ],
+   [
+    "面试和决定",
+    "页面写面试多在 11 月和 12 月以视频进行,通常面试当天出决定并给详细反馈;录取后立刻投资,不等批次开始。页面还写可以现在就申请之后的批次(春、夏、秋),见官网的 Early Decision。批次是 1 月到 3 月在旧金山线下进行,以 3 天线下启动开始"
+   ],
+   [
+    "投资条款",
+    "标准条款$500,000(分两部分):$125,000 换固定 7% 股权,另外 $375,000 是无上限 MFN SAFE,会在之后的融资轮里再摊薄,所以总稀释比\"约 7%\"高;公司注册在美国以外的,入选后要在美国、加拿大、开曼群岛或新加坡设一个母公司(官网没有点名特拉华)"
+   ],
+   [
+    "地点",
+    "批次期间需搬到旧金山约3个月线下参加,3天线下启动+每周聚会"
+   ],
+   [
+    "额外权益",
+    "官网这次列出每家YC公司可获得$1200万以上的免费credits/折扣(含OpenAI、Anthropic、AWS、Google Cloud、Azure、Stripe等),对AI驱动的初创公司有直接的算力/工具成本价值"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-christian-nielsens-fond-5f3fb1",
+  "title": "Christian Nielsens Fond",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "⭐11-20 截止 · 先邮件确认个人资格",
+  "source": "https://www.christiannielsensfond.dk/ansoegning",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-20",
+    "end": "2026-11-20",
+    "label": "本期截止",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "为有益于丹麦产业的实体产品和技术开发项目提供优惠贷款,或注入资本换取所有权份额(基金官网:提供贷款或注资以换取所有权份额);金额没公布"
+   ],
+   [
+    "截止日",
+    "2026 年四个截止日:03-27、05-22、08-21、11-20(官网申请页原文),下一个 2026-11-20(周五,没写钟点)。官网同时写董事会每年开四次,通常在 4 月、5 月、8 月和 11 月:5 月、8 月、11 月的会议都得排在截止日之后同月余下的 9 到 10 天里,而页面又写秘书先筛、董事会成员逐个评审、下一次董事会再讨论决定,放在一起不顺,所以 11-20 这一期由哪次会议处理、什么时候答复,页面其实没说清。答复时间也有两种说法:FAQ 写决定在截止后 4 到 6 周,正文写董事会后 1 到 2 周,按 4 到 6 周留余量;官网写截止日每年会变,2027 日期没公布"
+   ],
+   [
+    "审核流程",
+    "基金秘书收件后先查是否在章程范围内,不在就马上拒绝;通过的由董事会成员各自评审,在之后的董事会会议上讨论并最终决定;董事会后 1 到 2 周直接通知结果(页面原文)"
+   ],
+   [
+    "资格",
+    "基金官网没有限定申请人类型;申请页只写\"可以申请贷款或资本注入\",并要求先确认项目在基金章程和资助范围内;第三方 Legatbogen 写\"个人、筹备中的公司和已成立的企业都可以申请\"(未核实);国籍没提。申请页的 FAQ 里有\"已获资助能否再申请\"\"被拒后能否再申请\"两个问题,答案这次没展开读到"
+   ],
+   [
+    "材料",
+    "在线申请表,附一份\"完整的项目或产品描述\"(官网原文);动机信和 CV 只来自第三方 Legatbogen,官网这一页没提"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-funding-bazaar-2026-7e5076",
+  "title": "Funding Bazaar 2026",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "活动参与",
+  "body": "⭐10-08 周四 · 免费 · 不需要CVR",
+  "source": "https://dtusciencepark.com/event/funding-bazaar-2026/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "label": "Funding Bazaar",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-10-08(周四)09:00 到 12:00 · Kongens Lyngby,Microsoft 办公楼(Kanalvej 7),DTU Science Park 主办"
+   ],
+   [
+    "形式",
+    "反向路演:投资方、基金和顾问向创业公司做路演。09:40 到 10:10 第一轮,10:40 到 11:00 第二轮,11:00 到 12:00 自由交流和一对一"
+   ],
+   [
+    "官网列出的参与方",
+    "ANTLER、BII、byFounders、Chr. Nielsen Fonden、DanBAN、EIFO、Hands on mikrofonden、Innovationsfonden、Inno Vayt、Kapital & Connect、Keystones、Kompas Ventures、Kring Ventures、Node VC、Noon Ventures、Nordic Alpha Partners、North Pine Advisory、PSV Hafnium、PSV Tech、Republic、The Footprint Firm、1st Mile"
+   ],
+   [
+    "费用与资格",
+    "DTU Science Park 页面写免费(Eventbrite 页面本身不显示价格);没有注册截止日;页面标注\"Open event\",面向硬件和 deep tech 公司,没有写 CVR 或入驻要求(2025年那届超过300人参加)"
+   ]
+  ],
+  "organizer": "DTU Science Park"
+ },
+ {
+  "id": "cal-rebbls-ventures-and-wine-2a9be7",
+  "title": "REBBLS \"Ventures and Wine\"",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "活动参与",
+  "body": "10-08 傍晚 · 找联合创始人用",
+  "source": "https://symbion.dk/events/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "label": "Ventures and Wine",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-10-08 17:00 到 20:00 · Symbion(Østerbro)· 本期主题\"Climate Solutions through Chemistry Innovation\""
+   ],
+   [
+    "形式",
+    "几段短分享,然后红酒披萨和自由交流;Symbion 官网称其专业研讨和社交活动对所有人开放"
+   ],
+   [
+    "投资人",
+    "没有列出;往届讲者是医院创新顾问和生物科技 CEO,不是投资人"
+   ],
+   [
+    "费用",
+    "往届 Eventbrite 免费;本期报名页和价格没看到(未核实)"
+   ]
+  ],
+  "organizer": "REBBLS × Symbion"
+ },
+ {
+  "id": "cal-dutch-life-sciences-a69fe0",
+  "title": "Dutch Life Sciences Conference 2026(荷兰)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "免费票 10-25 前申请 · 大会 11-26",
+  "source": "https://dutchlifesciences.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "label": "免费票申请截止(官网写 25 日之前)",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-06",
+    "end": "2026-11-06",
+    "label": "Expert Class(非稀释融资)",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-26",
+    "end": "2026-11-26",
+    "label": "大会",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "大会里有什么",
+    "新闻页没写免费票含哪些内容。节目页(标着\"筹备中\")列有:开场的投资人视角演讲(EQT Life Sciences)、两场创业公司路演 Startup Forum(各 7 家入选,评委含 Thuja Capital、Curie Capital 和 J&J Innovative Medicine 的一位总监)、展区和交流;没有单独的投资人一对一撮合。付费票页写含全部演讲、展区、午餐和招待会,免费票是否一样页面没写(助手读取)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-nordea-startup-match-93811b",
+  "title": "Nordea Startup Match",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "需CVR · 10-27 场约 10-07 前申请",
+  "source": "https://www.nordea.com/en/about-us/startup-match",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-07",
+    "end": "2026-10-07",
+    "label": "10-27 场申请截止(推算)",
+    "kind": "截止",
+    "estimated": true
+   },
+   {
+    "start": "2026-10-27",
+    "end": "2026-10-27",
+    "label": "哥本哈根场",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "形式",
+    "每季度一场(页面把哥本哈根和奥胡斯两场并列在相隔一周的日期,没有写\"轮流\"):6 家被挑中的 pre-seed 创业公司各做 7 分钟路演加 3 分钟问答,面向商业天使和 VC 基金,之后 1.5 小时晚餐交流"
+   ],
+   [
+    "下一场",
+    "哥本哈根 2026-10-27;奥胡斯 2026-10-20 的场次也还没发生,只是它的申请截止(按规则算 09-30)同样已过。官网规则是\"截止日为活动前 20 天\",所以哥本哈根的截止是 10-07(按规则算出,官网没写具体日,表单还挂在页面上),Nordea 承诺活动前 10 天回复。页面没有写钟点、时区和具体地址(在 Nordea 总部举办),之后季度的日期没有公布"
+   ],
+   [
+    "资格",
+    "丹麦 pre-seed 创业公司,尚未拿到 pre-seed 投资。申请表必填:公司名、Business ID(CVR)、参加者姓名和邮箱。页面写典型的 pre-seed 轮是 €10 万到 €100 万;已经拿到 pre-seed 投资的,页面指向它的 seed 和 A 轮场次"
+   ],
+   [
+    "投资人",
+    "官网只写\"在丹麦有过重要退出的成功创始人和专业投资人\",没有名单,是泛行业丹麦天使和 VC,不是皮肤生物科技专家"
+   ]
+  ],
+  "organizer": "Nordea"
+ },
+ {
+  "id": "cal-cph-townhall-vol-iii-c0446b",
+  "title": "CPH Townhall vol. III",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "活动参与",
+  "body": "10-29 傍晚 · 要提前注册",
+  "source": "https://luma.com/mmhycgf8",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-29",
+    "end": "2026-10-29",
+    "label": "Townhall vol. III",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-10-29 17:00 到 21:00,哥本哈根大学 Lundbeckfond-auditoriet(Ole Maaløes Vej 5,2100 København),页面没写时区(2026-10-16 在官方 Luma 页读到)"
+   ],
+   [
+    "投资人",
+    "主办方自己的文字写到场的有创始人、公司创建者和投资人,预计 500 多人,并提到在找联合创始人或投资人;合办方列了 Danske Bank(Growth)、Veo Technologies、Famly、哥本哈根大学和 Innovation District Copenhagen;页面写会有讲欧洲和全球科技格局的节目,具体环节和名单没列"
+   ],
+   [
+    "费用",
+    "官方活动页在 Luma(luma.com/mmhycgf8),没有显示价格,写明\"需提前注册\",报名人数 10-16 读到 643 人、10-18 读到 664 人;报名时姓名和邮箱可能共享给合办方和赞助方,现场可能拍照录像(页面的数据条款)。Eventbrite 主办方页面已经没有这场活动,链接过期"
+   ]
+  ],
+  "organizer": "Danish Tech Startups"
+ },
+ {
+  "id": "cal-baltic-sea-c13a69",
+  "title": "Baltic Sea Joint Investor Seminar",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "11-03 下午 · 免费 · 创业者能否参加未写",
+  "source": "https://mva.org/event/baltic-sea-joint-investor-seminar-expanding-cross-border-ecosystems/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-03",
+    "end": "2026-11-03",
+    "label": "研讨会",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-11-03 · 哥本哈根 Nordhavn(Portland Towers 12 层,Göteborg Plads 1,德国大使馆同一地址)。德丹商会页面写 14:30 签到、15:00 开场、16:00 演讲和讨论、16:30 招待、约 17:30 结束(MVA 页写 14:30 到 17:00 以后),页面都没写时区。MVA 联合 Invest in Mecklenburg-Vorpommern、GTAI 和德丹商会,合作方 BioCon Valley"
+   ],
+   [
+    "形式",
+    "与德国投资人的结构化 B2B 交流,主题:肿瘤、女性健康、预防医学、CDMO 基础设施;商会页的程序只有演讲、讨论和招待,没有单独的 B2B 环节"
+   ]
+  ],
+  "organizer": "Medicon Valley Alliance + 德国合作方"
+ },
+ {
+  "id": "cal-lsh-capital-match-7b420a",
+  "title": "Life Science Health Capital Match 2026(阿姆斯特丹)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "11-05 · 免费 · 30 多位投资人撮合",
+  "source": "https://b2match.com/e/lsh-capital-match-2026",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-05",
+    "end": "2026-11-05",
+    "label": "Capital Match",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-11-05(周四),阿姆斯特丹科学园 Matrix One(Science Park 301)。b2match 议程页(10-18 读)写:12:30 到 13:10 午餐入场;13:10 到 13:25 午餐时可预约 5 分钟的\"握手\"会面;13:30 到 14:30 全体环节(欢迎和主题演讲);14:45 到 16:45 交流区和一对一撮合;16:00 到 17:45 饮品和自由交流。I amsterdam 的活动页写 12:30 到 18:00,b2match 写 17:45 结束,两处都没写时区"
+   ],
+   [
+    "主办",
+    "ROM InWest、Amsterdam Economic Board、阿姆斯特丹大学、阿姆斯特丹自由大学、Amsterdam UMC、Innovatiefonds Noord-Holland;支持方:Invest NL、Rabobank、Startup Village、RVO、荷兰专利局和 Amsterdam AI(Info 页原文)"
+   ],
+   [
+    "形式",
+    "免费(页面写\"由主办方、赞助方和场地方承担\")。官网写\"30 多位投资人\";投资人页列出了 33 家\"确认参加撮合\"的投资机构,名单在下一行。预先登记后一对一撮合:Info 页写 6 轮、每轮 20 分钟,议程页写 14:45 到 16:45 按 15 分钟一档、\"最多 20 分钟\"(一档 15 分钟的话两小时不止 6 轮),两处对不上,页面没说哪个对。可以约投资人和服务提供商,也可以约另一家创业公司;午餐时另有 5 分钟的\"握手\"会面;交流区有专家和顾问"
+   ]
+  ],
+  "organizer": "ROM InWest · Amsterdam Economic Board 等"
+ },
+ {
+  "id": "cal-web-summit-0c8376",
+  "title": "Web Summit 2026(里斯本)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "11-09 到 12 · 志愿者免费票 · Alpha 价格未核实",
+  "source": "https://websummit.com/web-summit-2026/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-09",
+    "end": "2026-11-12",
+    "label": "Web Summit",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-11-09 到 11-12,里斯本 MEO Arena"
+   ],
+   [
+    "票价",
+    "普通票页面同时列出 €1,595、€995 和 €809(€809 标注不含销售税,含税 €995),VIP €1,585 不含税(含税 €1,950),页面没说当前适用哪一档,标注数量有限;志愿者路线给免费票和所有演讲入场(申请日期和资格页面没写);投资人票接受后 €0"
+   ],
+   [
+    "创业公司项目",
+    "在 websummit.com/startups 申请,入选者拿一个票包,含\"投资人对创业公司会议\"、导师时间。Alpha 档定义是\"融资前或融资不足 100 万美元\",但这个定义取自卡塔尔站点的页面,里斯本页面没单独写;申请截止日和 Alpha 价格没找到"
+   ],
+   [
+    "CVR",
+    "页面未写;申请表只要求商务邮箱"
+   ]
+  ],
+  "organizer": "Web Summit"
+ },
+ {
+  "id": "cal-courage-26-f5e6ac",
+  "title": "Courage'26(斯图加特)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "11-11 · 创始人票 €99 · 限量",
+  "source": "https://encourage-ventures.com/en/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-11",
+    "end": "2026-11-11",
+    "label": "Courage'26",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "谁会在",
+    "官网写来自欧洲各地的投资人、创始人和生态建设者;Eventbrite 常见问题写面向商业天使、投资人、创始人,以及想参与建设多元创业与投资生态的人。主办方 Encourage Ventures 是连接女性主导的投资人和创业公司的非营利网络"
+   ]
+  ],
+  "organizer": "Encourage Ventures"
+ },
+ {
+  "id": "cal-lsx-investival-c32e05",
+  "title": "LSX Investival Showcase 2026(伦敦)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "2026-11-16 · Startup Showcase 名额已售罄 · 价格未查到",
+  "source": "https://informaconnect.com/investival-showcase/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-16",
+    "end": "2026-11-16",
+    "label": "Investival Showcase",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-11-16(周一),伦敦 Old Billingsgate。官网写 400 多位投资人和战略方、150 多个 Showcase、1000 多位与会者;早鸟优惠首页写 10-16(周五)午夜结束,时区没写"
+   ],
+   [
+    "形式",
+    "公司上台做 Showcase,加全员可用的撮合设施;类别含 Biotech、Techbio(AI、机器学习和软件解决生物学问题)、Pharmatech、Medtech、Digital;官网写所有 Startup Showcase 名额已售罄,Biotech Growth、Medtech、TechBio & Digital 舞台还有名额(2026-10-15 读)"
+   ],
+   [
+    "资格",
+    "官网写参展公司要\"正在开发产品\"并\"拥有 IP\";没写早期或没有收入的公司能不能上,也没有创业公司专属票种"
+   ]
+  ],
+  "organizer": "LSX / Informa Connect"
+ },
+ {
+  "id": "cal-slush-e7ea3c",
+  "title": "Slush 2026(赫尔辛基)",
+  "type": "活动与路演",
+  "region": "芬兰",
+  "stage": "活动参与",
+  "body": "创业票 €395 已售罄 · 志愿者或周四票",
+  "source": "https://slush.org/audience/startups",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-17",
+    "end": "2026-11-19",
+    "label": "Slush(11-17 是创始人日)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-11-18 和 11-19,赫尔辛基。Day 0 for Founders 在 11-17,只给创始人:含 Hardware Foundry(09:30 到 13:00,2026-10-16 更正)、生命科学创始人的\"360º Pitching\"、早期创始人的\"Founder Dawn\""
+   ],
+   [
+    "投资人撮合",
+    "Meeting Tool:25 分钟一对一(400 多张会议桌这次没找到依据),可搜索已注册的投资人。投资人票 €1,195(要先过投资人审核,FAQ 写约 2 个工作日),名单没公布;周四票 €595 在售(10-18 首页:只含第二天,含 Meeting Tool 和会议区、Slush 周边活动与派对;FAQ 写这是没抢到创业票或 Ecosystem 票的人的入口,需要已通过审核的创业或生态公司档案,Day 0 和第一天只能去周边活动)"
+   ],
+   [
+    "Slush 100",
+    "已于 09-07 截止(1,400 多份申请,冠军 €500,000 且不占股),所以现在能做的只有票和志愿者"
+   ]
+  ],
+  "organizer": "Slush"
+ },
+ {
+  "id": "cal-epfl-investor-day-9efa9c",
+  "title": "EPFL Investor Day 2026(洛桑)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "11-25 · 下午公开 · 上午可申请码",
+  "source": "https://www.epfl.ch/innovation/startup/community/events/investor-day/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "label": "下午公开场",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "下午(公开)",
+    "15:15 欧洲 spinout 报告(瑞士首发),16:00 主题演讲和两场对话(瑞士创业公司怎么在 AI 竞赛里站位;怎么吸引全球资本又保留本地决策),17:30 \"Startups in Creation\" 路演场,18:00 收尾酒会;EPFL 活动页写下午对所有人开放,通过 b2match 登记,登记开放到 11-25,活动页上给了登记用的代码。费用官网没写"
+   ],
+   [
+    "上午(要邮件申请码)",
+    "EPFL 活动页写上午场\"仅限邀请\",留给投资人和创始人,符合的人写邮件申请访问码;b2match 页写仅限投资人和创业者。内容:08:45 登记,09:30 开场,09:45 创业公司路演(45 家入选的创业公司,从 pre-seed 到 A 轮及以后,分健康与生命科学、工程、能源与可持续产业、AI 与 ICT 四个方向),12:30 午餐,13:00 起 15 分钟一对一会面(2025 年办过 300 多场;会面申请 11-11 在活动平台开放,登记了上午场的人会收到邮件通知),14:30 实验室参观(只给投资人)。另有 30 家创业公司的展示区"
+   ],
+   [
+    "谁能路演",
+    "EPFL 活动页定位是\"来自 EPFL 和瑞士西部的深科技创业公司\";上午的 45 家是\"入选\"的,入选办法没写;Startups in Creation 的参与资格、申请方式和截止日也都没写,b2match 写的是\"来自 EPFL 研究生态的早期项目\",所以很可能要和 EPFL 有关联"
+   ],
+   [
+    "限制",
+    "国家或公司注册限制没写"
+   ]
+  ],
+  "organizer": "EPFL"
+ },
+ {
+  "id": "cal-healthtech-investor-summit-c898b9",
+  "title": "HealthTech Investor Summit 2026(布鲁日)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "11-30 到 12-02 · pre-seed 路演 €999",
+  "source": "https://healthtechinvestorsummit.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-30",
+    "end": "2026-12-02",
+    "label": "峰会",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-09-01",
+    "end": "2026-11-30",
+    "label": "路演筛选第二轮(官网写 9 到 11 月)",
+    "kind": "窗口",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-11-30 到 12-02,比利时布鲁日"
+   ],
+   [
+    "路演轨道",
+    "pre-seed 轨道:对投资人做 7 分钟路演,费用 €999(不含增值税);创业公司轨道 €1,999。这是付费的曝光,不是资助"
+   ],
+   [
+    "筛选",
+    "官网写泛欧路演筛选第二轮在 2026 年 9 到 11 月,10 月是评审委员会审阅;没印截止日和通知日,所以上面的虚线胶囊只是按月份范围估的窗口"
+   ],
+   [
+    "资格",
+    "官网写\"任何用技术做真正新颖的健康方案的欧洲公司\";创业公司和扩张期轨道要有原型,pre-seed 轨道页面没写;没印公司注册要求"
+   ]
+  ],
+  "organizer": "BIOVIA 主办 · VLAIO 支持"
+ },
+ {
+  "id": "cal-biofit-2026-2b4946",
+  "title": "BioFIT 2026(马赛)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "12-10/11 · 路演名额已过 · 只能参会",
+  "source": "https://biofit-event.com/participants/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-10",
+    "end": "2026-12-11",
+    "label": "BioFIT 2026",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2026-12-10 到 12-11(周四、周五),马赛 Parc Chanot"
+   ],
+   [
+    "内容",
+    "官网把它定位成生命科学的合作与投资人对接场;设有 Start-up Slam:5 分钟路演,优胜者称\"欧洲生命科学最具创新的创业公司\""
+   ],
+   [
+    "Slam 资格和日期",
+    "要求是创业公司或筹建中的公司,没写地域限制;报名截止\"2026-09-17 之前\"(助手读取),已过"
+   ],
+   [
+    "2027 届",
+    "未公布"
+   ]
+  ],
+  "organizer": "Eurasanté 等"
+ },
+ {
+  "id": "cal-bio-europe-spring-2027-5d6b96",
+  "title": "BIO-Europe Spring 2027:Startup Spotlight(里昂)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "申请 12-07 前递 · 路演费 €195",
+  "source": "https://informaconnect.com/bioeurope-spring/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-07",
+    "end": "2026-12-07",
+    "label": "Spotlight 申请截止(较早日)",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-04-05",
+    "end": "2027-04-07",
+    "label": "BIO-Europe Spring",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2027-04-13",
+    "end": "2027-04-14",
+    "label": "线上洽谈日",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "报名表要填什么",
+    "除了上传标志和\"其他\"的说明,全部必填:公司名、城市、国家、官网网址、成立年份(或内部孵化开始年份)、公司起源(学界、药企、生物技术或其他)、累计融资(欧元)、融资来源、员工数、主打产品阶段、所有权状态(上市、私有、子公司)、公司介绍(500 字以内,入选后可能印进大会资料);希望的路演类别(下拉选项,含 Drug Delivery、Dermatology、Technologies and Tools、Digital Health、Drug Discovery and Development 等);产品解决什么市场需求、目标客户、商业模式和收入计划(要顺带写合作策略)、公司现有的 IP 保护、领导团队背景,这几项各 500 字以内;申请理由(找融资、找行业伙伴、人脉、全部或其他);路演人的姓名、职位、邮箱、电话和 500 字以内的简介"
+   ],
+   [
+    "科隆场(2026)",
+    "BIO-Europe 2026 在科隆(11-09 到 11,Koelnmesse):Young Innovator 票 €1,195 到 2026-11-02,早于 ApS 的 CVR(预计 11 月初),赶不上;路演申请页没写截止日也没写已关,是否仍开放不确定。已写进\"可到达但只由助手读取\"那张合并卡"
+   ]
+  ],
+  "organizer": "EBD Group · Informa Connect"
+ },
+ {
+  "id": "cal-global-investor-forum-9604a1",
+  "title": "Global Investor Forum 2027(乌得勒支)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "报名截止 2027-02-17 · 路演位 €787 起",
+  "source": "https://hyphenprojects.nl/gif/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-02-17",
+    "end": "2027-02-17",
+    "label": "报名截止",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-03-10",
+    "end": "2027-03-11",
+    "label": "论坛(03-10 与 03-11)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-03-10(周三)Accelerator,乌得勒支:创业公司路演日;2027-03-11(周四)Jaarbeurs,乌得勒支:投资人会议日"
+   ],
+   [
+    "形式",
+    "付费路演位:5 分钟路演;可选 03-11 的 1 对 1 投资人会议。最多 30 家 biotech、medtech、AI、数字健康创业公司;9 家决赛选手争 Start-up Pitch Award(价值 €10,000 的实物奖励)"
+   ],
+   [
+    "费用",
+    "提前决定价 €787,常规价 €817,均不含 21% 增值税"
+   ],
+   [
+    "资格和日期",
+    "没写地域或公司注册要求;报名截止 2027-02-17;选拔通知日没印"
+   ]
+  ],
+  "organizer": "Hyphen Projects × Innovation for Health"
+ },
+ {
+  "id": "cal-arctic15-69c14a",
+  "title": "Arctic15 2027(赫尔辛基)",
+  "type": "活动与路演",
+  "region": "芬兰",
+  "stage": "需注册主体",
+  "body": "2027-06-16/17 · 需 Business ID · €49 到 €99",
+  "source": "https://arctic15.com/visit/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-06-15",
+    "end": "2027-06-17",
+    "label": "Arctic15",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-06-16 和 06-17,赫尔辛基 Kaapelitehdas"
+   ],
+   [
+    "票价",
+    "创业票 €49(SiRA Verified,含 13.5% 增值税,购买后需完成约 45 分钟的 SiRA 融资就绪度评估)或 €99 标准票;展位 €499 到 €599。早鸟截止日没写"
+   ],
+   [
+    "资格",
+    "2025 年 FAQ 要求公司合法注册、有有效 Business ID、5 年以内;没有有效 Business ID 的票会作废并收 €100 手续费;孵化器、加速器、咨询公司不算。2027 年 FAQ 没看到,丹麦 CVR 是否算 Business ID 未确认"
+   ],
+   [
+    "撮合",
+    "撮合工具(除展览票外所有票可用)加快速社交加 \"DealTank\"(申请路径没写)"
+   ]
+  ],
+  "organizer": "Arctic15"
+ },
+ {
+  "id": "cal-lsx-nordic-congress-1c5717",
+  "title": "LSX Nordic Congress 2027",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "2027-05-13/14 · 需公司 · 价格未公布",
+  "source": "https://informaconnect.com/lsx-nordic-congress/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-05-13",
+    "end": "2027-05-14",
+    "label": "LSX Nordic",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-05-13 和 05-14,哥本哈根"
+   ],
+   [
+    "官网点名的投资人",
+    "Innovestor Life Science、EIFO、Smile Inject Capital、Sound Bioventures、Segulah Medical Acceleration;讲者来自 Novo Holdings、V-Bio Ventures、Industrifonden。受众写\"种子、A 轮、B 轮投资人和战略伙伴\""
+   ],
+   [
+    "形式",
+    "结构化路演场次加一对一 partnering 会议(2026 年版用 partneringONE 平台,据 Biostock)"
+   ]
+  ],
+  "organizer": "LSX / Informa Connect"
+ },
+ {
+  "id": "cal-dtu-startup-day-5d72c7",
+  "title": "DTU Startup Day 2027",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "活动参与",
+  "body": "2027-06-03 · 邮件问展位和校友票",
+  "source": "https://startupday.dtu.dk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-06-03",
+    "end": "2027-06-03",
+    "label": "Startup Day",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-06-03,Kongens Lyngby(DTU Skylab)。2026 年版有 60 多家早期创业公司路演和展示,约 1,000 名参会者"
+   ],
+   [
+    "投资人环节",
+    "2026 年版有三个路演场次(Deeptech 与 AI、可持续、健康)和 deep tech 投资人小组讨论,嘉宾含私人投资人、Siemens R&I、Topsoe、PSV Hafnium 的 Anders Kjaer 等;2027 年名单未公布"
+   ]
+  ],
+  "organizer": "DTU / DTU Skylab"
+ },
+ {
+  "id": "cal-hlth-europe-3cad51",
+  "title": "HLTH Europe 2027(阿姆斯特丹)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "2027-06-21 到 24 · Investor Connect 一对一",
+  "source": "https://hlth.com/events/europe/audience/startups/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-06-21",
+    "end": "2027-06-24",
+    "label": "HLTH Europe",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-06-21 到 06-24,阿姆斯特丹"
+   ],
+   [
+    "Investor Connect",
+    "\"300 多家 VC、家族办公室和机构投资人\";15 分钟一对一,投资人驱动、双向同意,线上预约,在展场休息区进行。对已注册的合格创业公司\"不另收费\"(每公司 1 名代表)"
+   ],
+   [
+    "创业票",
+    "成立不满 5 年、融资低于 €500 万,行业是 Healthtech / Solutions and Services / Life Sciences;用公司邮箱注册,24 小时内审批。价格\"2026 年秋季公布\"。是否必须有注册公司:暗示需要公司邮箱,未明说"
+   ],
+   [
+    "路演赛",
+    "Startup Pitch 冠军 €30,000(3 分钟路演加 3 分钟问答,冠军上主舞台),\"2027 年申请尚未开放\"。公开舞台,有专利风险"
+   ]
+  ],
+  "organizer": "HLTH"
+ },
+ {
+  "id": "cal-bio-cap-europe-acfe25",
+  "title": "bio:cap Europe 2027(柏林)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "2027-06-29/30 · 票务 2027 春季开放",
+  "source": "https://www.biocap-europe.com/en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-06-29",
+    "end": "2027-06-30",
+    "label": "bio:cap",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-06-29 和 06-30,柏林 CityCube。\"International Life Science and AI Investival\""
+   ],
+   [
+    "形式",
+    "策划式撮合(curated matchmaking)、路演舞台、深度分享;bio:cap 应用内可发会面请求。投资人名单没公布(页面只写了机构伙伴)"
+   ],
+   [
+    "费用",
+    "票务页写\"2027 年春季开放\";创业公司通行证和申请流程没找到"
+   ]
+  ],
+  "organizer": "Messe Berlin + Charité + BIH + HPI"
+ },
+ {
+  "id": "cal-eban-congress-56fbae",
+  "title": "EBAN Congress 2027(莱比锡)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "2027-06-02 到 04 · 路演征集未公布",
+  "source": "https://www.ebancongress.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-06-02",
+    "end": "2027-06-04",
+    "label": "EBAN Congress",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-06-02 到 06-04,莱比锡,第 27 届"
+   ],
+   [
+    "受众",
+    "\"商业天使、VC、企业、创业者、政策制定者\";重点是航天与国防、生物科技、清洁科技,另有 AI、半导体、生命科学"
+   ],
+   [
+    "入口",
+    "票价没找到;页面列了\"Pitching Startups\"但没有细节。往年路演征集多在冬季(2025 哥本哈根届有公开征集,据欧盟新闻稿标题,未打开)"
+   ]
+  ],
+  "organizer": "EBAN(欧洲商业天使网络)"
+ },
+ {
+  "id": "cal-falling-walls-venture-db0eb6",
+  "title": "Falling Walls Venture",
+  "type": "比赛与奖项",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "2027-02 重新开放 · 需公司加提名机构",
+  "source": "https://falling-walls.com/venture/nominate-a-startup",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-02-01",
+    "end": "2027-02-28",
+    "label": "重新开放(官网写 2027 年 2 月)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "时间",
+    "2026 年峰会在 11-06 到 11-09(柏林),全球征集已关闭;官网写\"2027 年 2 月重新开放\"(对应 2027 年 11 月的峰会,超出本日历窗口)"
+   ],
+   [
+    "资格",
+    "申请时公司必须已成立(注册),成立不超过 5 年(2022-01-01 之后),有原型或概念验证,需要提名机构背书(大学、研究中心、加速器);材料是申请表、pitch deck PDF 和短视频"
+   ],
+   [
+    "投资人",
+    "官网点名 HV Capital 和 Boehringer Ingelheim Venture Fund 是路演听众;获奖者的差旅住宿部分覆盖"
+   ]
+  ],
+  "organizer": "Falling Walls Foundation"
+ },
+ {
+  "id": "cal-venture-day-eafc8f",
+  "title": "Health & Life Science Venture Day(汉堡)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "2027 日期未公布 · 入选免费 · 公开路演",
+  "source": "https://www.lifescience-ventureday.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-04-01",
+    "end": "2027-04-30",
+    "label": "2027 届申请开放(推测)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "上一届",
+    "2026-06-02,汉堡 View Eleven;申请从 2026-04-07 开始,在 Dealum 上传 pitch deck。2027 届的日期官网没写,按上一届节奏推测在 2027 年春季"
+   ],
+   [
+    "形式",
+    "评审团从申请者里选出团队上台路演,入选者在活动前有专家辅导;全程英语。到场有风险投资、企业投资方和家族办公室"
+   ],
+   [
+    "评审的投资机构",
+    "Arve Capital、Baltic Business Angels、Carma Fund、Heal Capital、HTGF、IFB Innovations Starter、Nidobirds"
+   ],
+   [
+    "费用与资格",
+    "官网写入选路演的团队免费;面向\"早期到成长期、有可扩展方案和市场潜力\"的团队;没有写必须注册公司,也没有写地域限制(都未核实)"
+   ]
+  ],
+  "organizer": "Life Science Nord"
+ },
+ {
+  "id": "cal-techbbq-2027-49b5f8",
+  "title": "TechBBQ 2027 大会本身(哥本哈根)",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "2027-09-08/09 · 创业票标价 €299",
+  "source": "https://techbbq.dk/buy-tickets/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-09-08",
+    "end": "2027-09-09",
+    "label": "TechBBQ 2027",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-09-08 周三 到 2027-09-09 周四,哥本哈根 Bella Center(官网票务页)。官网写 10,000 多名参会者;投资人页写能见到 1,800 位投资人同行"
+   ],
+   [
+    "生命科学 x 深科技专区",
+    "Life Science x Deep Tech 页(2027 届)把两者放在一个专区,写的内容:Life Science 和 Deep Tech 两个路演赛,各设 5 万 DKK(约 €6,700)现金奖并配路演培训;Deep Tech Day(AI、量子和高级计算如何推动生命科学);Life Science Stage(研究成果商业化与规模化);生态配对,可预约一对一,连接创始人、投资人和研究机构;展览区分人类健康、地球健康、深科技三类。创业公司页写展览由 Novo Nordisk Foundation 资助、两个路演赛由它支持。往届 Life Science Stage 的演讲录像可点播"
+   ],
+   [
+    "投资人场次",
+    "投资人页列出:TechBBQ Investor Day(写 800 位投资人同行,在大会开始前)、LP Forum(250 位 LP)、Family Office Summit、欧洲成长型养老金与保险峰会、IPO 与股市日、GP x LP 配对(VC 须申请,免费)。这些是投资人侧的专场,创业公司的入口是上面的创业票、展位和路演。创业公司页写网络平台由 Brella 提供,会前就能约创始人、投资人和伙伴"
+   ]
+  ],
+  "organizer": "TechBBQ,Bella Center"
+ },
+ {
+  "id": "cal-bits-pretzels-2027-c47ffa",
+  "title": "Bits & Pretzels 2027(慕尼黑)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "2027-09-27 到 29 · 创业票 €330 在售",
+  "source": "https://www.bitsandpretzels.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-31",
+    "end": "2026-12-31",
+    "label": "Crazy Bird 价档止",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-09-27",
+    "end": "2027-09-29",
+    "label": "Bits & Pretzels 2027",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-09-27 周一 到 2027-09-29 周三,慕尼黑,官网写\"展览中心一带和 Oktoberfest\"。2026 届 FAQ 写前两天在 ICM 会议中心、第三天在 Oktoberfest 的 Schottenhamel 帐篷做 Table Captain 配对(250 多位桌长各开一桌,每桌 7 人,会前自己选桌);2027 届场馆没单独写。官网写上限 7,500 人,创始人与投资人约 2 比 1,3,000 多位创始人、600 多位企业决策者、21,000 场创始人与投资人会面;投资人人数各页写法不一(订票页 1,500 多、首页 1,700 多、展位页 2,000 多),都是主办方自报"
+   ]
+  ],
+  "organizer": "Startup Events GmbH"
+ },
+ {
+  "id": "cal-ai-ai-x-265b59",
+  "title": "苏黎世 AI 节与 AI+X Summit(2027)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "AI+X 2027-09-30 · 盲盒票 CHF 200",
+  "source": "https://www.zurichaifestival.ch/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-02-01",
+    "end": "2027-02-01",
+    "label": "AI+X 盲盒票售期止",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-09-30",
+    "end": "2027-09-30",
+    "label": "AI+X Summit 2027",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "AI+X Summit 2027:2027-09-30 周四,苏黎世 StageOne(官网首页)。官网写 2,000 多名参会者、150 多位讲者、50 多场会议、60 多家展商与合作方。Zurich AI Festival 是围绕它的一周:第二届 2026-09-28 到 10-03 刚结束(新闻稿写 09-29 起),40 多场活动,多数免费但要注册,主办方是 ETH AI Center 和 Greater Zurich Area;2027 届日期官网还没公布"
+   ],
+   [
+    "票",
+    "AI+X 2027 的 Limited Blind Ticket(节目和讲者名单公布前的限量票):CHF 200 加 CHF 7.29 手续费,2026-10-18 页面写还剩 36 张、2027-02-01 售期结束。节日里的其他活动多数免费,注册即可;含全部活动的 V-AI-P 通票 2026 届已售罄,2027 届票务没写"
+   ],
+   [
+    "形式",
+    "AI+X 有四种形式:主舞台、Innovator Stage(15 分钟分享和小型对谈,主题是创业与应用 AI)、展览与学术区、分会场与工作坊。官网写在展商和赞助商里可以\"找合作方、试点和融资或市场支持\"(原文意思);节日首页称 2025 届有 6,500 多名参会者、50 多家 VC(来自 7 个国家)到场,都是主办方自报"
+   ],
+   [
+    "主题",
+    "以 AI 治理与政策、机器人、可信 AI 为主(2026 届主题是 Trusted Intelligence);新闻稿写 2026 届扩大到气候、监管、医疗、金融,节日首页的 2025 回顾里提到临床 AI;没有生命科学或融资专场"
+   ]
+  ],
+  "organizer": "ETH AI Center、Greater Zurich Area"
+ },
+ {
+  "id": "cal-wave-by-vento-2027-6f96e0",
+  "title": "Wave by Vento 2027(都灵)",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "活动参与",
+  "body": "2027-10-06 到 08 · 首发价 €100 + 增值税",
+  "source": "https://wavebyvento.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-10-06",
+    "end": "2027-10-08",
+    "label": "Wave by Vento 2027",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期地点",
+    "2027-10-06 周三 到 2027-10-08 周五,意大利都灵(2026 届 10-07 到 09 在 OGR Torino,已结束)。前身是 Italian Tech Week,主办方 Vento 是意大利的早期 VC。官网写 2026 届数字:1,500 多家创业公司、1,500 多位投资人、100 多家媒体,140 多场演讲、4,500 场会面、150 多场边会;语言英语"
+   ],
+   [
+    "票",
+    "2027 通行证首发价:General、Startup(pre-seed 到成长期的创始人和团队)、Investor 三类都是 €100 加增值税,页面写\"只有几周\"、限量,没写截止日;VIP 和学生只有候补表。一张通行证三天通用。2026 届 FAQ 写通行证实名、不可转让、不退款,2027 届规则没写;投资人通行证能看到参会创业公司名单(2026 届 FAQ)"
+   ]
+  ],
+  "organizer": "Vento(原 Italian Tech Week)"
+ },
+ {
+  "id": "cal-goto-copenhagen-4ac294",
+  "title": "GOTO Copenhagen 2026",
+  "type": "活动与路演",
+  "region": "丹麦",
+  "stage": "活动参与",
+  "body": "面向软件与架构从业者的技术会议。",
+  "source": "https://gotopia.tech/conferences/135/goto-copenhagen-2026",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-09-28",
+    "end": "2026-10-02",
+    "label": "GOTO Copenhagen",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "日期",
+    "2026-09-28 到 10-02(官网没有分开写主会和工作坊日期)"
+   ],
+   [
+    "受众",
+    "软件从业者(工程师、架构师、团队负责人),官网口号是\"在 AI 时代自信地交付软件\""
+   ],
+   [
+    "赞助与合作方",
+    "Thoughtworks、Trifork、Microsoft、Neo4j、Elastic、CodeScene、Antithesis、Saxo、Endava、Factum Books。没有 VC,没有创业公司专区,没有创业者或投资人赛道"
+   ]
+  ],
+  "organizer": "TAP1,Raffinaderivej 10,哥本哈根"
+ },
+ {
+  "id": "cal-psv-fe9297",
+  "title": "PSV(Pre-Seed Ventures):PSV Hafnium 与 PSV Tech",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "表单常开 · 没看到CVR字段",
+  "source": "https://www.psv.xyz/pitch-hafnium",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "类型与金额",
+    "PSV Hafnium 是早期 deep tech 基金,规模 DKK 6 亿(其中 EIF DKK 1.85 亿、EIFO DKK 1 亿,据 EIF 2024-10-11 新闻稿),投北欧的\"先锋科学家、工程师和创业者\"。PSV Tech 以软件为主(官网写软件驱动、产品市场匹配之前,软件与数据紧密结合时偶尔也投硬件)。官网没有写票额(第三方 thehub.io 列出探索性票额 DKK 50 万、pre-seed 轮 DKK 350 万到 600 万,未核实)"
+   ],
+   [
+    "方向",
+    "Hafnium 列出的领域含工业生物技术、新材料、未来计算、健康科技等;办公室在 DTU 所在的 Lyngby"
+   ],
+   [
+    "门槛",
+    "只投北欧本土公司(表单原文大意:目前投资北欧国家的公司)。所有 PSV 表单都必填公司名和公司网站,没有 CVR 栏,创始人人数栏允许填 1;Hafnium 表单问当前阶段和一段必填的公司描述,\"产品是否上线、有没有付费客户\"那两个问题在 PSV Tech 表单里"
+   ],
+   [
+    "怎么投",
+    "Hafnium 走 psv.xyz/pitch-hafnium(/pitch 和 /pitch-tech 是 PSV Tech 的表单),上传 deck(10 MB 以内),填公司名、网站、当前阶段和一段公司描述;官网没有承诺回复时间"
+   ]
+  ],
+  "organizer": "Kongens Lyngby"
+ },
+ {
+  "id": "cal-voima-ventures-affe53",
+  "title": "Voima Ventures",
+  "type": "投资机构",
+  "region": "北欧",
+  "stage": "单人可咨询",
+  "body": "表单常开 · 没看到CVR字段",
+  "source": "https://voimaventures.com/submit-deeptech-pitch/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额阶段",
+    "首轮 €20 万到 300 万,pre-seed 到 A 轮,也投技术拆分公司"
+   ],
+   [
+    "方向",
+    "首页的 deep tech 列表含生命科学、传感与诊断、IoT 与电子、先进制造、量子与 AI,和\"微流控制备工作站加算法\"的叙事对得上"
+   ],
+   [
+    "门槛",
+    "创始人需在北欧或波罗的海地区设立或设总部(丹麦符合),国籍没提;表单页没有写必须已注册公司"
+   ],
+   [
+    "他们看重",
+    "扎实的科学或工程基础、团队实力、里程碑(含原型或合作)。单人且没有实验室偏早,有联合创始人或数据合作方后更强"
+   ]
+  ],
+  "organizer": "Helsinki / Stockholm"
+ },
+ {
+  "id": "cal-another-vc-e8a709",
+  "title": "another.vc",
+  "type": "投资机构",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "无表单 · 通过合伙人 LinkedIn",
+  "source": "https://another.vc",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额与方向",
+    "官网没有写阶段(整页没有 pre-seed 这个词),只写首笔 €10 万、从创始人的第一天开始;方向 AI Applications、Bio + Healthcare(说明文字里提到药物递送)、Frontier Tech(把研究变成产品);官网写从第一次通话到决定很快"
+   ],
+   [
+    "风格",
+    "官网写\"对话而不是路演\",偏爱新想法而不是热门话题,对想法阶段友好"
+   ],
+   [
+    "入口",
+    "没有表单和邮箱,页面列出合伙人和他们的 LinkedIn"
+   ],
+   [
+    "地点",
+    "德国公司 another.vc GmbH(Mülheim an der Ruhr,官网 imprint 写明)"
+   ]
+  ],
+  "organizer": "早期基金(首笔 €10 万)"
+ },
+ {
+  "id": "cal-speedinvest-794f6f",
+  "title": "Speedinvest(Deep Tech 团队 / Health & Bio 团队)",
+  "type": "投资机构",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "表单常开 · 只联系入围者",
+  "source": "https://www.speedinvest.com/connect",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "阶段",
+    "pre-Seed 到 Growth,票额没找到"
+   ],
+   [
+    "Deep Tech 团队",
+    "投\"把前沿学术研究拆分出来的首次创业团队\",也投做 AI 平台的资深工程师;\"前创业者、数据科学家和物理学家\"那句描述的是 Speedinvest 自己的投资团队,不是它要的创始人(2026-10-16 更正此前的误读)。领域:先进 AI、量子、能源、材料发现、机器人、国防、太空,生命科学只是间接出现"
+   ],
+   [
+    "Health & Bio 团队",
+    "投\"改变新疗法的发现、递送或制造\"的创始人,偏治疗,官网没有提化妆品"
+   ],
+   [
+    "入口",
+    "Typeform 提交 pitch,官网说只联系入围者"
+   ]
+  ],
+  "organizer": "Speedinvest"
+ },
+ {
+  "id": "cal-butterfly-ventures-06a0bc",
+  "title": "Butterfly Ventures",
+  "type": "投资机构",
+  "region": "北欧",
+  "stage": "单人可咨询",
+  "body": "Fast Track 表单 · 要讲环境或社会影响",
+  "source": "https://www.butterfly.vc",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额与画像",
+    "平均约 €30 万/家;官网写 80% 的被投公司入股时没有营收;投 deep tech、硬件以及与硬件对接的软件,要求带有社会或环境影响;管理约 €7,700 万"
+   ],
+   [
+    "地点",
+    "办公室含哥本哈根;重点是芬兰和瑞典,也投其他北欧国家"
+   ],
+   [
+    "入口",
+    "Fast Track 表单(butterfly.vc/fast-track/):投资人演示文件加基本信息;字段 2026-10-16 没渲染出来,公司名和 CVR 是否必填不知道"
+   ]
+  ],
+  "organizer": "Oulu / Helsinki / Stockholm / Tallinn / Copenhagen"
+ },
+ {
+  "id": "cal-node-vc-noon-nordic-alpha-718d86",
+  "title": "Node VC、NOON Ventures 与 Nordic Alpha",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "三家机构投资主题与阶段不同，分别核对其投资策略。",
+  "source": "https://www.node.vc/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-delphinus-vc-e8f34f",
+  "title": "Delphinus Venture Capital",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "表单常开 · 投资阶段需丹麦公司",
+  "source": "https://delphinus.vc/pitch-deck/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额与阶段",
+    "首笔 €10 万到 100 万,pre-seed 到 B 轮,单家最高 €1,000 万;领域\"食品、健康、国防、能源\";基金约 DKK 6 亿(€8,000 万),背后有奥胡斯大学研究基金会、HEARTLAND、Norlys、Salling Group"
+   ],
+   [
+    "门槛",
+    "首页写\"丹麦注册\",所以投资阶段需要丹麦公司;pitch 表单有 Country 栏,没有写资格规则;标准是\"有研究基础、准备成长的想法\""
+   ]
+  ],
+  "organizer": "奥胡斯"
+ },
+ {
+  "id": "cal-kompas-vc-b6a4b0",
+  "title": "Kompas VC",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "投递表单写\"低于 100 万美元太早\"",
+  "source": "https://www.kompas.vc",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Hørsholm"
+ },
+ {
+  "id": "cal-spring-nordic-4599aa",
+  "title": "Spring Nordic",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "投资人关注概念验证和早期营收，团队可对照已有证据再联系。",
+  "source": "https://www.springnordic.dk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "投什么",
+    "首页标题是早期绿色能源,另有韧性技术、清洁技术和其他技术,页脚写硬件和深科技。大部分是股权投资,有时是贷款;2021 年 CAT Fonden 与 Fonden Spring Nordic 合并"
+   ],
+   [
+    "投资标准",
+    "springnordic.dk/investment-criterias:Impagt Invest Sjælland(由 Spring Nordic 管理)偏好已过概念验证、有 DKK 100 万到 200 万首批营收的 B2B 公司,面向大贝尔特以东;每个项目 DKK 300 万到 1,000 万(最多 1,500 万)。韧性技术基金(北欧和波罗的海,seed,€50 万到 500 万)还在募集,2027 年下半年起投资"
+   ]
+  ],
+  "organizer": "Fonden Spring Nordic(Roskilde)"
+ },
+ {
+  "id": "cal-fund-f-9f0648",
+  "title": "Fund F(维也纳)",
+  "type": "投资机构",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "邮件投递 · 至少一位女性联创",
+  "source": "https://www.fund-f.com/",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [
+   [
+    "投什么",
+    "pre-seed 和 seed,单笔最高 €60 万,作为领投方并保持后续跟投;官网写\"只投团队里至少有一位女性联合创始人的公司\""
+   ],
+   [
+    "地域",
+    "官网写投\"在欧洲任何地方成立并在欧洲运营\"的早期公司,丹麦公司符合字面"
+   ],
+   [
+    "方向",
+    "官网写\"不限行业\",偏好数字化、可规模化的商业模式,并优先考虑正向影响和联合国可持续发展目标;排除烟草和电子烟、武器、赌场(出自页面里的 SFDR 披露文字)。生命科学和硬件官网都没提;官网只有 4 家被投公司的证言,没写行业"
+   ],
+   [
+    "入口",
+    "官网的 Submit Pitch 按钮是邮件链接(地址在页面上被混淆),没有表单;要发什么材料、有没有截止日、占多少股、最低票额,官网都没写"
+   ],
+   [
+    "没写的",
+    "官网写的是\"女性联合创始人\",单人女性创始人算不算没说明;还没注册公司的项目能不能投递也没说明"
+   ]
+  ],
+  "organizer": "Fund F GmbH"
+ },
+ {
+  "id": "cal-sista-1f8421",
+  "title": "Sista 基金(法国)",
+  "type": "投资机构",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "邮件联系 · 平均单笔 €150 万",
+  "source": "https://www.sistafund.com/",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [
+   [
+    "方向",
+    "首页写 Deeptech、HealthTech、Climate、AI 与企业软件;常见问题写不限行业,但最关注 Healthtech 与 Wellbeing、新一代金融与保险、可持续、Deep Tech,不在名单里的行业也可以谈"
+   ],
+   [
+    "资格",
+    "标准里有\"欧洲根基\"(European roots)和\"全球野心\",\"欧洲根基\"没有定义;没写公司注册或创始人居住要求,也没写最低牵引力。常见问题的\"女性创办或联合创办\"字面上包括单人女性创始人,这点比 Fund F 清楚"
+   ]
+  ],
+  "organizer": "Sista · 女性创始人 pre-seed 和 seed 基金"
+ },
+ {
+  "id": "cal-accelerace-invest-fda40b",
+  "title": "Accelerace Invest(现属 BII)",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "核对投资主体、费用与公司注册条件。",
+  "source": "https://accelerace.io/funding/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "给什么",
+    "DKK 100 万标准可转债(含转换上限),加 7 周投资项目、导师、仅邀请制的 Investor Day(丹麦和国际机构投资人)、Allstars 终身社区;FAQ 写不占创业公司股权。公开版 term sheet(2023 年版,编号 202300303)写贷款 DKK 50 万到 100 万,年利率 8%,期限 3 年,放款要求至少 DKK 12.5 万来自另一位合格投资人"
+   ],
+   [
+    "费用",
+    "一次性 DKK 250,000(官网写条款不可谈);term sheet 写这笔项目费付给 Accelerace Management A/S,看起来在贷款之外另付,没写是否从贷款里扣;可转债最终要偿还或转股"
+   ],
+   [
+    "CVR",
+    "官网两个页面矛盾:deck 表单写\"不必已注册\",FAQ 写\"需要在丹麦注册公司(CVR)\";表单还问公司注册国"
+   ],
+   [
+    "时间",
+    "deck 常开,\"每年两个批次\",批次日期和 Investor Day 日期没公布"
+   ]
+  ],
+  "organizer": "Accelerace + BioInnovation Institute"
+ },
+ {
+  "id": "cal-danban-5db942",
+  "title": "DanBAN(丹麦商业天使协会)",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "商业天使网络，留意申请流程、披露范围与路演安排。",
+  "source": "https://www.danban.org/startups",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "机制",
+    "申请和预筛免费(约 2 周回复),之后与投资经理开反馈会;约每月一场路演活动,30 到 60 位投资人、5 到 7 家创业公司;最佳区间是资金需求 DKK 50 万到 750 万、pre-money 低于 DKK 3,000 万,成交通常 DKK 25 万到 700 万,平均 100 万到 200 万;每年处理 400 到 600 家"
+   ],
+   [
+    "新颖性风险",
+    "偏高:官网写 DanBAN 原则上不签 NDA,建议不要分享\"被评估为可专利的技术细节\",部分路演活动会录像(可要求排除)"
+   ]
+  ],
+  "organizer": "Danish Business Angels"
+ },
+ {
+  "id": "cal-keystones-4b62dd",
+  "title": "Keystones",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "需注册公司 · 促成费用未公开",
+  "source": "https://keystones.dk/indsend-case/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "机制",
+    "210 名成员(投资人、商业天使、基金、加速器),每年筛选 500 多个项目、呈现约 100 个;投资人最低 DKK 5 万起投;线下加线上投资会议"
+   ],
+   [
+    "费用",
+    "\"专业的促成服务收费\",金额没公布;有免费评估\"是否适合付费融资流程\""
+   ],
+   [
+    "入口",
+    "keystones.dk/indsend-case/"
+   ]
+  ],
+  "organizer": "丹麦投资人网络"
+ },
+ {
+  "id": "cal-beiersdorf-vc-f4fd62",
+  "title": "Beiersdorf Venture Capital(Skin Care Innovation Fund)",
+  "type": "投资机构",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "美妆与护肤领域企业投资入口。",
+  "source": "https://vc.beiersdorf.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额",
+    "首笔 €50 万到 500 万,少数股权最高 20%;€1 亿基金(2026-03-31 公告);带研发协作和 170 多个市场的渠道"
+   ],
+   [
+    "方向",
+    "\"生命科学、AI、可持续和消费科技交叉处\";官网写主要关注 A 轮,对更早期开放"
+   ]
+  ],
+  "organizer": "Beiersdorf(NIVEA、Eucerin)"
+ },
+ {
+  "id": "cal-hello-tomorrow-deep-tech-pio-fe0e2a",
+  "title": "Hello Tomorrow:Deep Tech Pioneers + Investor Day",
+  "type": "活动与路演",
+  "region": "欧洲",
+  "stage": "需团队",
+  "body": "深科技项目与投资人交流机会，核对团队人数和披露范围。",
+  "source": "https://hello-tomorrow.org/deep-tech-pioneers/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "申请",
+    "Deep Tech Pioneers 数据库\"申请完全免费,全年开放\",每月评估。好处:自动具备 Challenge 资格(奖金最高 €10 万,不占股;福利页写 €15 万,两处不一致)、融资需求直接分享给投资人、在全球峰会展出、进入 Investor Day(一整天的一对一投资人会议)"
+   ],
+   [
+    "门槛",
+    "早期到 A 轮、新技术或科学发现、团队至少 2 人、不是子公司或衍生公司。FAQ 写申请不要求已注册公司,但奖金要公司注册后才打款"
+   ],
+   [
+    "时间",
+    "2027 年 Summit 和 Investor Day 日期没公布。2025 年的 Challenge 周期是 09-15 开、10-31 早鸟、2026-01-05 截止,2026 到 2027 周期日期没公布"
+   ],
+   [
+    "费用",
+    "2026 年阿姆斯特丹峰会页写创业票 €490 起(不含税),志愿者一天免费;FAQ 写首次入选的 Pioneers 不收票费,只收每张票 €99 的可退押金;2027 价格没找到"
+   ]
+  ],
+  "organizer": "Hello Tomorrow"
+ },
+ {
+  "id": "cal-eifo-4bf0e3",
+  "title": "资金放大器:EIFO Matchlån 触发机制 + 投资人税收减免 + 欧洲天使基金",
+  "type": "贷款与配套融资",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "了解 EIFO 配套贷款、天使投资与配套机制的区别。",
+  "source": "https://eifo.dk/for-dig-som-er/virksomhed/matchlaan",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "Matchlån",
+    "贷款 DKK 50 万到 300 万,与投资人投入最高 1:1 配套,不占股。利率 5% + CIBOR3(按季资本化),手续费 0.5%(最低 DKK 1 万),退出奖金为增值的 5%(上限本金 1 倍),期限 6 年(3 年宽限),创始人无个人担保;特殊情况最高 DKK 500 万、期限最长 10 年;要求公司第一顺位营业抵押并限制分红"
+   ],
+   [
+    "Matchlån 资格",
+    "丹麦注册(CVR)、创新且可扩展、累计营收低于 DKK 300 万、投资后有 12 个月现金流、净资产为正、有国家授权会计师。投资人不能有控制权,也不能与创始人有近亲关系;非欧盟创始人是否有限制没写"
+   ],
+   [
+    "投资人减税",
+    "投资人可抵扣新股购入金额的 59%,直接持股每年最高购入金额 DKK 40 万(经投资人减免基金最高 DKK 12.5 万);目标公司须未上市、员工少于 250、营业额不超过 €5,000 万、前 3 年分红不超过税后利润,并且从首次销售起不满 7 年或处于增长阶段。投资人或其近亲在当年和前两年持有该公司股份则不能抵扣,并须在当年书面通知公司(SKAT 法律指南 v3.17,2026-07-31 版)。投资人在报税表上申请,公司通过 TastSelv Erhverv 申报"
+   ],
+   [
+    "欧洲天使基金",
+    "EIF 的 EAF 与持有共同投资框架协议的天使\"同等金额\"配套(典型 €25 万到 500 万),EIF 文件(标注 12/2016)列丹麦为运营国,丹麦 DKK 2 亿窗口 2016-06 设立,现状没写。创始人不能直接申请,要问每位天使有没有 EAF 额度;丹麦现状没确认"
+   ]
+  ],
+  "organizer": "EIFO · Skattestyrelsen · EIF"
+ },
+ {
+  "id": "cal-openvc-the-hub-3d61cc",
+  "title": "免费找投资人的工具:OpenVC · The Hub · Euroquity · Nordic Hardtech 名单",
+  "type": "工具与创业服务",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "免费 · 随时可用",
+  "source": "https://www.openvc.app",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "OpenVC",
+    "免费无限搜索(首页标题写 18,469 家投资人,FAQ 写 20,000 多家),可按阶段(Idea/Patent、Prototype、Early Revenue)、行业(生物科技、AI 等 70 多类)、地区、票额、投资人类型筛选;免费 CRM;投资人页面可直接投 deck。官网称 90% 功能永久免费;部分筛选器标 Premium(99 美元/月或 299 美元/年)。建议筛选:Idea/Patent 加 biotech 或 deep tech,地区选北欧和欧洲"
+   ],
+   [
+    "The Hub",
+    "thehub.io/funding:页面自称 1,150 家以上投资人(按国家分项相加约 2,300),可按国家(北欧五国)、类型(VC、天使、天使组织、家族办公室、加速器)、阶段、行业(含 Healthcare & Life Science)筛选,有匹配工具;浏览看起来免费,付费档没读"
+   ],
+   [
+    "Euroquity",
+    "搜索加消息,\"1,500 家以上投资人\";2026-10-16 打不开,费用没确认"
+   ],
+   [
+    "名单类",
+    "Nordic Hardtech 免费 VC 名单(Luma Media)和 VCListNetwork 预览只用来发现名字(Accelerace、Butterfly、Icebreaker、Lifeline、PSV Hafnium、Turbine Capital 等),每个名字回到官网核对"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-vc-4289f5",
+  "title": "风险投资机构补查索引",
+  "type": "研究汇总",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "原卡只提到四家机构，没有逐项列名或附上可用地址。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-nome-c3e9b5",
+  "title": "NOME(北欧创业导师网络)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "入组每年四次 · 邮件 BII 问今年日期",
+  "source": "https://nome.nu/join-nome",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "label": "10 月入组月份(估算)",
+    "kind": "窗口",
+    "estimated": true
+   },
+   {
+    "start": "2026-12-01",
+    "end": "2026-12-31",
+    "label": "12 月入组月份(估算)",
+    "kind": "窗口",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "完全免费的两年团队导师制(3 到 4 位志愿导师,每 4 到 6 周与团队见面)、一对一专项导师、生命科学导师库(首页写 200 多位,统计栏写 150 多位,两处不一致)、企业合作方、美国市场进入工作坊,以及每年一次精选的投资人活动(官网写投资人与创业公司接近一对一的比例)"
+   ],
+   [
+    "入组时间",
+    "官网写\"每年入组四次\",并列出 2 月、5 月、10 月、12 月;没有 2026 年的具体日期、申请截止日和开放状态,所以倒计时里的 10 月、12 月只是入组月份的估算,不是申请窗口(2026-10-16 复核)"
+   ],
+   [
+    "费用与风险",
+    "无费用(导师是志愿者),没提股权。导师汇报和投资人活动都不是公开舞台,但默认没有 NDA"
+   ]
+  ],
+  "organizer": "NOME · 丹麦联络人 BII"
+ },
+ {
+  "id": "cal-co-founder-run-539efc",
+  "title": "Co-Founder Run(联合创始人匹配)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "创始人相互认识、筛选与组队的活动。",
+  "source": "https://open-entrepreneurship.com/cofounder/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "label": "联创征集开放",
+    "kind": "开放",
+    "estimated": false
+   },
+   {
+    "start": "2026-10-29",
+    "end": "2026-10-29",
+    "label": "线上说明会(需邮件报名)",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-08",
+    "end": "2026-11-08",
+    "label": "联创申请截止",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [],
+  "organizer": "Open Entrepreneurship(DTU、KU、AAU、AU、SDU、CBS、ITU、RUC)"
+ },
+ {
+  "id": "cal-nucleate-denmark-9751cd",
+  "title": "Nucleate Denmark(Activator 项目与 Demo Day)",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "免费不占股 · 面向博士和博后 · 当找人入口用",
+  "source": "https://nucleate.org/activator/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "是什么",
+    "Nucleate 是美国学生创办的非营利组织。丹麦版 Activator 由 Synapse、REBBLS 和 Nucleate 合办:五个月、八次双周工作坊、导师指导,分\"治疗\"和\"星球健康\"两条赛道,结尾是 Demo Day(2026 届在哥本哈根 Pakhus 11,有主题演讲、BIO 与 ECO 路演、颁奖和晚餐)"
+   ],
+   [
+    "日期",
+    "Nucleate 总部写本届 Activator 为 2026-10 到 2027-06;美国分部截止 10-20 或 10-21(两页写法不同),国际分部各不相同,丹麦的日期没找到;另有全球线上版"
+   ],
+   [
+    "费用",
+    "免费,不占股(Nucleate 官网原文)"
+   ]
+  ],
+  "organizer": "Synapse(Life Science Connect)× REBBLS × Nucleate"
+ },
+ {
+  "id": "cal-erhvervshus-hovedstaden-ff3361",
+  "title": "Erhvervshus Hovedstaden(哥本哈根企业服务中心)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "提供免费创业咨询，预约方式见服务方资料。",
+  "source": "https://ehhs.dk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-21",
+    "end": "2026-10-21",
+    "label": "顾问补贴开放(需 CVR)",
+    "kind": "开放",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-16",
+    "end": "2026-11-16",
+    "label": "顾问补贴截止（12:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "费用与预约",
+    "免费;网上预约或电话 30 10 80 80(工作日 9 到 17)"
+   ]
+  ],
+  "organizer": "Erhvervsstyrelsen 网络"
+ },
+ {
+  "id": "cal-teknologisk-institut-461055",
+  "title": "Teknologisk Institut:Iværksætterrådgivningen",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "需公司(成立<5年、<20人)· 免费",
+  "source": "https://www.teknologisk.dk/ydelser/ivaerksaetterraadgivningen/40335",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "给什么",
+    "免费的定制技术 sparring 与商业发展(技术功能和需求研究、为更大调查打基础等),可调用研究所 42 个以上的专业中心(报告的成果含原型、验证、市场洞察)"
+   ],
+   [
+    "资格",
+    "官网写\"员工少于 20 人且成立不足 5 年的公司\";有概念验证的机会更大;国籍规则没找到"
+   ],
+   [
+    "时间",
+    "滚动;申请表邮件发给研究所,页面摘要写 5 个工作日内决定"
+   ]
+  ],
+  "organizer": "Teknologisk Institut · Otto Bruuns Fond 出资"
+ },
+ {
+  "id": "cal-opfinderr-dgivningen-1bf5c8",
+  "title": "Opfinderrådgivningen(opfind.nu)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "免费保密 · 个人即可",
+  "source": "https://opfind.nu/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "资格",
+    "个人带着想法就能申请,不需要公司;面向\"普通公民\",居住身份没写"
+   ],
+   [
+    "时间与费用",
+    "滚动,opfind.nu 在线表单;免费"
+   ]
+  ],
+  "organizer": "Teknologisk Institut · 教育科研署出资"
+ },
+ {
+  "id": "cal-connect-denmark-sparring-ac2d79",
+  "title": "CONNECT Denmark:SPRINGBOARD 专家小组 sparring",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "免费 · 官网列的场次是别家公司的案例",
+  "source": "https://www.connectdenmark.com/faa-sparring",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "资格与费用",
+    "官网写无论处于成长旅程的哪一步都可以;页面通篇说\"公司\",生命科学赛道还要求投入时间并登记工时,没有公司的团队算不算没写;免费"
+   ]
+  ],
+  "organizer": "CONNECT Denmark(非营利)"
+ },
+ {
+  "id": "cal-dtu-skylab-63e112",
+  "title": "DTU Skylab:Startup Programme / Advisory Days / Skylab Pilots",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "请按原始项目来源核对本轮申请对象、支持内容与窗口。",
+  "source": "https://www.skylab.dtu.dk/for-startups",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-29",
+    "end": "2026-10-29",
+    "label": "Open Door 辅导",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [],
+  "organizer": "DTU Skylab"
+ },
+ {
+  "id": "cal-beyond-beta-c03819",
+  "title": "Beyond Beta Accelerator(Beyond Beta 4:Building future scale-ups)",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "⭐窗口 11-30 到 2027-01-06 · 需CVR(≤7年)",
+  "source": "https://www.beyondbeta.dk/accelerator-program",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-30",
+    "end": "2027-01-06",
+    "label": "申请窗口",
+    "kind": "窗口",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "申请窗口",
+    "2026-11-30 00:00 到 2027-01-06 16:00(Virksomhedsguiden 列表);上一批(#15)于 2026-09-07 关闭,beyondbeta.dk 页面还停在 #15 开放,是过期的;Virksomhedsguiden 页面没写时区,提供开放时的邮件提醒。项目周期 2026-01-01 到 2028-12-31 和总合格支出约 DKK 1.06 亿这两条,2026-10-16 在两个官方页面上都没再找到"
+   ],
+   [
+    "资格",
+    "持丹麦 CVR 且申请时不超过 7 年;自有或受保护的技术;可扩展的商业模式,面向正在增长的国际市场;\"有投入的创始团队\"(字面是团队,单人创始人能不能申请页面没写);有早期用户或客户,或至少一个能运作的 MVP(beyondbeta.dk 的旧页面写的是\"项目期内能上线的 MVP\",比新页面宽松)。国籍规则两个官方页面都没找到"
+   ],
+   [
+    "怎么申请和评审",
+    "申请表要填:创业公司和创始团队的基本信息;市场与可扩展性、产品与技术、团队实力、执行与资金跑道四组问题;上传 pitch deck(PDF 或 PowerPoint)。页面写看的是潜力、动力、野心和执行力,不要求公司已经很完美。评审:三位独立专家(行业专家、早期创业专家、投资专家)各自打分,综合后选出;少数情况会请申请者做一次简短的线上沟通来澄清;所有申请者都会收到结果通知。竞争激烈,有潜力但缺 traction 的公司可能被建议下一轮再申请。申请前想要反馈,页面写可以联系项目组,他们会介绍一位导师做申请辅导(联系方式在页面上)。beyondbeta.dk 的旧页面写的评审角度是:市场是否有吸引力、问题是否够大、团队是否有竞争力、竞争环境是否有利、公司是否可规模化且有望快速增长"
+   ]
+  ],
+  "organizer": "Accelerace + 13 个产业集群 · 欧盟社会基金与 Erhvervsstyrelsen 出资"
+ },
+ {
+  "id": "cal-nordic-female-founders-72b30e",
+  "title": "NFF Start Up / NFF Growth(Nordic Female Founders)",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "面向女性创业者的成长支持，核对会员、企业注册和费用条件。",
+  "source": "https://nordicfemalefounders.dk/female-founders-house1/nff-startup",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [
+   [
+    "给什么",
+    "NFF Start Up:16 周共 5 次课程(商业发展、战略、沟通、融资、法律)、导师、同侪网络。NFF Growth:教学加导师匹配,面向成立不超过 3 年(或不超过 5 年且营业额低于 DKK 100 万或少于 3 名全职)的公司。评分看组织、想法或计划、市场,优先照顾弱势群体。是辅导,不是资金"
+   ],
+   [
+    "费用",
+    "每个项目 DKK 5,000 不含增值税(Virksomhedsguiden 列表)"
+   ],
+   [
+    "时间",
+    "没找到(Virksomhedsguiden 显示\"开放申请\",NFF 页面只显示 2023 到 2024 届);DKK 1,020 万的 Growth 项目资金到 2026 年中,要确认后续批次"
+   ]
+  ],
+  "organizer": "Nordic Female Founders ApS"
+ },
+ {
+  "id": "cal-aka-startup-inkubator-489466",
+  "title": "AKA Startup Inkubator",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "DKK 800 · 需 AKA 会员 · 12-02 截止",
+  "source": "https://aka.dk/startup/Program",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-02",
+    "end": "2026-12-02",
+    "label": "申请截止(2027-01 期)（23:59，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-01-13",
+    "end": "2027-04-02",
+    "label": "下一期项目期",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "是什么",
+    "面向有学术背景的创业者的 3 个月项目:共享办公位、一位导师、工作坊(验证概念、销售、路演、商标保护、创业法律)、法律和财务咨询、同侪活动。每年三期:1 到 3 月、4 到 6 月、9 到 11 月"
+   ],
+   [
+    "下一期",
+    "2027-01-13 到 04-02;申请截止 2026-12-02 23:59"
+   ],
+   [
+    "资格",
+    "团队里至少一人是 Akademikernes A-kasse 会员(不要求全员,FAQ 也接受正在办理入会的人);要已决定创业并能说明商业想法;需要能读懂丹麦语、能参加白天的活动(2026-10-16 复核新增);页面没写居住或国籍限制"
+   ],
+   [
+    "费用与资金",
+    "DKK 800(咖啡、茶和社交活动的餐点),开课前缴;没有资金,也没有投资人接口"
+   ]
+  ],
+  "organizer": "Akademikernes A-kasse"
+ },
+ {
+  "id": "cal-health-tech-hub-copenhagen-4851eb",
+  "title": "Health Tech Hub Copenhagen · Life Science Invest",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "邮件问是否收未成立公司的团队",
+  "source": "https://healthtechhub.org/for-investors/life-science-invest/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-27",
+    "end": "2026-10-27",
+    "label": "Healthcare Catalyst(会员活动)",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-11",
+    "end": "2026-11-11",
+    "label": "DanBAN HealthTech 投资人场(会员,路演名额需申请)",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-18",
+    "end": "2026-11-18",
+    "label": "Healthtech 撮合(Slush 周边,会员活动)",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "label": "线上 Healthcare Catalyst(会员活动)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "Life Science Invest",
+    "覆盖生物科技、医疗器械、健康科技的投资人网络(健康科技这一块由 Health Tech Hub 运营)。页面写三类内容:①认识 Hub 精选的健康科技创业公司,有的在融资,有的只是展示影响力,参与的创业公司事先上路演训练营;②和投资人交流:丹麦最富有的家族办公室、知名商业天使、本地和国际基金,都在投或考虑投健康科技;③每期请一位专家讲融资相关话题。页面标有\"Investment Series Vol. 4\"的报名入口,文字里没有日期和价格。另有仅限邀请的家族办公室与高净值个人定期聚会。网络由 DTU Skylab、Health Tech Hub Copenhagen、BioInnovation Institute、EIFO 和 Danish Life Science Cluster 合作发起(页面写 emerging partnership),页脚写 Danish Industry Foundation 支持"
+   ],
+   [
+    "Hub 会员",
+    "投资人介绍、deck 优化、演示辅导、联合办公、CE 标记指导;会员聚焦\"数据驱动的软件或带软件的医疗器械\",生物科技 LNP 在核心范围之外,但 Life Science Invest 明确包含生物科技。会员费没公布"
+   ]
+  ],
+  "organizer": "Health Tech Hub Copenhagen × DTU Skylab / BII / EIFO / Danish Life Science Cluster"
+ },
+ {
+  "id": "cal-incuba-startuplab-598fd6",
+  "title": "INCUBA StartupLab / Next Level / Aarhus Investor Summit",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "奥胡斯 · 滚动申请",
+  "source": "https://incuba.dk/en/acceleration/startuplab/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "StartupLab",
+    "12 个月加速器,\"随时开始\",导师、投资人介绍辅导、网络和路演活动;StartupLab Build 提供 12 个月免费租金。申请邮件发给 Head of Acceleration Lars Louring"
+   ],
+   [
+    "Next Level",
+    "Founder Hub:来自 Poul & Inger Eriksen 基金会的资金支持加 Investor Hub(Delphinus VC、Formalize、Seed Capital 等);2026-08-10 开始的一批从 43 个申请者中选 10 个(第三方 TechSavvy 报道,未核实);下一批日期没找到"
+   ],
+   [
+    "Aarhus Investor Summit",
+    "2026-10-08 11:30 到 14:30,只限投资人;2025 年有 18 家创业公司被选中路演;创业公司的选择途径没找到"
+   ],
+   [
+    "资格与费用",
+    "公司要求、非欧盟身份、费用都没写,也没提股权;生命科学中心在 Skejby;大概率需要在奥胡斯有实际存在"
+   ]
+  ],
+  "organizer": "INCUBA Science Park(奥胡斯)"
+ },
+ {
+  "id": "cal-odense-robotics-c4b109",
+  "title": "Odense Robotics StartUp Hub + StartUp Fund",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "机器人与硬件生态的创业支持和资金入口。",
+  "source": "https://robotstartupfund.dk/about/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "StartUp Hub",
+    "免费的硬件创业孵化(原型和测试支持、技术与商业专家、共享工位、丹麦技术研究所的技术指导),不占股、没有会员费,开发流程约一年"
+   ],
+   [
+    "StartUp Fund",
+    "总资金 DKK 1,840 万,直接投\"来自丹麦和国外的早期机器人和无人机创业公司\"(回报来自贷款和收购款);票额和条款没找到"
+   ],
+   [
+    "资格",
+    "是否需要注册公司没写;\"来自丹麦和国外\"暗示国际创始人可以"
+   ],
+   [
+    "时间",
+    "没找到(2021 年的旧文章提到过 6 月 7 日截止,看起来是滚动)"
+   ]
+  ],
+  "organizer": "Odense Robotics(欧登塞)"
+ },
+ {
+  "id": "cal-l-or-al-open-innovation-442873",
+  "title": "L'Oréal Open Innovation / Beauty Tech Atelier(\"Pitch your project to L'Oréal\")",
+  "type": "工具与创业服务",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "路演机会及报名路径，原卡记录了 2027 年 4 月场次线索。",
+  "source": "https://www.lorealopeninnovation.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-04-01",
+    "end": "2027-04-30",
+    "label": "路演(若现在申请)",
+    "kind": "活动",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "个性化导师、Station F 使用权(工位、福利、活动)、对 L'Oréal 各品牌和业务线的引荐、与品牌做概念验证的机会、通过 Incubateur HEC Paris 接触 700 多位专家;每期最多 10 家创业公司;没有现金"
+   ],
+   [
+    "费用",
+    "官方页面写\"项目完全免费\",没提股权"
+   ],
+   [
+    "时间",
+    "滚动:10 月到 3 月申请者在 4 月路演,4 月到 9 月申请者在 10 月路演。现在申请对应 2027 年 4 月路演;批次 5 月到 11 月和 1 月到 6 月"
+   ],
+   [
+    "资格",
+    "Atelier 页面面向\"准备规模化的早期创业公司(Seed 到 A 轮)\";是否需要公司、非欧盟创始人是否可以不明确,页面写 98 家加速的创业公司里 52% 是国际的"
+   ]
+  ],
+  "organizer": "L'Oréal + Station F + Founders Factory + Partech"
+ },
+ {
+  "id": "cal-leo-pharma-croda-evonik-1c51bb",
+  "title": "LEO Pharma、Croda 与 Evonik VC 企业合作入口",
+  "type": "工具与创业服务",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "企业合作线索。独立项目、资金和开放入口仍需分别确认。",
+  "source": "https://leo-pharma.com/our-innovation/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dayone-accelerator-6de95e",
+  "title": "DayOne Accelerator(巴塞尔)",
+  "type": "孵化器与加速器",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "2027-03 开放 · 不占股不收费",
+  "source": "https://www.dayone.swiss/accelerator/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-03-01",
+    "end": "2027-03-31",
+    "label": "2027 届申请开放(官网写 3 月)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "项目",
+    "3 个月混合式加速,不占股、不收费;每期 15 家;差旅补助最高 CHF 1,000;巴塞尔现场 bootcamp 必须到场"
+   ],
+   [
+    "资格",
+    "官网写\"任何国家的团队可申请\";pre-seed 到 A 轮,稀释性融资不超过 US$1,000 万;技术要服务制药研发;没有制药研发用途的纯硬件被排除。页面写的是\"团队\",没写单人创始人行不行"
+   ],
+   [
+    "时间",
+    "2026 届申请窗口 03-31 到 05-31 已关;官网写\"下一次申请 2027 年 3 月开放\",截止与结果日没印"
+   ]
+  ],
+  "organizer": "DayOne(巴塞尔地区,伙伴含 Novartis、CSEM)"
+ },
+ {
+  "id": "cal-genopole-shaker-fa60c6",
+  "title": "Genopole Shaker(法国埃夫里)",
+  "type": "孵化器与加速器",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "12 月和 5 月各一轮 · 要概念验证",
+  "source": "https://genopole.fr/offres/programme-shaker/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-01",
+    "end": "2026-12-31",
+    "label": "12 月征集(官网写 12 月)",
+    "kind": "开放",
+    "estimated": true
+   },
+   {
+    "start": "2027-05-01",
+    "end": "2027-05-31",
+    "label": "5 月征集(官网写 5 月)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "项目",
+    "Genopole 生物技术园区(法国埃夫里)的 Shaker:6 个月(可续一次),共享 BSL-1/2 实验室和工位,€4,000 耗材费,辅导;全额资助,不拿 IP 或股权"
+   ],
+   [
+    "之后",
+    "Gene.iO(助手读取):1 年,€20,000 的 0% 贷款,项目费 €7,500,只给法人;第 6 期截止 2026-08-17 已关,2027 届未公布"
+   ],
+   [
+    "资格",
+    "官网写面向\"科学或商业背景的个人\"(学生、博士生、年轻毕业生、在职者),按自然人申请;要有科学上验证过的概念验证;方向有 Bioeconomy、Innovative Therapy、Computational Genomics;没印国籍或居住限制"
+   ],
+   [
+    "时间",
+    "官网写每年 12 月和 5 月各一轮,具体日期没写。参考上一轮:2025-12-05 开放,2026-02-08 与 02-22 两个步骤,评审委员会在 2026-03-02 那一周,4 月入驻;第 19 期已于 2026-07-15 关闭"
+   ],
+   [
+    "地点",
+    "价值主要在埃夫里的实验室台位;官网没写必须常驻(没核实,不要假设能远程)"
+   ]
+  ],
+  "organizer": "Genopole"
+ },
+ {
+  "id": "cal-card-218cb7",
+  "title": "瑞典的创业园与孵化器:Ideon · Medeon · CO-AX(Sahlgrenska)",
+  "type": "孵化器与加速器",
+  "region": "瑞典",
+  "stage": "依当期条件",
+  "body": "多数不给钱 · Medeon 暂停 · CO-AX 2027-01 开",
+  "source": "https://ideon.se/softlanding/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-31",
+    "label": "CO-AX / Medeon 2027 年初开放",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-card-e76820",
+  "title": "挪威的奥斯陆科学园:Startuplab · Aleap · ShareLab",
+  "type": "孵化器与加速器",
+  "region": "挪威",
+  "stage": "依当期条件",
+  "body": "官网没写资格和费用 · 先邮件问",
+  "source": "https://www.forskningsparken.no/en/about/our-incubators",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Oslo Science Park(Forskningsparken)"
+ },
+ {
+  "id": "cal-card-d59e71",
+  "title": "芬兰的创业园与孵化器:Health Incubator Helsinki · Maria 01 · Kiuas",
+  "type": "孵化器与加速器",
+  "region": "芬兰",
+  "stage": "依当期条件",
+  "body": "HIH 2027-01-15 到 02-28 · Maria 01 €50 到 100/月",
+  "source": "https://healthincubatorhelsinki.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-15",
+    "end": "2027-02-28",
+    "label": "Health Incubator Helsinki 申请窗口",
+    "kind": "窗口",
+    "estimated": false
+   }
+  ],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-card-476c4d",
+  "title": "云算力额度:NVIDIA Inception · AWS Activate · Google for Startups · Microsoft Founders Hub",
+  "type": "工具与创业服务",
+  "region": "美国",
+  "stage": "需注册主体",
+  "body": "免费 · NVIDIA 要已注册公司 · 不是现金",
+  "source": "https://www.nvidia.com/en-us/startups/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "NVIDIA Inception",
+    "官网写\"没有申请费、会员费或股权要求\";要求公司已正式注册、至少一名开发者、有可用网站、成立不满 10 年;不要求营收;给云额度(来自 NVIDIA 与合作方)、硬件优惠价、DLI 课程,以及\"通过 Inception Capital Connect 接触 NVIDIA 的 VC 网络(视资格)\""
+   ],
+   [
+    "AWS Activate",
+    "Founders 档(自筹资金):最高 $5,000,起步 $1,000;Portfolio 档(有 VC 或加速器背书):最高 $200,000,需要 Activate Provider 给的 Org ID;要求 pre-Series B、成立 10 年内、AWS 账号为付费档;5 到 10 个工作日回复。页面没写是否要公司"
+   ],
+   [
+    "Google for Startups Cloud",
+    "三档:未融资 $2,000;种子到 A 轮 $20 万,AI 优先的创业公司最高 $35 万;这一页没写资格条件(未核实)"
+   ],
+   [
+    "Microsoft for Startups Founders Hub",
+    "官网写最高 $150,000 的 Azure 额度;这一页没写资格、档位和费用(未核实)"
+   ]
+  ],
+  "organizer": "各公司官方项目"
+ },
+ {
+  "id": "cal-antler-nordics-84aac1",
+  "title": "Antler Nordics",
+  "type": "投资机构",
+  "region": "北欧",
+  "stage": "单人可咨询",
+  "body": "单人可投 · 滚动 · 会稀释股权",
+  "source": "https://www.antler.co/nordics",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "给什么",
+    "€200,000 先到账:€100,000 换 8.5% 股权,另外 €100,000 是无估值上限、带 MFN 条款的可转换票据。后续配套最多 €300,000(下一轮由专业或半专业投资人牵头时,Antler 跟投该轮的三分之一,须在首笔投资后 9 个月内关闭)。标准条款合计 €500,000,更大或更晚期的交易可谈(Antler 官方条款文章 2025-07-03 与 Nordics 页)"
+   ]
+  ],
+  "organizer": "Antler"
+ },
+ {
+  "id": "cal-techbbq-hero-academy-28c755",
+  "title": "TechBBQ Hero Academy(2027 届)",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "申请已关闭 · 日期未公布",
+  "source": "https://techbbq.dk/hero-academy/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-09-08",
+    "end": "2027-09-09",
+    "label": "TechBBQ 2027(项目含门票)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "是什么",
+    "官网写这是 TechBBQ 与哥本哈根市合办的\"全额资助\"创业者培养项目,2027 届回归(官网写帮助过过去三年的创业者,没有写中间隔了几年)。内容:实操课程、创业者网络和邀请制活动、与 VC 及天使的撮合、一张 TechBBQ 2027 门票(2027-09-08 到 09)、同伴社群。官网没写现金金额"
+   ],
+   [
+    "谁能申请",
+    "官网写:在哥本哈根做产品或服务、朝收入方向走的种子或 pre-seed 公司,与本地创业生态有联系,已经融到或正在融资;按客观标准筛选。页面没有写联合创始人或团队人数要求,也没写要不要注册公司"
+   ],
+   [
+    "状态",
+    "页面多处写\"Applications closed\",没有下次开放日期;日程写 TBA"
+   ]
+  ],
+  "organizer": "TechBBQ × 哥本哈根市"
+ },
+ {
+  "id": "cal-techbbq-life-science-pitch-47d47f",
+  "title": "Life Science Pitch Competition",
+  "type": "比赛与奖项",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "2027 届页面已建,申请关闭,日期全部待公布",
+  "source": "https://techbbq.dk/life-science-pitch/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-04-01",
+    "end": "2027-05-31",
+    "label": "下届报名(估计)",
+    "kind": "窗口",
+    "estimated": true
+   },
+   {
+    "start": "2027-09-08",
+    "end": "2027-09-09",
+    "label": "TechBBQ 2027(决赛在大会现场)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "定位",
+    "TechBBQ 三条路演赛道之一(另两条:通用的 North Star Pitch 和 Deep Tech Pitch,见下方两张卡)。页面写 2027 届有 8 家欧洲生命科学创业公司在 TechBBQ 2027 现场路演,主题是人类健康和地球健康"
+   ],
+   [
+    "奖励",
+    "第一名现金 5 万 DKK(约 €6,700);第二、三名没有现金。入围者自己去哥本哈根,TechBBQ 门票由主办方承担;入围者必须参加主办方的路演培训;路演 2 分钟加 3 分钟评委问答"
+   ],
+   [
+    "评审与材料",
+    "评分维度:想法质量、影响力、执行力。可选 1 分钟英文产品演示视频(演示产品,不是路演,不要字幕)"
+   ]
+  ],
+  "organizer": "TechBBQ"
+ },
+ {
+  "id": "cal-danish-tech-challenge-6db80f",
+  "title": "Danish Tech Challenge",
+  "type": "比赛与奖项",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "本期 08-30 已截止 · 2027 年期日期未公布",
+  "source": "https://dtusciencepark.com/startup-services/danish-tech-challenge/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-08-30",
+    "end": "2026-08-30",
+    "label": "本期截止",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "性质",
+    "免费参加的加速加比赛,不是资助:入选的 12 到 18 家硬件创业公司获得 50 多小时一对一辅导、每周工作坊和 DTU Science Park 的工位;只有冠军拿现金"
+   ],
+   [
+    "奖金",
+    "冠军 DKK 500,000 加 Jyske Bank Startup Award,由外部评审团选一名"
+   ],
+   [
+    "本期(2026-27)",
+    "申请截止 2026-08-30(只写日期,没写钟点和时区);入选通知 09-08,路演日 09-14 到 09-15,启动 09-28,项目 2026-10-01 到 2027-02-09,半决赛 2 月,决赛 3 月,颁奖 2027 年 4 月。申请页显示已过期;2027 年期的日期 2026-10-16 两个页面都没写"
+   ],
+   [
+    "资格",
+    "实体硬件产品(\"不是纯数字产品或纯服务的,都可以算硬件\");有丹麦 CVR,或者\"能在项目期间成立一个\";单人创始人可以,两人以上有优势;要求全情投入,每周在灵比(Lyngby)1 到 2 天;不限阶段。申请材料是表单加 9 页 deck(含原型照片)"
+   ]
+  ],
+  "organizer": "DTU Science Park"
+ },
+ {
+  "id": "cal-nordic-star-pitch-6ce4d3",
+  "title": "Nordic Star Pitch Competition",
+  "type": "比赛与奖项",
+  "region": "北欧",
+  "stage": "依当期条件",
+  "body": "2026 届已结束 · 2027 届日期未公布",
+  "source": "https://nlsdays.com/nordic-star-pitch-competition/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "奖励",
+    "€10,000 现金 加 NLSDays 2027 的 2 张参会证 加 Voima Ventures 的路演辅导"
+   ],
+   [
+    "评审维度",
+    "可扩展性、独特性、市场潜力、全球适用性"
+   ]
+  ],
+  "organizer": "Nordic Life Science Days(NLSDays)"
+ },
+ {
+  "id": "cal-techbbq-north-star-pitch-9c3813",
+  "title": "North Star Pitch",
+  "type": "比赛与奖项",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "本届已关闭申请,等下届",
+  "source": "https://techbbq.dk/north-star-pitch/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-09-08",
+    "end": "2027-09-09",
+    "label": "TechBBQ 2027",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "资格",
+    "总部在欧洲(丹麦符合) · 成立不满5年 · 已有MVP和官网 · 独立公司,做自己的软件或联网硬件产品"
+   ],
+   [
+    "费用",
+    "同系列 Life Science 与 Deep Tech 页面的 FAQ 写免费;这条的 FAQ 2026-10-16 没读出来,多半一样"
+   ],
+   [
+    "奖励(2026-09-21补充核实)",
+    "官网写冠军拿\"Fundraising Bootcamp access prize\",Microsoft是赞助方之一,但具体权益官网没有细讲;不像Life Science Pitch那样有写明的现金数字"
+   ]
+  ],
+  "organizer": "TechBBQ"
+ },
+ {
+  "id": "cal-techbbq-deep-tech-pitch-430f0c",
+  "title": "Deep Tech Pitch Competition",
+  "type": "比赛与奖项",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "2027 届申请关闭,日期待公布 · 健康方向在范围内",
+  "source": "https://techbbq.dk/deep-tech-pitch/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-09-08",
+    "end": "2027-09-09",
+    "label": "TechBBQ 2027(决赛在大会现场)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "资格",
+    "总部在欧洲(丹麦符合) · 做深科技 · 融资低于 €200 万,有经过验证的概念或原型 · 独立公司 · 咨询公司、代理机构、开发商和上市公司不能报 · 2023 到 2025 年的往届 Deep Tech 决赛入围者不能再报"
+   ],
+   [
+    "时间",
+    "申请开放、截止、入围公布、决赛四个日期全部写 TBA"
+   ]
+  ],
+  "organizer": "TechBBQ"
+ },
+ {
+  "id": "cal-hicool-ed1a35",
+  "title": "HICOOL全球创业大赛",
+  "type": "比赛与奖项",
+  "region": "中国",
+  "stage": "依当期条件",
+  "body": "2027 届启动字样 09-21 见过,10-16 没能再确认 · 细则没读到",
+  "source": "https://www.hicool.com",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "2026-09-21用真实浏览器+官方信源核实",
+    "官网(hicool.com)首页确认\" HICOOL 2027全球创业大赛报名启动 \",2026届峰会(8月26-29日)刚结束,2027届报名已经开放;分 海外组/本土组 两条赛道,作为丹麦创业者应报海外组"
+   ]
+  ],
+  "organizer": "北京海外高层次人才协会"
+ },
+ {
+  "id": "cal-achema-start-up-award-819572",
+  "title": "ACHEMA Start-Up Award 2027(法兰克福)",
+  "type": "比赛与奖项",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "计划书 11-30 截止 · 奖金 €15,000",
+  "source": "https://www.achema.de/en/the-achema/achema-start-up-award",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-30",
+    "end": "2026-11-30",
+    "label": "商业计划书截止",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-06-14",
+    "end": "2027-06-18",
+    "label": "ACHEMA 2027(决赛路演)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "奖项",
+    "奖金 €15,000;最多 10 个决赛名额,在 ACHEMA 2027(2027-06-14 到 18,法兰克福)获展位和路演场次"
+   ],
+   [
+    "资格",
+    "官网写\"团队或个人,提交公司构想\";方向是化学、过程技术、生物技术;2024-01-01 之后成立的公司也可参赛;没印国籍或公司所在地限制"
+   ],
+   [
+    "日期",
+    "参赛规则 PDF 写商业计划书 2026-11-30 截止;奖项页面仍显示\"构想\"阶段 2026-08-31 截止(已过);规则写两个阶段都可以报名,所以直接交商业计划书可能可行,要主办方书面确认。决赛通知日没印"
+   ]
+  ],
+  "organizer": "DECHEMA · 合作方 High-Tech Gründerfonds、法兰克福莱茵美因天使网络"
+ },
+ {
+  "id": "cal-bii-venture-lab-a14a34",
+  "title": "BII Venture Lab",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "需团队",
+  "body": "生命科学团队孵化与早期验证支持，核对团队及验证数据要求。",
+  "source": "https://bii.dk/programs/venture-lab/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "给什么",
+    "DKK 4,200,000 可转债(约 €550K,按约定里程碑一次付清),另有加速器补助最高 DKK 420,000 和实验室租赁补助最高 DKK 240,000(April 2026 版 PDF 原文)。PDF 还写利率 8%、期限 3 年、12 个月项目费 DKK 500,000;官网页没写这几项,项目费是否从可转债里扣要问。公司清算时未还部分转为 BII 的赠款,没有创始人个人担保(官网 FAQ)"
+   ],
+   [
+    "下一轮什么时候",
+    "官网没写。往年的旧版 PDF 显示一年两轮,固定截止是 2025-08-06 14:00 CET 和 2026-01-28 14:00 CET;2026 年 1 月那一轮是 2025-10-27 前后对外公布的(第三方新闻),所以下一轮的公告有可能在 10 月底到 11 月出现,这只是推测。直接点官网的 Book a meeting 问"
+   ],
+   [
+    "团队",
+    "官网页写要\"established founder team\"。PDF 没设创始人人数,写团队应全职投入,不全职的创始人只应持有限股权并领市场水平的工资。有联合创始人\"团队\"这一条更站得住;是否至少两人、一位全职一位兼职行不行,页面没写,要问"
+   ],
+   [
+    "公司与团队资格",
+    "不要求现在有公司,获批后要成立丹麦公司,总部、运营和领导层都在丹麦(官网 FAQ 与 PDF)。核心成员在 BII 现场工作时,需要有在丹麦工作的权利(PDF 原文);各成员的具体情况向 BII 或 Copenhagen Capacity 确认"
+   ],
+   [
+    "互斥风险",
+    "官网页写 Venture Lab 只能支持没有商业投资和商业股东的早期公司,FAQ 写专业投资人的投资和某些贷款可能让公司失去申请资格。所以 Antler 一类的股权融资会改变这一条,先定走哪条再投"
+   ],
+   [
+    "怎么用",
+    "在 BII 官网点\"Book a meeting\",问四件事:①丹麦版下一轮什么时候开、截止是哪天;②\"established founder team\"要不要至少两人;③只有文献数据加一份正在谈的实验室合作,能不能过科学验证这一关;④DKK 500,000 项目费怎么付"
+   ]
+  ],
+  "organizer": "BioInnovation Institute"
+ },
+ {
+  "id": "cal-women-techeu-384a85",
+  "title": "Women TechEU",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "女性主导的欧洲深科技项目支持；核对公司成立时间、创始人角色和当期指南。",
+  "source": "https://womentecheurope.eu/active-calls/",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [
+   {
+    "start": "2027-06-15",
+    "end": "2027-06-15",
+    "label": "Eligibility 最后一次截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "€75,000 无偿资助(包干制,付给公司,分三笔:第 1 个月后 €37,500,第 3 个月后 €30,000,第 6 个月后 €7,500) + 6个月定制化商业发展辅导"
+   ],
+   [
+    "✅但不是死路,是排期问题",
+    "Eligibility Strand是 每周二17:00布鲁塞尔时间滚动截止,一直持续到2027-06-15 (官网页面和Guidelines都写2027-06-15,FAQ写6月14日,疑似笔误),不是只有今年这一个窗口,只要公司注册满6个月这一条能在2027-06-15之前的某个周二满足,这一轮就还有机会投"
+   ],
+   [
+    "⭐由此倒推出的关键日期(本轮计算,供参考)",
+    "6个月倒推最后一次截止(2027-06-15)= 公司最晚要在2026-12-15前完成注册 ,才够得上这一整轮里的最后一次机会;考虑到CVR注册本身可能有处理时间,更稳妥的内部目标是 2026年11月前后拿到CVR ,留出缓冲"
+   ]
+  ],
+  "organizer": "(现更新为\"Women TechEU 2 EIC\")"
+ },
+ {
+  "id": "cal-bech-bruun-impact-f8df12",
+  "title": "Bech-Bruun Impact",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "正式表单需 CVR · 只有首段咨询免费",
+  "source": "https://www.bechbruun.com/da/om-os/esg/bb-impact/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "形式",
+    "非现金:律所的法律咨询。页面写的是\"入驻后第一年内,咨询的第一部分免费,之后按优惠价收费\",没写小时数(两篇较早、没有日期的文章写过 50 小时免费和\"丹麦创业公司\",现行页面两句都没有)。此前卡片写的\"pro bono\"说过头了"
+   ],
+   [
+    "时间",
+    "没有窗口:页面写\"持续审核申请\",没有截止日或批次"
+   ]
+  ],
+  "organizer": "(项目已改名\"BB Impact\")"
+ },
+ {
+  "id": "cal-smv-digital-280ec4",
+  "title": "SMV:Digital",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "面向丹麦中小企业的数字化支持，核对雇员及年报要求。",
+  "source": "https://smvdigital.dk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "其他限制",
+    "一次只能有一个 SMV:Digital 项目"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-masschallenge-traction-1e0b06",
+  "title": "MassChallenge",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "单人可咨询",
+  "body": "加速器批次和地点以当期主办方公告为准。",
+  "source": "https://masschallenge.org/traction-program/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-31",
+    "label": "预计开放(只有一封邮件回信这么说)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "定位",
+    "TRACTION 是 Healthcare & Life Sciences 垂直下 pre-seed 到 A 轮的项目(页面写法),不是要求\"已验证产品\"的 Challenge。页面没有写注册、团队人数或驻场要求"
+   ],
+   [
+    "股权",
+    "此前卡片引用的\"does not take equity\"和\"We prioritize commercialization\"两句,2026-10-16 在两个页面里都没找到(TRACTION 页没出现 equity 这个词)。MassChallenge 一向被说成不拿股权,但手头没有现行的一手原文,当作未证实"
+   ]
+  ],
+  "organizer": "TRACTION · Healthcare & Life Sciences"
+ },
+ {
+  "id": "cal-innobooster-352c91",
+  "title": "Innobooster",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "创新项目共同资助，核对申请主体、企业投入与费用范围。",
+  "source": "https://danmarksinnovationsfond.dk/en/programmes/innobooster/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-03-31",
+    "label": "2027 年第 1 轮(官方年度日期未公布)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "200,000–5,000,000 DKK(最高35%配套)"
+   ],
+   [
+    "资格门槛",
+    "CVR+SME,且过去3年获≥10万DKK风险资本/发展资助,或某年度毛利≥25万DKK"
+   ]
+  ],
+  "organizer": "Innovationsfonden"
+ },
+ {
+  "id": "cal-ip-fast-track-094283",
+  "title": "IP fast track(商标与设计起步包)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "咨询服务涉及 CVR 与分批受理，须核对下次开放时间。",
+  "source": "https://www.dkpto.dk/kampagner/startpakke-til-varemaerke-og-design",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-05",
+    "end": "2026-11-05",
+    "label": "下一批开放(先到先得)",
+    "kind": "开放",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "能拿到什么",
+    "①商标起步包:对话式检索+代付丹麦商标申请费+2年注册监测 ②设计起步包:对话式检索+代付丹麦设计申请费 ③私人IP咨询补贴:最高10,000 DKK(报销50%)"
+   ],
+   [
+    "资格",
+    "EU 定义的\"微型企业\"(不到 10 个全职人员,年营收或资产负债表不超过 200 万欧元),有效的丹麦 CVR 号,且不属于公共行政部门(FAQ 的条件)"
+   ],
+   [
+    "2026剩余批次",
+    "10-01 已过 / 11-05(周四 09:00 开放)是 2026 年最后一批 / 12 月不开放。2027 年的日程两个官方页面都还没列(只列了 2026 年的 10 个开放轮)"
+   ],
+   [
+    "年度总预算",
+    "DKPTO 主页写年度预算 500 万 DKK,并写\"平均分配到各个申请轮\";easypro 页写每轮约 34 万 DKK 可用。2026 年共 10 个开放轮(1 到 6 月、8 到 11 月),34 万乘 10 约 340 万,和 500 万对不上,页面没解释差额。先到先得,\"开放到预算用完为止\",用完就关,到下一轮才再开;今年已获批过同一种包就不能再申请,每个 CVR 每轮只能递一份"
+   ]
+  ],
+  "organizer": "DKPTO + Erhvervshus Nordjylland"
+ },
+ {
+  "id": "cal-bii-bio-studio-8c9220",
+  "title": "BII Bio Studio",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "面向学术研究者,是否适合独立创始人待核实",
+  "source": "https://bii.dk/programs/bio-studio/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-16",
+    "end": "2026-11-16",
+    "label": "两个挑战的征集截止",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "定位",
+    "\"公司创建\"项目,面向\"世界级创业型学术研究人员\",帮其把科学成果转化为产品,3年期;2026-10-16 读 8 月版指南:主申请人(PI)必须是教授、副教授或同等职位且带独立课题组超过 3 年,每个项目一个 PI,不要求先成立公司;独立创始人没有提"
+   ],
+   [
+    "金额",
+    "每年最高DKK 5,350,000(约€72万),最多3年(8 月版指南:第 1 年最高 5.35M,后续最高 10.7M,三年约 16M);是实物支持,付的是 BII 自己雇的团队(EiR 加 3 到 4 人),不是发给创始人的现金"
+   ]
+  ],
+  "organizer": "BioInnovation Institute(原\"PreSeed\"卡片位置,已更正)"
+ },
+ {
+  "id": "cal-pioneer-innovator-d334f1",
+  "title": "Novo Nordisk Fonden: Pioneer Innovator Grant",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "需科研机构挂靠",
+  "source": "https://novonordiskfonden.dk/en/grant/pioneer-innovator-grant/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-31",
+    "label": "下一轮(官网写 January 2027)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "至 DKK 1.2M / 1年"
+   ],
+   [
+    "本轮",
+    "2026-08-01开放 → 2026-09-15 14:00截止(已错过)"
+   ],
+   [
+    "硬性门槛",
+    "主申请人必须是大学/医院/科研机构在职人员"
+   ],
+   [
+    "⭐下一轮(官网确认)",
+    "2027年1月(官网原文\"Recurring calls: January 2027\",不是推测;页面没写这是开放日还是截止日)"
+   ]
+  ],
+  "organizer": "(原 Exploratory Pre-seed)"
+ },
+ {
+  "id": "cal-innoexplorer-13385a",
+  "title": "Innoexplorer",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "本轮 9-23 12:00 已截止 · 下一轮更可能在 2027 年 1 月",
+  "source": "https://danmarksinnovationsfond.dk/en/programmes/innoexplorer/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-09-23",
+    "end": "2026-09-23",
+    "label": "round 3 截止（12:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "DKK 50 万到 150 万(含间接费用),项目最长 12 个月"
+   ],
+   [
+    "本轮(已截止)",
+    "2026 年 round 3:2026-08-26 12:00 开放,2026-09-23 12:00 截止(时区页面没写);评审小组在第 45 到 47 周,预计 2026-12-04 答复。项目页现在写\"目前没有开放的 call\""
+   ],
+   [
+    "成功率(2025)",
+    "127 份申请,39 份获批,31%,总额 DKK 5,680 万"
+   ],
+   [
+    "硬性门槛",
+    "申请人必须是丹麦公共科研或教育机构或医院的在职雇员,资金拨给所在机构,不直接给个人;DTU 校友身份不满足条件,要一位现任教授或研究员做申请人,机构在申请里背书。DTU 路线还要先通过 Skylab Startup Programme 第 2 阶段并取得 Skylab 背书,而且只支持还没有 CVR 的项目,所以先注册 ApS 可能反而堵路,和 Pioneer Innovator 一样要先问清顺序"
+   ],
+   [
+    "怎么申请",
+    "e-grant.dk 提交:最多 6 页幻灯片、签字预算、机构支持信"
+   ]
+  ],
+  "organizer": "Danmarks Innovationsfond"
+ },
+ {
+  "id": "cal-eifo-matchl-n-3e6b08",
+  "title": "EIFO: Matchlån / Kaution / Egenkapital",
+  "type": "投资机构",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "需先有营收或天使投资人",
+  "source": "https://eifo.dk/for-dig-som-er/virksomhed/startup-og-ved-at-kommercialisere",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "形式",
+    "1:1配对贷款 / 银行担保 / 直接股权"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "eic",
+  "title": "EIC Accelerator",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "需TRL 6-8",
+  "source": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-31",
+    "label": "2027 第 1 轮(推测)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "至€2.5M无偿资助 + €1-10M股权(混合融资)"
+   ],
+   [
+    "2027预计",
+    "2027 年日期官网没有公布(Work Programme 写调用继续、无大变化),\"约 1 月开始\"是估算;2026 年全提案批次是 01-07、03-04、05-06、07-08、09-02、11-04"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eic-pathfinder-open-e07f34",
+  "title": "EIC Pathfinder Open",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "需3国联合体",
+  "source": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-05-12",
+    "end": "2026-05-12",
+    "label": "2026 截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-05-01",
+    "end": "2027-05-31",
+    "label": "下一轮(推测)",
+    "kind": "截止",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "至€4M"
+   ],
+   [
+    "2026截止",
+    "2026-05-12(已过)"
+   ],
+   [
+    "下一轮",
+    "推测≈2027年5月"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eic-transition-2a5eea",
+  "title": "EIC Transition",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "需先有Pathfinder成果",
+  "source": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-09-16",
+    "end": "2026-09-16",
+    "label": "2026 截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "€0.5M–2.5M"
+   ],
+   [
+    "2026截止",
+    "2026-09-16(已过)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eit-health-catapult-5ac065",
+  "title": "EIT Health Catapult",
+  "type": "比赛与奖项",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "需€50万投资/营收门槛",
+  "source": "https://eithealth.eu/programmes/catapult/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "形式",
+    "非现金为主(至€30,000奖金 + 密集商业辅导/投资人对接)"
+   ],
+   [
+    "门槛",
+    "需已获≥€500,000私人投资或上年度营收≥€500,000,成立≤10年,寻求≥€2M融资"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eit-jumpstarter-30e3da",
+  "title": "EIT Jumpstarter",
+  "type": "比赛与奖项",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "⚠️丹麦不在合格国家名单",
+  "source": "https://eitjumpstarter.eu/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-05-17",
+    "end": "2026-05-17",
+    "label": "2026 届截止",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-31",
+    "label": "2027 届(推测)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "奖金",
+    "总盘超€240,000,单赛道前三名€10,000/5,000/3,000"
+   ],
+   [
+    "方向",
+    "六大主题赛道之一为 Healthcare,面向\"科学想法转初创\"的早期阶段(非成熟公司)"
+   ],
+   [
+    "2026届截止",
+    "2026-05-17(已过),结果预计6月公布(尚未查到)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eurostars-1322c8",
+  "title": "Eurostars(EUREKA)",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "需国际联合体伙伴",
+  "source": "https://www.eurekanetwork.org/programmes-and-calls/eurostars/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-17",
+    "end": "2026-12-17",
+    "label": "Call 12 开放",
+    "kind": "开放",
+    "estimated": false
+   },
+   {
+    "start": "2027-03-04",
+    "end": "2027-03-04",
+    "label": "Call 12 截止（14:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "丹麦资助力度",
+    "经Innovationsfonden最高€300,000/参与方(多个丹麦参与方合计至€500,000);页面写各国金额是指示性的,Call 12 开放前还会确认"
+   ],
+   [
+    "⭐下一轮(官网确认)",
+    "Call 12: 2026-12-17 开放 (开放钟点两个官方页面写得不一样:EUREKA 页头写\"12:00 AM CET\",12 小时制是午夜;丹麦创新基金页写\"kl. 12.00\",是中午;倒计时按 00:00 CET 计,没有确认)→ 2027-03-04 14:00 CET 截止 (EUREKA 页、丹麦创新基金页和官方 PDF 都写 14:00,EUREKA 页写布鲁塞尔时间)"
+   ],
+   [
+    "硬性门槛",
+    "至少2个不同\"Eurostars国家\"的独立法人联合体,丹麦要求\"必须有丹麦SME参与\"才能拿IFD这部分资助"
+   ],
+   [
+    "评审时间线",
+    "资格审查(截止后1周内)→法律财务审查+专家评审(均在2027-04中旬)→独立评审面板排名(2027-05底)→伦理审查(2027-05底)→结果通知(2027-06中)→协议签署(提交后5-7个月)"
+   ],
+   [
+    "联合体结构",
+    "至少两家独立机构来自至少两个 Eurostars 国家,由创新型 SME 牵头;SME 至少占预算 50%,单个参与者或单个国家不超过 70%,项目最长 36 个月,只限民用;丹麦这部分每个丹麦参与者 €50,000 到 €300,000"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-digital-europe-ai-call-690142",
+  "title": "Digital Europe Programme: AI相关call(如DIGITAL-2026-AI-09)",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "强制多方联合体",
+  "source": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/digital",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-03-03",
+    "end": "2026-03-03",
+    "label": "示例 call 截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "本例预算",
+    "€60.2M(7个主题,含健康数据工具€5M、癌症影像AI€14.4M)"
+   ],
+   [
+    "截止",
+    "2026-03-03(已过,仅作生态参考)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-horizon-cluster-1-cf14b9",
+  "title": "Horizon Europe Cluster 1「Health」: 协作类研发资助(结构性说明)",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "只能作为联合体成员加入",
+  "source": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/cluster-1-health_en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-04-16",
+    "end": "2026-04-16",
+    "label": "示例 topic 截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2026-09-28",
+    "end": "2026-09-28",
+    "label": "布鲁塞尔 Cluster 1 找伙伴活动",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "和EIC的区别",
+    "这才是真正的\"欧洲地平线\"主体项目(EIC/EIT只是其第三支柱的子计划)。Cluster 1是多国协作研发资助,标准门槛是\"至少3个独立法人、分属至少3个不同国家(≥1个须为EU成员国)\",不接受单一申请人"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-horizon-hlth-2027-02-tool-01-7f48af",
+  "title": "HORIZON-HLTH-2027-02-TOOL-01: AI预测生物标志物",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "健康研究协作机会，核对征集文本中的具体研究目标。",
+  "source": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/cluster-1-health_en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-02-10",
+    "end": "2027-02-10",
+    "label": "开放",
+    "kind": "开放",
+    "estimated": false
+   },
+   {
+    "start": "2027-04-13",
+    "end": "2027-04-13",
+    "label": "第一阶段截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-09-22",
+    "end": "2027-09-22",
+    "label": "第二阶段截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "主题",
+    "用AI方法开发慢性病进展与治疗反应的预测性生物标志物"
+   ],
+   [
+    "金额",
+    "€45M总盘(约6个项目,单项目€6-8M)"
+   ],
+   [
+    "截止",
+    "两阶段制:开放2027-02-10,第一阶段2027-04-13,第二阶段2027-09-22"
+   ],
+   [
+    "单项目规模",
+    "€6-8M,预计资助约6个项目(总盘€44.2M)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-horizon-cluster-4-e4a5cd",
+  "title": "Horizon Europe Cluster 4「Digital, Industry and Space」: AI相关topic",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "欧盟数字与产业主题征集，需要逐个核对 topic。",
+  "source": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-7-digital-industry-and-space_horizon-2026-2027_en.pdf",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-04-15",
+    "end": "2026-04-15",
+    "label": "Apply AI Pilot 截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-03-18",
+    "end": "2027-03-18",
+    "label": "Frontier AI Initiative 截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "Apply AI Pilot",
+    "€17M,截止2026-04-15"
+   ],
+   [
+    "EU Frontier AI Initiative",
+    "€44M,截止2027-03-18"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-oppstartstilskudd-1-1ecf0f",
+  "title": "Oppstartstilskudd 1",
+  "type": "基金与资助",
+  "region": "挪威",
+  "stage": "需注册主体",
+  "body": "需先注册NUF挪威分支",
+  "source": "https://www.innovasjonnorge.no/en/tjeneste/oppstartstilskudd-1",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额",
+    "100%覆盖(仅限外部采购支出),最高15万NOK"
+   ],
+   [
+    "节奏",
+    "全年滚动申请,无固定截止日;审批时长目前3-4周"
+   ],
+   [
+    "企业形式(官网原文,本轮新发现)",
+    "要求申请 前 已注册为挪威股份公司(AS),这一条页面没有像Oppstartstilskudd 2那样写\"或NUF\"作为替代选项"
+   ]
+  ],
+  "organizer": "Innovation Norge"
+ },
+ {
+  "id": "cal-oppstartstilskudd-2-e59e18",
+  "title": "Oppstartstilskudd 2",
+  "type": "基金与资助",
+  "region": "挪威",
+  "stage": "需注册主体",
+  "body": "需先注册NUF挪威分支",
+  "source": "https://www.innovasjonnorge.no/en/tjeneste/oppstartstilskudd-2",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "金额",
+    "最高50%配套,上限100万NOK(需自筹等额资金)"
+   ],
+   [
+    "企业形式",
+    "成立不满5年的股份公司(aksjeselskap),官网原文逐字确认:\"外国申请人必须在首次放款前建立挪威股份公司(AS)或挪威注册的外国企业分支(NUF)\""
+   ],
+   [
+    "节奏",
+    "全年滚动申请,无固定截止日"
+   ],
+   [
+    "⚠️2026年新变化",
+    "官网原文写明\"2026年度Startup grant 2可用预算已削减60%,审批将更加严格,更多申请会被拒绝\""
+   ]
+  ],
+  "organizer": "Innovation Norge"
+ },
+ {
+  "id": "cal-nordic-innovation-award-fe59d1",
+  "title": "Nordic Innovation Award",
+  "type": "比赛与奖项",
+  "region": "北欧",
+  "stage": "需注册主体",
+  "body": "需先有已注册商标/外观设计/专利",
+  "source": "https://www.dkpto.dk/nordic-innovation-award",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "label": "下一届开放(推测)",
+    "kind": "开放",
+    "estimated": true
+   },
+   {
+    "start": "2027-03-02",
+    "end": "2027-03-02",
+    "label": "提名截止(推测)",
+    "kind": "截止",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "资格",
+    "北欧地区注册企业(丹麦符合) · 雇员少于250人 · 持有至少一项已注册的知识产权(外观设计、商标或专利,三选一即可)"
+   ],
+   [
+    "2026届状态",
+    "2025-11-03至2026-03-02的提名窗口已过, 2026届获奖者已公布 :一家芬兰创新项目摘得大奖,丹麦这届的入围代表是Sonus Fishery(一项已获专利的声波捕鱼技术)"
+   ],
+   [
+    "奖励",
+    "证书+数字徽章+奥斯陆颁奖礼全额差旅住宿+官方媒体曝光"
+   ]
+  ],
+  "organizer": "北欧五国专利商标局联合主办"
+ },
+ {
+  "id": "cal-smile-incubator-8065ae",
+  "title": "SmiLe Incubator",
+  "type": "孵化器与加速器",
+  "region": "瑞典",
+  "stage": "需注册主体",
+  "body": "需先完成 ApS/CVR · 价格出自 2021 年页面,未确认",
+  "source": "https://www.smileventurehub.com/join/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "会员费(月付,四档)",
+    "基础会员 2,500 SEK/月(首年优惠价,约 DKK 1,750 到 1,800),不含物理空间;加共享办公桌 4,500 SEK 起;加独立办公室 6,250 SEK 起;办公室加实验室加核心设施 12,300 SEK 起。⚠️价格所在的 join 页元数据显示 2021-03-02 最后修改,孵化器页(2023-10-30 修改)没有价格,价格当作未确认"
+   ],
+   [
+    "资格",
+    "\"已注册的公司\"(官网没写必须是瑞典注册,措辞比 Vinnova、Sting 宽松) · 健康或生命科学方向 · 可扩展的商业模式 · 有干劲的团队。申请是无约束力的联系表单"
+   ]
+  ],
+  "organizer": "(隆德/Medicon Village,生命科学专业孵化器)"
+ },
+ {
+  "id": "cal-28digital-74ae25",
+  "title": "Deep Tech Co-Creation Accelerator",
+  "type": "孵化器与加速器",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "丹麦符合资格,但本届已截止+需TRL4-5",
+  "source": "https://iuk-business-connect.org.uk/opportunities/deep-tech-co-creation-accelerator-2026-2027/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-07-02",
+    "end": "2026-09-08",
+    "label": "本届申请窗口",
+    "kind": "窗口",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "最高€250,000,无需配套资金(但28DIGITAL收取少量股权)"
+   ],
+   [
+    "本届时间",
+    "开放2026-07-02,截止 2026-09-08 (核查时已过)"
+   ],
+   [
+    "地域资格(官网原文)",
+    "\"Teams must be based in the EU or a Horizon Europe-associated country(this includes the UK)\", 丹麦作为EU成员国符合资格 ,不是仅限英国"
+   ],
+   [
+    "技术成熟度",
+    "要求TRL 4-5及以上(已验证核心技术),现阶段(概念/demo,无CRO湿实验证据)大概率还够不到"
+   ]
+  ],
+  "organizer": "28DIGITAL(Horizon Europe/EIT项目)"
+ },
+ {
+  "id": "cal-ndrc-accelerator-f3bb40",
+  "title": "NDRC Accelerator",
+  "type": "孵化器与加速器",
+  "region": "爱尔兰",
+  "stage": "依当期条件",
+  "body": "接受国际创始人但需赴都柏林+现申请关闭",
+  "source": "https://www.ndrc.ie/accelerator",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "投资",
+    "€100,000 无上限SAFE可转换票据,20%折扣,分两笔(启动€50K+完成阶段目标后€50K)"
+   ],
+   [
+    "国际创始人(官网FAQ原文)",
+    "\"We do work with international startups that have a strong intent to relocate to or incorporate in Ireland...one or more of the founders live in (or are moving to) Ireland and that key business functions have their worldwide HQ here\""
+   ],
+   [
+    "驻场要求",
+    "混合模式,只要求在都柏林Dogpatch Labs现场待 3个\"核心周\" ,其余可远程,比YC/MassChallenge的\"驻留数月\"轻很多"
+   ]
+  ],
+  "organizer": "Dogpatch Labs(都柏林)"
+ },
+ {
+  "id": "cal-alexander-foss-industrifond-54dbd4",
+  "title": "Alexander Foss' Industrifond",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "2026届已截止,下届≈2027-08",
+  "source": "https://www.danskindustri.dk/om-di/hvad-er-di/di-fonde/alexander-foss/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-06-01",
+    "end": "2027-08-31",
+    "label": "下届开放(页面写约 2027-08,meta 描述写 6 月起)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "资助方向(官网原文)",
+    "资助\"技术创新且商业可持续\"的方案,特别强调要落到 实体产品 (fysisk produkt)上;每年评一次,2025年有7位获奖者(DI 新闻 2025-11-27:各得 DKK 100,000,7 家都是 ApS;页面没写 CVR 规则,金额页面也没写)"
+   ],
+   [
+    "⚠️关键限制(官网原文,本轮新发现)",
+    "\"原则上不资助纯软件方案\"(alene består af software),和Otto Bruuns Fond同一个坑,叙事要落在\"纳米脂质体递送这个实体产品/工业发明\",不能停留在\"AI软件平台\""
+   ],
+   [
+    "其他不支持项",
+    "差旅/游学、专利申请费用、申请人薪资、日常运营支出、已发生的费用"
+   ]
+  ],
+  "organizer": "DI(Dansk Industri)"
+ },
+ {
+  "id": "cal-heyfunding-legatet-e78e63",
+  "title": "Heyfunding Legatet",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "2026届(5-29)已截止,下届待定",
+  "source": "https://blog.heyfunding.dk/blog/heyfunding-legatet",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-05-29",
+    "end": "2026-05-29",
+    "label": "2026 届截止（18:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "25,000 DKK 现金,每轮1名"
+   ],
+   [
+    "资格(官网原文,对idea阶段很友好)",
+    "三类人都能投:①\"有想法但还没CVR号\"的准创业者 ②正在规模化的startup ③已有产品线、想孵化新方向的成熟公司,不设CVR门槛,也没找到国籍/注册地限制"
+   ],
+   [
+    "⚠️节奏变化(本轮发现)",
+    "历史上曾是季度赛(2020-2022年每季度都有获奖者),但2026年官网只公布了 一个 截止日(2026-05-29 18:00,页面写\"Fredag d. 29. maj 2026 kl. 18:00\",没写时区;已过),近两年获奖者更新也明显变稀疏(最近一条是2024年Q2),不确定是节奏放缓还是项目本身在收缩,建议关注官网/订阅通知而非假设按季度节奏推算下一轮"
+   ]
+  ],
+  "organizer": "Heyfunding ApS"
+ },
+ {
+  "id": "cal-youth-startup-investment-pot-aa2d69",
+  "title": "Youth Startup Investment Potential",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "青年创业投资线索；主动申请入口及与其他项目的关系待确认。",
+  "source": "https://ffefonden.dk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-25",
+    "end": "2027-01-31",
+    "label": "FFE 新年酒会提名(历史上约 1 月底)",
+    "kind": "活动",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "DKK 100,000"
+   ],
+   [
+    "机制",
+    "不是自主申请制。FFE 的新闻稿(2026-01-29,\"Dansk medtech-startup modtager stort Youth Startup Investment Potential-legat\")写这是 FFE 与 Chr. Augustinus Fabrikker 出资的 DKK 100,000 赠款,给增长和投资潜力强的年轻公司;时间与 FFE 新年酒会(历史上约 1 月底)吻合。2027 年日期没公布。新闻稿正文、评选或提名路径、评委这次没有读到"
+   ],
+   [
+    "领域与评委(往届)",
+    "往届获奖案例里有医疗科技公司 Rheia Medical(手术导航),说明健康方向不被排除;往届评委含 VC、生物科技创始人和天使投资人(这两条是 2026-10-02 之前读到的,这次没复核)"
+   ],
+   [
+    "相邻的一个奖",
+    "FFE 新闻稿列表里另有\"Årets Unge Iværksættere 2026\"赠款 DKK 100,000;一份摘要写申请 10-13 已截止,新闻稿没有打开,细节未知"
+   ]
+  ],
+  "organizer": "Fonden for Entreprenørskab(Chr. Augustinus Fabrikker资助)"
+ },
+ {
+  "id": "cal-ida-startup-legatet-4dc659",
+  "title": "IDA Startup Legatet(STEM 创业公司专线)",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "⭐11-13 周五 18:00 · 需有效CVR",
+  "source": "https://ida.dk/en/career-and-legal-advice/self-employed-consultant-entrepreneur-or-startup/ida-startup-grant",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-08-01",
+    "end": "2026-11-13",
+    "label": "申请窗口",
+    "kind": "窗口",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "金额",
+    "DKK 25,000 现金,每轮 1 名获奖者"
+   ],
+   [
+    "资格",
+    "STEM 领域(自然科学、技术、工程、数学);申请时必须有已成立且 CVR 有效的公司;不要求 IDA 会员;没写国籍或居住限制"
+   ],
+   [
+    "评审",
+    "创新性、潜力、执行力、与 STEM 的相关性。申请按到达顺序滚动审阅,提交后几天内会收到确认邮件;只有最强的 5 份进入评审委员会,入围者最晚在截止后 14 天内被直接联系,约 4 周后通过 Heyfunding 的新闻信和 LinkedIn 以及 IDA Startup 的 LinkedIn 公布获奖者。评审委员会的成员来自 PSV Hafnium(管理合伙人)、Finari(CEO,兼天使投资人)、Climentum(普通合伙人)、Superseed(风险合伙人)和 Lassen Ricard 律所(合伙人律师)"
+   ],
+   [
+    "获奖者权益",
+    "IDA 与 Heyfunding 的免费宣传、Heyfunding 的投资人撮合服务,可选的 CONNECT Denmark Springboard 3 小时专家小组 sparring"
+   ]
+  ],
+  "organizer": "IDA × Heyfunding(Antler 支持)"
+ },
+ {
+  "id": "cal-patentvoucher-aa68eb",
+  "title": "Patentvoucher(专利费用代金券)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "官方只写\"2027 年重开\" · 需CVR + IP-tjek",
+  "source": "https://www.dkpto.dk/kampagner/ip-handlingsplan/patentvoucher",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-03-01",
+    "end": "2027-03-31",
+    "label": "2027 重开(推测)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "报销合格专利费用的 75%,每公司每年最高 DKK 75,000:专利顾问费、检索(现有技术、新颖性、自由实施)、申请撰写协助、丹麦专利申请费(国外申请费不含);属 de minimis 补贴"
+   ],
+   [
+    "资格",
+    "有效 CVR 的中小企业(≤249 名全职,营业额≤€5,000 万或资产负债表≤€4,300 万),且申请前必须在地区 Erhvervshus 做完免费 IP-tjek 并拿到证书。没找到国籍限制;个人(仅 CPR)不行;IP-tjek 本身是否要求已有 CVR 没找到"
+   ],
+   [
+    "自付与规则",
+    "25% 自付;服务必须在代金券发出后才开始,最终费用 12 个月内结清;顾问需预先获批(第三方专利事务所页面);每份 IP-tjek 证书只能换一张代金券,所以每次申请前都要重新做一次 IP-tjek"
+   ]
+  ],
+  "organizer": "Erhvervsstyrelsen · 经办 Erhvervshus Nordjylland"
+ },
+ {
+  "id": "cal-card-49a9c4",
+  "title": "研发税收返还(skattekredit,Ligningsloven §8 X)与研发加计扣除(§8 B)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "需 ApS · 每年 11 月到账",
+  "source": "https://info.skat.dk/data.aspx?oid=2383539",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "给什么",
+    "亏损公司可申请把研发相关亏损的税值(22%)以现金返还,每年亏损额上限 DKK 2,500 万(即最多 DKK 550 万),从 2027 收入年起上限涨到 DKK 3,500 万(最多 DKK 770 万,2024-12-30 的第 1691 号法已通过);次年 11 月发放;已返还的亏损之后不能再抵利润。另外研发支出本身可加计扣除:2025 年 108%,2026 年 114%(官方页面确认);2027 年 116%、2028 年起 120% 只在 tax.dk、BDO、EY 的页面看到,官方页面未确认"
+   ],
+   [
+    "谁申请",
+    "公司在年度企业所得税申报里申请;没有公司的项目不能申请;非欧盟创始人拥有丹麦 ApS 没有被限制(资料里国籍不是条件)"
+   ],
+   [
+    "合格成本",
+    "做研发的人员工资、材料、购买的研发服务(如实验室合作方、CRO)、研发场地租金。不算:常规软件开发、培训、常规数据收集、销售和市场分析、专利和许可工作"
+   ],
+   [
+    "证明材料",
+    "Skattestyrelsen 裁决里列出的:逐项成本核算和发票;研发过程的技术描述;与开发合作方的合同;公司自己参与的证明;与市场现有方案相比的新科学或技术知识"
+   ]
+  ],
+  "organizer": "Skattestyrelsen"
+ },
+ {
+  "id": "cal-industrial-phd-7bc9c8",
+  "title": "Industrial PhD(Erhvervs-ph.d.)",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "需 ApS · 下一轮约 2027-01 到 02(推测)",
+  "source": "https://danmarksinnovationsfond.dk/en/programmes/industrial-researcher",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-20",
+    "end": "2027-02-24",
+    "label": "下一轮(推测)",
+    "kind": "窗口",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "公司拿 DKK 712,000(DKK 612,000 工资配套,每月最多 DKK 17,000 且不超过公司内项目成本的 50%,另 DKK 10 万差旅和课程),大学另拿 DKK 360,000;约 3 年共 DKK 1,072,000"
+   ],
+   [
+    "谁申请",
+    "公司(需在丹麦有独立 CVR 的实体);新成立的公司可提交财务状况说明代替 3 年账目。申请人是公司,不是持 CPR 的个人"
+   ],
+   [
+    "学生条件",
+    "硕士学位且论文成绩至少 10 分(或国外等价),满足成绩均值门槛(7 分制:本硕合计加权平均至少 8.2;只算 2 年硕士至少 9.5;国外学位按排名前 30%);全职受雇于该丹麦公司并在大学注册。创始人能否当自己的博士生,指南既没允许也没禁止"
+   ],
+   [
+    "公司要付",
+    "至少一半项目成本,且不低于国家博士生集体协议工资(工资加养老金);需要公司导师和公司副导师;大学持股不超过 25%"
+   ]
+  ],
+  "organizer": "Innovationsfonden"
+ },
+ {
+  "id": "cal-vissing-fonden-bf2f86",
+  "title": "Vissing Fonden 赠款(经 DTU Skylab 等创新中心)",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "下一个截止 11-15 · 需 DTU 遴选委员会背书 · 方向偏能源气候",
+  "source": "https://www.skylab.dtu.dk/for-startups/skylab-funding/vissing-fonden",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "label": "下一个固定截止(需 DTU 背书加 CVR)",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "DKK 200,000 到 300,000 赠款,用于购买第三方技术服务(应用开发、技术测试、工程支持、实验室工作);不能付创始人工资、管理费、课程或游学"
+   ],
+   [
+    "时间",
+    "每年四个固定截止日:02-28、05-31、08-31、11-15,下一个是 2026-11-15(AU 页面 2026-09-01 修订);页面没写钟点和时区。此前卡片写\"没找到当前轮次\",不对"
+   ],
+   [
+    "资格",
+    "丹麦 CVR 加丹麦银行账户;申请人要与 AU、KU 或 DTU 有在职关系(职员、研究者或学生),页面没提校友。DTU 的创业公司先由遴选委员会预筛,取得背书才能提交;AU 要求其商业开发顾问推荐。不是公开 call"
+   ],
+   [
+    "方向",
+    "能源和气候(可再生能源、储能、碳捕集)加间接应对社会挑战的智能技术。毛囊递送和这个方向对不上,把第三方实验室工作写成\"可持续制造\"也只是勉强"
+   ]
+  ],
+  "organizer": "Vissing Fonden × DTU / AU / KU"
+ },
+ {
+  "id": "cal-sosv-indiebio-hax-a8d727",
+  "title": "SOSV(IndieBio / HAX)",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "需团队",
+  "body": "需第二位创始人 · 现场 4 到 6 个月 · 11 月有三场线上活动",
+  "source": "https://sosv.com/will-sosv-invest-in-your-company/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-04",
+    "end": "2026-11-06",
+    "label": "Deep Tech Summit(线上)",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-09",
+    "end": "2026-11-13",
+    "label": "联创周(线上)",
+    "kind": "活动",
+    "estimated": false
+   },
+   {
+    "start": "2026-11-16",
+    "end": "2026-11-20",
+    "label": "VC-Founder Matchup(线上)",
+    "kind": "活动",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "pre-seed 首笔最高 $550,000,持股超过 10%(官方 FAQ,2026-07-15 更新)。天使票据和非稀释的政府或基金会资助可以并存(FAQ 原文),所以和 Innofounder、Skylab 这类不冲突。FondsMatch 把 HAX 写成\"DKK 374 万、滚动申请\",金额大致对应"
+   ],
+   [
+    "批次与公司",
+    "申请页没写批次日期或截止。IndieBio 申请页没写公司注册要求;HAX 表单的\"公司注册地\"是选填;FAQ 提到其组合含 84 个国籍的创始人,没写注册规则"
+   ]
+  ],
+  "organizer": "SOSV"
+ },
+ {
+  "id": "cal-unternehmertum-256467",
+  "title": "UnternehmerTUM:Incubator 与 Prototyping Grants(慕尼黑 / 加兴)",
+  "type": "孵化器与加速器",
+  "region": "欧洲",
+  "stage": "需团队",
+  "body": "不收单人创始人 · 补助最高 €5,000",
+  "source": "https://incubator.unternehmertum.de/program/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "label": "Prototyping Grants 第 12 批开放(官网写 11 月)",
+    "kind": "开放",
+    "estimated": true
+   },
+   {
+    "start": "2026-12-01",
+    "end": "2026-12-31",
+    "label": "Incubator 下一期申请(官网写 12 月)",
+    "kind": "开放",
+    "estimated": true
+   }
+  ],
+  "facts": [
+   [
+    "Incubator",
+    "免费、不占股的 3 个月赛道(每周 10 到 20 小时),可用 MakerSpace 硬件和实验室;多数线上,部分环节要到慕尼黑或加兴;当前一期 2026-08-31 到 12-09"
+   ],
+   [
+    "Prototyping Grants",
+    "最高 €5,000;至少两名团队成员;国际创业公司欢迎,但要和 TUM 或 UnternehmerTUM 的生态有关联"
+   ],
+   [
+    "资格",
+    "官网明确写不接收单人创始人"
+   ],
+   [
+    "时间",
+    "Incubator 官网写\"下一期申请从 12 月开始\",没写年份和截止日;Grants 写第 12 批 2026 年 11 月开放"
+   ]
+  ],
+  "organizer": "UnternehmerTUM"
+ },
+ {
+  "id": "cal-eifo-e2c59c",
+  "title": "EIFO 女性创业者配套融资",
+  "type": "贷款与配套融资",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "须核对独立投资承诺、公司条件及配套贷款条款。",
+  "source": "https://eifo.dk/loesninger/matchlaan/",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [
+   [
+    "单笔额度",
+    "500,000–3,000,000 DKK"
+   ],
+   [
+    "利率",
+    "5% + CIBOR3(约合当前7.7%左右),无需个人担保,以公司资产作抵押"
+   ],
+   [
+    "资格线",
+    "丹麦CVR注册、年营收≤300万DKK、融资后至少12个月runway、账面股东权益为正"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-euopstart-caa15d",
+  "title": "EUopSTART",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "欧盟申请准备支持，核对可申报支出和征集窗口。",
+  "source": "https://ufm.dk/forskning-og-innovation/tilskud-til-forskning-og-innovation/find-danske-tilskudsprogrammer/euopstart",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "已知金额(未在本轮复核)",
+    "75,000–100,000 DKK(覆盖约50%申请费用)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-ihi-call-13-46c716",
+  "title": "Innovative Health Initiative(IHI)Call 13",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "大型联合研究征集，核对各国伙伴与联合体分工。",
+  "source": "https://www.ihi.europa.eu/apply-funding/ihi-call-13",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "label": "Call 13 短提案截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "短提案截止",
+    "2026-10-08 17:00 布鲁塞尔时间"
+   ],
+   [
+    "三个方向",
+    "①欧洲医疗创新孵化网络(最高€35M) ②AI毒理学模型减少动物实验(€9M) ③衰老与免疫疾病机制研究(€9.2M)"
+   ],
+   [
+    "联合体门槛",
+    "至少3个独立法人,分别注册在3个不同的欧盟成员国/关联国(含英国、瑞士、加拿大、韩国等关联国)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-interreg-98572d",
+  "title": "Interreg North Sea / Baltic Sea Region",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "当期已关闭+同样要3国联合体",
+  "source": "https://interreg-baltic.eu/gateway/calls/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "Baltic Sea Region小额项目",
+    "预算上限€500,000"
+   ],
+   [
+    "联合体门槛",
+    "至少3个机构,分别来自3个计划区域国家(丹麦在覆盖范围内)"
+   ],
+   [
+    "当期状态",
+    "Small Projects Call 3已关闭,申请正在评审中,下一期开放时间未公布"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-cosme-smp-8b4fc4",
+  "title": "COSME / Single Market Programme",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "需注册主体",
+  "body": "单一市场项目框架，需要定位具体征集。",
+  "source": "https://eismea.ec.europa.eu/funding-opportunities/calls-proposals/agri-food-biotech-scaling-smp-cosme-2026-bioagrifood_en",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-06-02",
+    "end": "2026-06-02",
+    "label": "截止（17:00，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "2026年生物科技相关call",
+    "Agri-food Biotech Scaling-up(SMP-COSME-2026-BIOAGRIFOOD)"
+   ],
+   [
+    "截止",
+    "2026-06-02 17:00 CEST"
+   ],
+   [
+    "预算",
+    "€300万,预计资助约2个项目"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-vinnova-61f19e",
+  "title": "Vinnova 协作类研发项目(作为联合体成员)",
+  "type": "基金与资助",
+  "region": "瑞典",
+  "stage": "依当期条件",
+  "body": "瑞典协作研发入口，逐期核对跨国伙伴的参与条件。",
+  "source": "https://www.vinnova.se/en/apply-for-funding",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "直投类工具门槛",
+    "如\"Innovativa Startups\",明确要求瑞典有限公司(≤10年),瑞典没有类似挪威NUF的\"分支机构\"变通路径"
+   ],
+   [
+    "典型规模",
+    "最高50万瑞典克朗/家,覆盖项目成本100%,最长9个月"
+   ],
+   [
+    "节奏",
+    "批次制:通常春天开放、秋天出结果;第三方估算约30%的申请获批"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-500-global-fellowship-707d25",
+  "title": "500 Global: 500 Fellowship",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "条款已变,批次 37 截止 10-16,要驻场旧金山四个月",
+  "source": "https://500.co/founders/flagship",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "投资条款(2026-10-16 官网,页面写 2026-09 更新)",
+    "最高 $50K 立即到账,进展顺利再追加最高 $1M;官网没有写股权比例"
+   ],
+   [
+    "项目费",
+    "官网写第一阶段项目费 $35,000(不含差旅)"
+   ],
+   [
+    "形式",
+    "四个月现场项目, 强制线下驻场旧金山 :2026-11-30 到 2027-04-09;官网写创始人要么已在美国,要么六个月内会在美国"
+   ],
+   [
+    "录取率",
+    "官方未公布;第三方估算\"低个位数,常在3%或以下\"(估算值,非官方数字)"
+   ]
+  ],
+  "organizer": "(原 Flagship Accelerator)"
+ },
+ {
+  "id": "cal-jlabs-ed9616",
+  "title": "JLABS",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "虚拟孵化模式已确认 · 费用和截止日仍没公布",
+  "source": "https://jlabsresidency.smapply.io/prog/jlabs_emea/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "模式",
+    "JLABS EMEA 是全虚拟的会员制孵化:公司留在自己所在地(哥本哈根)即可,不需要搬去实体 JLABS 场地。提供 Investor Hub、Programs and Education 和 JPALS 导师网络"
+   ],
+   [
+    "评估标准",
+    "申请站(jlabsresidency.smapply.io)写:变革性的科学或技术、显著的未满足医疗或市场需求、强团队和财务偿付能力、与强生关注领域契合。要交的材料:非保密的背景介绍、许可或 IP 覆盖情况、受众与竞争、团队简历、12 到 18 个月计划、资金来源"
+   ],
+   [
+    "行业",
+    "申请站点名制药、器械、消费者健康、健康科技;没有点名化妆品或皮肤科。没找到注册要求、费用或截止日,也没有\"滚动\"的字样"
+   ]
+  ],
+  "organizer": "强生创新(经EMEA区域入口)"
+ },
+ {
+  "id": "cal-techstars-healthcare-ca1080",
+  "title": "Techstars Healthcare Accelerator",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "Permanente 期已关 · 另两期 11-18 截止 · 都偏医疗运营",
+  "source": "https://www.techstars.com/accelerators/baltimore-ai-health",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-19",
+    "end": "2026-11-19",
+    "label": "Baltimore 与 Northwestern 期截止",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "还开着的两期",
+    "Techstars AI Health Baltimore 和 Northwestern Medicine & Techstars Healthcare Accelerator:都是 2026-08-24 开放,2026-11-18 最终截止(页面没写时区),2027-03-08 开营,2027-06-03 Demo Day。Baltimore 页写每家公司投资 $220,000,面向用 AI 改善医疗经济和患者结局的创业公司,合作方是支付方、医疗系统和大学;Northwestern 页的方向是就医可及性、AI、数字疗法、精准医疗和临床运营。两页都没写国际创业公司能否申请、是否要驻场"
+   ]
+  ],
+  "organizer": "(Permanente Medicine, Mid-Atlantic)"
+ },
+ {
+  "id": "cal-cew-female-founder-awards-3ceec8",
+  "title": "CEW",
+  "type": "比赛与奖项",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "美容行业相关奖项，核对提名与邀请机制。",
+  "source": "https://cew.org/awards-honors/female-founder/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "旧页面",
+    "cew.org/awards-honors/female-founder/ 仍写\"Now in it's third year, the 2021 honorees will be no exception\",列的是 2020 年获奖者,附 2020 年的 .docx 提名表,没有截止日和评选标准,元数据 2020-09-03,不在现行网站菜单里"
+   ],
+   [
+    "现在的奖",
+    "CEW 表彰女性创始人的奖现在以 Visionary Awards 的形式举行:2026-05-07,贝弗利山,已经办完,获奖者由主办方挑选,没有提名或申请入口。2026 获奖者的报道只对会员开放。Visionary Awards 是否取代了 Female Founder Awards,页面没写"
+   ]
+  ],
+  "organizer": "Cosmetic Executive Women: Female Founder Awards"
+ },
+ {
+  "id": "cal-foresight-ai-0a40fb",
+  "title": "Foresight Institute:AI for Science & Safety Nodes",
+  "type": "基金与资助",
+  "region": "美国",
+  "stage": "单人可咨询",
+  "body": "10-31 截止 · 产出必须开源",
+  "source": "https://foresight.org/grants/ai-science-safety-nodes-rfp/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "label": "申请截止（23:59，哥本哈根时间）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "赠款通常 $30,000 到 100,000(可更高;页面写 Human Empowerment 和 AI Insurance & Open Governance 两个方向金额较小,其余较大),加柏林或旧金山 hub 的办公室使用权、私有算力集群、顾问网络和差旅由他们出的领域活动。Track III \"AI-first Science: Bio, Neuro, Nano\" 列的方向是自动化纳米技术、全脑仿真,以及替代、增强、生物休眠(biostasis)这类前沿生物"
+   ],
+   [
+    "资格",
+    "个人、团队、组织都可以,不要求注册公司;营利组织欢迎但要说明为什么需要赠款;没找到地域限制,但强烈偏好愿意在旧金山或柏林现场工作的人"
+   ],
+   [
+    "条件",
+    "所有产出(代码、数据、结果)必须开源;管理费最多是直接研究成本的 10%;通常一次性拨付,多年大项目可按里程碑分期;资助的项目名和负责人可能被公布在网站和社交媒体上(不想公开要事先告知);要定期交简短的进展报告"
+   ],
+   [
+    "评审标准",
+    "页面列了七条:①和所选 RFP 方向的契合度;②能否降低 AI 带来的生存风险(existential risk);③在短 AGI 时间表内能否做出进展,偏好未来 1 到 3 年内有具体里程碑和交付物;④AI-first:用 AI 自动化工作流,而不是靠大团队预算;⑤执行能力,有经验的强团队优先;⑥高风险高回报,鼓励投机性强的项目;⑦产出必须开源。营利组织要说明为什么需要赠款。可选勾选 Lightcone Commons 共享:Foresight 可能把选中的申请转给它评审并考虑追加资金"
+   ]
+  ],
+  "organizer": "Foresight Institute(柏林或旧金山)"
+ },
+ {
+  "id": "cal-emergent-ventures-4af51a",
+  "title": "Emergent Ventures",
+  "type": "基金与资助",
+  "region": "美国",
+  "stage": "单人可咨询",
+  "body": "滚动 · 不接受 AI 代写 · 金额来自第三方",
+  "source": "https://www.mercatus.org/emergent-ventures",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "给什么",
+    "非稀释赠款;第三方指南给出 $1,000 到 50,000 的典型区间(官方页面没写金额,未核实)"
+   ],
+   [
+    "资格",
+    "官方页面:全球的思想者和实践者都可申请,最低年龄 13 岁,每人每个项目只能申一次;页面没写公司注册要求"
+   ]
+  ],
+  "organizer": "Mercatus Center(乔治梅森大学)"
+ },
+ {
+  "id": "cal-foresight-longevity-fast-gra-c49cc7",
+  "title": "Foresight Longevity Biotechnology Fast Grants",
+  "type": "基金与资助",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "季度 12-31 · 项目是否还在运行未核实",
+  "source": "https://foresight.org/grants/longevity-biotechnology-fast-grants/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-01",
+    "label": "季度截止",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-04-01",
+    "end": "2027-04-01",
+    "label": "下一季",
+    "kind": "截止",
+    "estimated": false
+   },
+   {
+    "start": "2027-07-01",
+    "end": "2027-07-01",
+    "label": "再下一季",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "给什么",
+    "约 $10,000 一笔的小额快速赠款;八个主题含 AI 研发、细胞外基质健康、外泌体组织修复、基因治疗载体"
+   ],
+   [
+    "资格",
+    "个人、团队、组织都可以,没有注册公司要求,没找到地域限制"
+   ],
+   [
+    "时间",
+    "季度截止:2026-12-31(之后 2027-03-31、06-30、09-30、12-31),截止后约 2 周内决定"
+   ]
+  ],
+  "organizer": "Foresight Institute"
+ },
+ {
+  "id": "cal-card-6c5d38",
+  "title": "欧洲五国的生命科学与硬件机会汇总",
+  "type": "研究汇总",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "涉及 Swiss Biotech Day、Heidelberg Investors’ Day、Trophées de la HealthTech、3DEXPERIENCE Lab、BAN Flanders、Skin Summit、VivaTech、MEDICA 等。各条目需独立核验。",
+  "source": "https://swissbiotechday.ch",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-656131",
+  "title": "European Prize for Women Innovators 2027",
+  "type": "比赛与奖项",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "EIC 与 EIT 的女性创新者奖。2027 届申请截至 2026-12-01 17:00 CET；有创始人身份、机构注册时间和地区条件。",
+  "source": "https://eic.ec.europa.eu/eic-prizes/european-prize-women-innovators-powered-eic-eit_en",
+  "checked": "2026-11-21",
+  "deadline": "",
+  "women": true,
+  "dates": [
+   {
+    "start": "2026-12-01",
+    "end": "2026-12-01",
+    "label": "本届申请截止（17:00 CET）",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "规则出处(10-10 核对)",
+    "Rules of the Contest 第 6 节:申请人以个人名义申请;脚注 12 说个体经营不算;脚注 14 要求公司在所在国的登记机关登记为 company 或 corporation。三个组别共用这些条件,Rising Innovators 另要求 1991-01-01 或之后出生,EIT Women Leadership 另要求与 EIT 社区有直接关联"
+   ],
+   [
+    "奖项概况(留作下一届参考)",
+    "EIC 与 EIT 联合颁发的奖金制竞赛,每个组别前三名:Women Innovators €100,000/€70,000/€50,000 · Rising Innovators(35 岁以下)€50,000/€30,000/€20,000 · EIT Women Leadership €50,000/€30,000/€20,000。同一个人只能报一个组别"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-industriens-fond-9dff1b",
+  "title": "Industriens Fond",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "关注整体商业生态的活动，核对直接申请主体。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-grand-solutions-innovatio-7e1956",
+  "title": "Grand Solutions",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "大规模公私研究合作，重点核对联合体构成和共同出资。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Innovationsfonden"
+ },
+ {
+  "id": "cal-dk-lundbeck-foundation-start-2e6b66",
+  "title": "Lundbeck Foundation Start-Up Programme",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "生命科学研究成果转化与公司设立支持。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-villum-experiment-37d411",
+  "title": "Villum Experiment",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "探索性研究经费，重点核对研究者与机构资格。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-hip-hovedstadens-iv-rks-t-68ec95",
+  "title": "HIP · Hovedstadens Iværksætterprogram",
+  "type": "孵化器与加速器",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "哥本哈根创业辅导和商业支持。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(已升级为全国性的IværksætterDanmark)"
+ },
+ {
+  "id": "cal-dk-innobooster-2026-4-10-15-f4db8d",
+  "title": "Innobooster 2026 第4轮(10/15截止)",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "Innobooster 历史轮次，保留用于识别批次变化。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-eit-digital-accelerator-e-0fe1cc",
+  "title": "EIT Digital Accelerator / EIC-EIT Digital Venture Acceleration",
+  "type": "孵化器与加速器",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "数字科技成长与加速支持，核对市场阶段。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-eit-urban-mobility-financ-45c107",
+  "title": "EIT Urban Mobility Financial Support",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "城市交通领域创新支持，须核对具体主题。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-erc-european-research-cou-769a23",
+  "title": "ERC(European Research Council)",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "欧洲研究理事会研究资助，核对主要研究者和承办机构。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-msca-marie-sk-odowska-cur-d7ebc2",
+  "title": "MSCA(Marie Skłodowska-Curie Actions)",
+  "type": "基金与资助",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "研究人员培养、流动和合作项目，按行动类别核对资格。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-se-vinnova-innovative-startu-538e59",
+  "title": "Vinnova: Innovative Startups 2026",
+  "type": "基金与资助",
+  "region": "瑞典",
+  "stage": "依当期条件",
+  "body": "要求瑞典有限责任公司",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-se-sting-stockholm-innovatio-818bf1",
+  "title": "Sting",
+  "type": "孵化器与加速器",
+  "region": "瑞典",
+  "stage": "依当期条件",
+  "body": "要求瑞典AB注册",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Stockholm Innovation & Growth"
+ },
+ {
+  "id": "cal-se-almi-f-retagsl-n-f6e66c",
+  "title": "Almi Företagslån",
+  "type": "贷款与配套融资",
+  "region": "瑞典",
+  "stage": "依当期条件",
+  "body": "要求瑞典子公司",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-fi-business-finland-sprint-g-dda1d4",
+  "title": "Business Finland: Sprint Grant",
+  "type": "基金与资助",
+  "region": "芬兰",
+  "stage": "依当期条件",
+  "body": "要求芬兰注册公司",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-is-rann-s-t-kni-r-unarsj-ur-9011c3",
+  "title": "Rannís: Tækniþróunarsjóður(技术发展基金)",
+  "type": "基金与资助",
+  "region": "冰岛",
+  "stage": "依当期条件",
+  "body": "写明规则无国籍门槛,实操路径待邮件确认",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-no-katapult-ocean-accelerato-727ed0",
+  "title": "Katapult Ocean Accelerator",
+  "type": "孵化器与加速器",
+  "region": "挪威",
+  "stage": "依当期条件",
+  "body": "海洋相关项目加速器。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-nordic-innovation-life-scien-e44838",
+  "title": "Nordic Innovation: Life Science and Health Tech",
+  "type": "基金与资助",
+  "region": "北欧",
+  "stage": "依当期条件",
+  "body": "北欧生命科学与健康科技历史项目。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-nordic-innovation-nordic-fem-7f28c2",
+  "title": "Nordic Innovation: Nordic Female Entrepreneurship",
+  "type": "基金与资助",
+  "region": "北欧",
+  "stage": "依当期条件",
+  "body": "女性创业政策与生态项目的历史条目，核对是否存在新征集。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-nordic-innovation-nordic-ent-b5566f",
+  "title": "Nordic Innovation: Nordic Entrepreneurship",
+  "type": "基金与资助",
+  "region": "北欧",
+  "stage": "依当期条件",
+  "body": "北欧创业生态历史项目。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-nordic-innovation-call-ramp-19db0b",
+  "title": "Nordic Innovation 当前开放call(原材料价值链/RAMP)",
+  "type": "基金与资助",
+  "region": "北欧",
+  "stage": "依当期条件",
+  "body": "原材料价值链与相关主题，按具体征集核对。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-us-sbir-sttr-nih-nsf-11-61261a",
+  "title": "SBIR / STTR",
+  "type": "基金与资助",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "美国小企业研发计划，核对企业所有权和申请主体要求。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(NIH、NSF等11个联邦机构统一规则)"
+ },
+ {
+  "id": "cal-us-techstars-founder-catalys-890b22",
+  "title": "Techstars Founder Catalyst Global Fall 2026",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "Founder Catalyst 的特定批次，核对覆盖城市。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-us-sephora-accelerate-028075",
+  "title": "Sephora Accelerate",
+  "type": "孵化器与加速器",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "要求北美注册公司",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-us-amber-grant-c6c0d5",
+  "title": "Amber Grant",
+  "type": "基金与资助",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "仅限美国/加拿大企业",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-us-tory-burch-foundation-fel-03c639",
+  "title": "Tory Burch Foundation Fellows",
+  "type": "比赛与奖项",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "要求美国注册+美国居民",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-us-beauty-you-est-e-lauder-n-3f0237",
+  "title": "BEAUTY&YOU",
+  "type": "比赛与奖项",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "仅限印度",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Estée Lauder New Incubation Ventures"
+ },
+ {
+  "id": "cal-cartier-women-s-initiative-1dba92",
+  "title": "Cartier Women's Initiative",
+  "type": "比赛与奖项",
+  "region": "美洲",
+  "stage": "依当期条件",
+  "body": "面向女性经营、女性所有并追求社会或环境影响的企业，具体类别另有条件。",
+  "source": "https://www.cartierwomensinitiative.com/",
+  "checked": "2026-11-21",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-us-unilever-foundry-positive-0099cf",
+  "title": "Unilever Foundry / Positive Beauty Growth Platform",
+  "type": "工具与创业服务",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "消费品与美容领域的企业开放创新线索。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-ca-nrc-irap-f477c8",
+  "title": "NRC IRAP",
+  "type": "基金与资助",
+  "region": "加拿大",
+  "stage": "依当期条件",
+  "body": "加拿大企业研发支持，核对经营所在地和企业形式。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-tuborgfondet-ee3eda",
+  "title": "Tuborgfondet",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "丹麦基金会机会，核对支持议题与机构性质。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-nordea-fonden-289c76",
+  "title": "Nordea-fonden",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "丹麦公益基金会，核对公益目标和申请主体。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-gb-innovate-uk-cr-d-smart-gr-ae6670",
+  "title": "Innovate UK 竞赛类资助",
+  "type": "基金与资助",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "英国研发与创新竞赛入口，按具体征集核对主体。",
+  "source": "https://www.ukri.org/councils/innovate-uk/guidance-for-applicants/general-guidance/funding-rules/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(CR&D / Smart Grants等,通过UKRI Innovation Funding Service)"
+ },
+ {
+  "id": "cal-gb-women-in-innovation-award-e75d5d",
+  "title": "Women in Innovation Awards",
+  "type": "比赛与奖项",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "本届已截止+要求英国注册",
+  "source": "https://www.ukri.org/opportunity/women-in-innovation-awards-2025-to-2026/",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [],
+  "organizer": "Innovate UK"
+ },
+ {
+  "id": "cal-gb-start-up-loans-british-bu-940c92",
+  "title": "Start Up Loans",
+  "type": "贷款与配套融资",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "要求英国居民",
+  "source": "https://www.startuploans.co.uk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "British Business Bank(政府担保)"
+ },
+ {
+  "id": "cal-gb-breakout-beauty-uk-growth-a64793",
+  "title": "Breakout Beauty UK",
+  "type": "比赛与奖项",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "仅限英国+要求已在售",
+  "source": "https://www.growthstudio.com/programme/breakout-beauty-uk/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Growth Studio(Boots/TikTok Shop联合主办)"
+ },
+ {
+  "id": "cal-gb-icure-innovate-uk-busines-fd5956",
+  "title": "ICURe",
+  "type": "工具与创业服务",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "仅限英国高校研究者",
+  "source": "https://iuk-business-connect.org.uk/programme/icure/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Innovate UK Business Connect"
+ },
+ {
+  "id": "cal-gb-innovate-uk-business-grow-90725d",
+  "title": "Innovate UK Business Growth",
+  "type": "工具与创业服务",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "推定仅限英国企业",
+  "source": "https://www.gov.uk/business-finance-support/innovate-uk-business-growth",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(原Innovate UK EDGE,免费商业顾问服务)"
+ },
+ {
+  "id": "cal-gb-innovation-loans-innovate-812f34",
+  "title": "Innovation Loans",
+  "type": "贷款与配套融资",
+  "region": "英国",
+  "stage": "依当期条件",
+  "body": "要求英国注册中小企业",
+  "source": "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Innovate UK(Expression of Interest,常年开放)"
+ },
+ {
+  "id": "cal-ie-enterprise-ireland-hpsu-i-32f68c",
+  "title": "Enterprise Ireland",
+  "type": "工具与创业服务",
+  "region": "爱尔兰",
+  "stage": "依当期条件",
+  "body": "要求团队居住+公司总部在爱尔兰",
+  "source": "https://www.enterprise-ireland.com/en/supports/start-ups",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(HPSU / iHPSU Fund / Pre-Seed Start Fund / Competitive Start Fund / IP Start 等全部早期项目)"
+ },
+ {
+  "id": "cal-ie-ida-ireland-3fc2a3",
+  "title": "IDA Ireland",
+  "type": "工具与创业服务",
+  "region": "爱尔兰",
+  "stage": "依当期条件",
+  "body": "面向在爱尔兰投资或扩张的企业服务。",
+  "source": "https://www.idaireland.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(爱尔兰外国直接投资局)"
+ },
+ {
+  "id": "cal-ie-local-enterprise-offices--b2f55b",
+  "title": "Local Enterprise Offices(LEOs)",
+  "type": "工具与创业服务",
+  "region": "爱尔兰",
+  "stage": "依当期条件",
+  "body": "推定仅限本地企业",
+  "source": "https://www.localenterprise.ie/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(爱尔兰31个地方企业办公室)"
+ },
+ {
+  "id": "cal-dk-boligfonden-kuben-spireka-58821a",
+  "title": "Boligfonden Kuben · Spirekassen",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "面向建筑业项目。",
+  "source": "https://www.boligfondenkuben.dk/spirekassen",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-milj-og-energifonden-363ae1",
+  "title": "Miljø- og Energifonden",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "面向绿色能源与环保项目。",
+  "source": "https://energifonden.dk",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-eit-food-seedbed-venture--3b6dce",
+  "title": "EIT Food Seedbed Venture Catalyst",
+  "type": "孵化器与加速器",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "面向农业食品科技项目。",
+  "source": "https://www.eitfood.eu/entrepreneurship/launch-seedbed-incubator",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(即邮件里的\"EIT Seedbed Incubator\")"
+ },
+ {
+  "id": "cal-dk-venture-cup-funding-ventu-c841cf",
+  "title": "Venture Cup Funding",
+  "type": "基金与资助",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "面向绿色科技与可持续发展项目。",
+  "source": "https://www.vissingfonden.dk/nyt-samarbejde-skal-understoette-projekter-og-startups-inden-for-groenne-teknologier",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "Venture Cup Denmark × Vissing Fonden"
+ },
+ {
+  "id": "cal-dk-medtech-growth-dtu-scienc-beb34b",
+  "title": "MedTech Growth",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "医疗科技成长支持，核对产品和服务范围。",
+  "source": "https://dtusciencepark.com/startup-services/medtech-growth/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "DTU Science Park"
+ },
+ {
+  "id": "cal-eu-deeptech-alliance-dtu-sci-8357f6",
+  "title": "DeepTech Alliance",
+  "type": "工具与创业服务",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "深科技产业合作与对接网络。",
+  "source": "https://www.deeptechalliance.org/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": "(DTU Science Park是联合创始方/联盟伙伴)"
+ },
+ {
+  "id": "cal-eu-67d09d",
+  "title": "欧洲创投活动补查索引",
+  "type": "研究汇总",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "活动核查分组，原卡举例提及 Slush 和 Funding Bazaar。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-d8a5de",
+  "title": "历史活动与邀请制活动索引",
+  "type": "研究汇总",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "原卡只有分组标题；没有逐项名单或申请入口。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-35e5f5",
+  "title": "丹麦孵化器和项目补查索引",
+  "type": "研究汇总",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "原卡只有分组标题；没有逐项名单或申请入口。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-fiban-nordic-angels-angels-4-e5791a",
+  "title": "FiBAN、Nordic Angels 与 Angels 4 Women",
+  "type": "投资机构",
+  "region": "北欧",
+  "stage": "依当期条件",
+  "body": "三家天使投资网络的线索。Angels 4 Women 涉及女性创业生态，各机构分别核对地区与融资阶段。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": true,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-72d57f",
+  "title": "投资人与众筹渠道补查索引",
+  "type": "研究汇总",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "原卡只有分组标题；没有逐项名单或申请入口。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-us-ai-impetus-grants-amarant-03738e",
+  "title": "Impetus Grants、Amaranth Foundation 与 Astera Residency",
+  "type": "基金与资助",
+  "region": "美国",
+  "stage": "依当期条件",
+  "body": "长寿、开放科学与研究型资助线索，需分别核对受理范围。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-b28cd7",
+  "title": "丹麦基金会与公共项目补查索引",
+  "type": "研究汇总",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "包含 Dansk Erhverv 与 Dansk Iværksætterforening 等补查方向。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-eu-628dc1",
+  "title": "欧洲与美国项目补查索引",
+  "type": "研究汇总",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "原卡只有分组标题；没有逐项名单或申请入口。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dk-012c41",
+  "title": "丹麦银行与创业协会奖项补查索引",
+  "type": "研究汇总",
+  "region": "丹麦",
+  "stage": "依当期条件",
+  "body": "涉及 Jyske Startup Award、Danish Tech Challenge、Nordea Startup Match、DVCA 等入口。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-card-a52799",
+  "title": "欧洲五国的本地实体与驻留条件索引",
+  "type": "研究汇总",
+  "region": "欧洲",
+  "stage": "依当期条件",
+  "body": "五国生态与本地法人、总部或到场条件，涉及 Bpifrance 和 Boehringer Ingelheim 等线索。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [],
+  "organizer": ""
+ },
+ {
+  "id": "cal-edih-ai-boost-317304",
+  "title": "EDIH Denmark: AI-Boost(大哥本哈根)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "需注册主体",
+  "body": "数字创新枢纽提供 AI 采用与企业支持服务。",
+  "source": "https://www.danishlifesciencecluster.dk/en/project/ai-boost/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [
+   {
+    "start": "2026-12-31",
+    "end": "2026-12-31",
+    "label": "资助周期结束",
+    "kind": "截止",
+    "estimated": false
+   }
+  ],
+  "facts": [
+   [
+    "能提供什么(5项)",
+    "①AI-Check现状潜力评估 ②AI工具箱工作坊与知识课程 ③AI企业交流网络 ④案例专家一对一评审反馈 ⑤AI压力测试(具体测试+数据处理建议)"
+   ],
+   [
+    "资格要求",
+    "丹麦CVR号 · 中小企业(≤249人,营业额≤5000万欧元) · 三年内\"去最小化\"国家援助累计<30万欧元 · 需参加1小时启动会"
+   ],
+   [
+    "时间窗口",
+    "项目资助周期2023-08-01至2026-12-31,今年底到期,建议尽快联系而非拖延"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-erasmus-c7544e",
+  "title": "Erasmus for Young Entrepreneurs",
+  "type": "工具与创业服务",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "通过欧洲创业者交换项目开展跨境学习。",
+  "source": "https://www.erasmus-entrepreneurs.eu/page.php?cid=4",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "申请7步",
+    "①准备简历/动机信/商业计划 ②在线注册提交材料 ③通过当地联系点或在线目录寻找东道主创业者 ④与对方达成协议、提交交流计划 ⑤双方在系统内数字签署\"质量承诺\" ⑥启动海外交流 ⑦按协议分期领取财务支持"
+   ],
+   [
+    "时长",
+    "1-6个月,可拆分成若干周进行,但总时间跨度不超过12个月"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "een",
+  "title": "Enterprise Europe Network (EEN)",
+  "type": "工具与创业服务",
+  "region": "欧洲",
+  "stage": "单人可咨询",
+  "body": "欧洲企业网络提供咨询与伙伴匹配。",
+  "source": "https://een.ec.europa.eu/local-contact-points/dk",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "能提供什么",
+    "国际合作伙伴匹配(对上面 Eurostars 需要的\"国际联合体伙伴\"这个卡点可能有直接帮助)、技术转移撮合、市场准入咨询;官网案例包括AI微课程、医疗卫生数字能力发展项目"
+   ],
+   [
+    "费用",
+    "免费的公共服务网络,页面未提及任何收费"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dtu-science-park-ed0829",
+  "title": "DTU Science Park: 普通租赁 + 社区(非竞赛制,随时可约)",
+  "type": "工具与创业服务",
+  "region": "丹麦",
+  "stage": "单人可咨询",
+  "body": "丹麦科技园区的工作空间与创业社群。",
+  "source": "https://dtusciencepark.com",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "能拿到什么",
+    "办公室/实验室/工位/仓储/电子硬件工坊(3D打印机、烙铁、钻床)租赁,任选规模,可随业务扩张;共享服务包括前台、午餐、会议室、社群活动;园区分Hørsholm和Lyngby两处"
+   ],
+   [
+    "资格",
+    "官网FAQ原话:\"Alle virksomheder, der arbejder med deep tech, kan leje sig ind\"(所有做deep tech的公司都可以租),不是竞赛制评审,没有申请截止日,随时可以约参观(Book a tour)"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-the-aventures-b3a335",
+  "title": "The Aventures",
+  "type": "投资机构",
+  "region": "待确认",
+  "stage": "单人可咨询",
+  "body": "北欧背景的跨领域股权投资机构。",
+  "source": "https://the.aventures.fund/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "地域",
+    "官网未写明确限制,但代表案例(如\"斯堪的纳维亚加密交易所\"Firi)显示明显的北欧导向"
+   ],
+   [
+    "规模(未在官网复核到)",
+    "$100K–$400K"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-lundbeckfonden-ventures-lund-31db6d",
+  "title": "Lundbeckfonden Ventures",
+  "type": "投资机构",
+  "region": "待确认",
+  "stage": "单人可咨询",
+  "body": "生命科学与创新药投资线索。",
+  "source": "https://lundbeckfonden.com/business-activities/lundbeckfonden-biocapital",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "方向",
+    "覆盖生命科学\"所有治疗领域\",从早期到临床验证都投,官网原文重点用词是\"新型 药物 (novel drugs)\""
+   ],
+   [
+    "地域",
+    "官网表述聚焦\"壮大丹麦生物科技生态系统\",但未明确排除非丹麦背景项目"
+   ]
+  ],
+  "organizer": "(正式名称 Lundbeckfonden BioCapital)"
+ },
+ {
+  "id": "cal-byfounders-1d73c1",
+  "title": "byFounders",
+  "type": "投资机构",
+  "region": "待确认",
+  "stage": "单人可咨询",
+  "body": "关注北欧及波罗的海背景的早期科技公司。",
+  "source": "https://www.byfounders.vc/faq",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "方向",
+    "\"尽可能早期\"(种子/天使为主),官网FAQ未列出具体行业清单,只写\"早期科技公司\"和\"有全球野心的创始团队\""
+   ],
+   [
+    "规模",
+    "€500K–4M"
+   ],
+   [
+    "地域",
+    "主要面向\"New Nordics\"(北欧+波罗的海)背景创始人,但官网明确写了例外条款:\"如果遇到特别优秀的团队,偶尔也投资这个地理范围之外的项目\""
+   ],
+   [
+    "申请方式",
+    "接受冷启动申请 ,不需要温启动介绍,官网FAQ原文\"Submit your deck here\"(Airtable链接),决策周期2-4周"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-dreamcraft-ventures-3f2fd5",
+  "title": "Dreamcraft Ventures",
+  "type": "投资机构",
+  "region": "待确认",
+  "stage": "单人可咨询",
+  "body": "投资机构线索，原日历缺少可确认的官网。",
+  "source": "",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "方向(未在本轮复核)",
+    "健康+金融科技种子期"
+   ],
+   [
+    "规模(未在本轮复核)",
+    "$500K–2,500,000"
+   ]
+  ],
+  "organizer": ""
+ },
+ {
+  "id": "cal-black-capital-ventures-ugly--453907",
+  "title": "Black Capital Ventures",
+  "type": "投资机构",
+  "region": "待确认",
+  "stage": "单人可咨询",
+  "body": "早期企业投资与孵化线索，核对股权与支持条款。",
+  "source": "https://blackcapitalventures.com/investment-criteria/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "阶段与换股比例",
+    "\"早期、几乎没有业绩记录\"的项目;换股10-50%,纯想法阶段接近50%,已有MVP和客户的团队要求较低"
+   ],
+   [
+    "重点方向",
+    "CleanTech/GreenTech、 MedTech/HealthTech (\"有改变世界志向的\")、FashionTech(可持续商业)、教育科技"
+   ],
+   [
+    "地域",
+    "官网未提及美国注册或美国创始人限制"
+   ]
+  ],
+  "organizer": "(与下面的Ugly Duckling Ventures是两家不同机构,已拆分)"
+ },
+ {
+  "id": "cal-ugly-duckling-ventures-97b1a5",
+  "title": "Ugly Duckling Ventures",
+  "type": "投资机构",
+  "region": "待确认",
+  "stage": "单人可咨询",
+  "body": "关注北欧医疗科技、企业软件和韧性技术等方向。",
+  "source": "https://www.uglyduckling.ventures/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "阶段与规模",
+    "Pre-seed/早期种子,首轮支票约€1M,预留50%资金用于后续跟投"
+   ],
+   [
+    "三大主题",
+    "Medtech(有监管/数据/工作流壁垒的临床与健康技术)、Resilience tech(安全/合规/基础设施)、Business software"
+   ],
+   [
+    "地域",
+    "明确聚焦北欧"
+   ]
+  ],
+  "organizer": "(哥本哈根)"
+ },
+ {
+  "id": "cal-true-beauty-ventures-d20b3c",
+  "title": "True Beauty Ventures",
+  "type": "投资机构",
+  "region": "待确认",
+  "stage": "单人可咨询",
+  "body": "美妆与个人护理行业投资机构。",
+  "source": "https://truebeautyventures.com/",
+  "checked": "",
+  "deadline": "",
+  "women": false,
+  "dates": [],
+  "facts": [
+   [
+    "方向",
+    "专注美妆/个护行业投资,管理规模约$42M新基金"
+   ],
+   [
+    "阶段(官网原文,本轮新发现)",
+    "官网\"About\"页原文写\"From Pre-Seed to Series B, we invest across stages\",覆盖 Pre-Seed阶段 ,不是只投已有营收的成熟品牌(第三方数据站vcsheet曾写\"~$2M+营收\"作为典型画像,但这次官网一手信息没有把它写成硬性门槛)"
+   ],
+   [
+    "创始团队",
+    "Cristina(投资银行/私募股权/品牌管理背景)与Rich(数十年董事会与行业投资经验)共同创立的50/50合伙人团队"
+   ]
+  ],
+  "organizer": "(美国,纽约)"
+ }
+]

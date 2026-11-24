@@ -1,0 +1,12 @@
+.hs .venue{padding:2rem 0 4rem;max-width:1120px;margin:auto}
+.venue h1{margin:1.25rem 0;font-size:clamp(2rem,5vw,4rem)}
+.venue h2{font-size:clamp(1.45rem,3vw,2.3rem)}
+.venue-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(245px,2fr);gap:2rem;align-items:start}
+.hs .venue-desk{padding:clamp(1rem,3vw,2.4rem);background:#e6ece4;border-block-start:3px solid #285446}
+.venue-slide{white-space:pre-wrap;overflow-wrap:anywhere;color:#193c2f;font-size:1.22rem}
+.venue fieldset{border:1px solid #a3b2a9;margin:1rem 0;padding:1rem;min-width:0}
+.venue fieldset label{display:inline-block;margin-right:1rem;vertical-align:top}
+.venue button{min-height:44px;background:#285446;color:white;border-radius:3px;padding:.6rem .95rem;margin:.3rem .4rem .3rem 0}
+.venue button:disabled{background:#52635a}.venue-round{border-top:1px solid #bdc7bf;padding:.8rem 1rem;overflow-wrap:anywhere}
+.venue-round[aria-current]{border-left:4px solid #285446;background:#e6ece4}.venue-round strong,.venue-round small{display:block;margin:.3rem 0}
+@media(max-width:720px){.venue-grid{grid-template-columns:1fr;gap:1rem}.venue fieldset label{display:block;margin:0}}
