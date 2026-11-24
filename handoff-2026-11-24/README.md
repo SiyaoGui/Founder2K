@@ -17,6 +17,10 @@ Founder2K 是母平台。女性共创沿用 HerStartupCamp 的设计、社区经
 
 直接浏览网页设计可打开 `previews/`。原始 Figma 位于 `originals-herstartup` 分卷内，融资日历原始 HTML 位于 `references`。活动 slides、设计导入截图及协会登记照片位于 `reference-images`。后续维护可先检查 `website/tests`，再查看 `tooling` 中的项目专项脚本与 `site-snapshots` 内的历次交付。
 
-现有文件中已保存 AI 克隆蓝图及营销邮件的抽取结果（research 内的 S279、S280，含文字、渲染页或内嵌截图）。两个输入原件在最初提供的桌面路径缺失。微信覆盖情况以复盘报告、覆盖表和实际导出批次为准。过往云端对话提及的会场设计补丁需要与本地交付区别核对，现有本地下载包括占位补丁和对应的源码 ZIP。
+在 `conversation-and-blueprint` 可以找到本地会话里留存的 27 份历次交付答复，以及从 Google Drive 找回的 AI-Clone-Blueprint.pdf。该 PDF 的 SHA-256 与初次读取时的清单一致。AI蓝图Email营销.docx 的原文件未找到，`research` 中保存了它的 S280 文本提取结果及全部 18 张内嵌截图。旧会场设计补丁的云端路径未能在本次本地交付中定位；占位补丁和对应的源码 ZIP 均已归入 site-snapshots。
+
+证据复核使用 `review-evidence` 的 JSONL、转写和逐批复核材料，以及 `wechat` 中的原导出。聊天覆盖范围以 reports 内的导出范围复核及 tables 内的覆盖表为准。若要追踪源码演变，可解开 `git-history` 并运行 `git clone website.bundle website-history`，协作文档相同。打包时最新的 dist 构建在 `site-build`。
 
 将同一类别全部 .7z 分卷下载到同一目录，用 7-Zip 打开 .7z.001 并输入项目所有者本机 handoff-recovery/RECOVERY-KEY.txt 内的口令。GitHub 转私密后仍使用同一口令。在每个归档内，files 保留资料和相对目录，MANIFEST.csv 包含原文件大小及 SHA-256。根目录 inventory.csv 提供分组数量，SHA256SUMS.txt 用于校验分卷。交接其它 AI 时请通过私密渠道另行交付口令。
+
+使用 Python 3.11+ 和 7-Zip 可在交接目录执行 “python restore.py reports ./restored-reports”。终端会提示输入口令，脚本将核对每个分卷和每个还原文件。也可以把 reports 换成 inventory.csv 中任意类别。如 7-Zip 未加入 PATH，请通过 --seven-zip 提供可执行文件路径。
