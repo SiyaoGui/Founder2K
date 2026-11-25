@@ -1,0 +1,9 @@
+9145d9f90761e4d30158034502b80e450c402b50 2026-11-23 Build role-based flash teams and verify 20 concurrent discussion rooms
+2c3fe403928cbf607cdeb889a4938d808be06c2b 2026-11-23 Follow the live audio track when the SDK reuses a playback element
+7b6275424ebce7a5f56feb7d4b938aa8df35c725 2026-11-23 Verify visible presentation frames and measured audio before passing reception checks
+3e22b8d55f392f56a8db066965765bdefd44d3f7 2026-11-22 Open isolated rehearsals from the private event and retain the published participant schedule
+13ddd88a43122989e64b5bb8eeefe496b2e657c4 2026-11-22 Scope event dispatcher access and configure pitch audience admission
+c8179666d2188a417a6c945e87f35f11c7346dae 2026-11-22 Finish pending media cleanup before acknowledging a venue command
+9970d57b98a4d5532e3cd3effa08ad7eabdad192 2026-11-22 Complete venue role handling and extend reproducible rehearsal checks
+018dfb9e18742c2b739c5c9638da0bda8990b525 2026-11-22 Integrate private event venue, media controls and rehearsal workflow
+99b29af491f69eb8d98e26a91c90f035f256e27c 2026-11-21 snapshot

@@ -1,0 +1,9 @@
+.club-opening{display:grid;grid-template-columns:1.15fr 1fr;gap:clamp(24px,5vw,88px);align-items:center;padding:clamp(32px,5vw,80px) 0}
+.club-opening-copy h1{font-size:clamp(3rem,5.6vw,5.6rem);line-height:1.12;letter-spacing:-.055em;margin:18px 0 22px}
+.club-opening-copy p{max-width:34em;color:var(--muted)}.club-opening-copy p:first-child{color:var(--green);font-weight:650}.club-opening-copy .btn{margin-top:8px}
+.club-program{background:var(--green);color:white;padding:clamp(24px,4vw,48px);border-radius:18px 18px 58px 18px}
+.club-program h2{color:var(--lime);margin:0 0 16px;font-size:1.65rem}.club-program a{display:flex;align-items:center;gap:18px;padding:16px 0;border-top:1px solid #698878}.club-program strong,.club-program small{display:block}.club-program small{color:#e1eee4;font-size:.9rem}.club-program svg{color:var(--lime)}
+.journey-guide{padding:24px 0 36px;border-top:1px solid var(--line)}.journey-lead h2{margin:0;font-size:clamp(1.6rem,3vw,2.4rem)}.journey-lead p{color:var(--muted);margin:5px 0 16px}
+.journey-picker{display:flex;gap:6px;flex-wrap:wrap}.journey-picker button{border:1px solid var(--line);border-radius:24px;background:white;padding:8px 16px}.journey-picker button[aria-pressed=true]{color:white;background:var(--green);border-color:var(--green)}
+.journey-detail{display:grid;grid-template-columns:1.6fr 1fr;align-items:center;gap:24px;background:var(--blue);padding:clamp(20px,3vw,40px);border-radius:14px;margin-top:16px}.journey-detail h3{font-size:1.55rem;margin:0}.journey-detail p{max-width:38em}.journey-detail ol{padding-left:30px;border-left:1px solid #93b4ad}.journey-detail li{padding:5px 0 5px 6px}.journey-detail .platform-controls{margin-bottom:0}
+@media(max-width:760px){.club-opening,.journey-detail{grid-template-columns:1fr}.club-opening{gap:20px}.club-opening-copy h1{font-size:3.15rem}.club-program a{padding:10px 0}.journey-detail ol{margin:0}.journey-picker button{min-height:44px;padding:8px 12px}}

@@ -1,0 +1,3 @@
+Both groups received stage video and 440 Hz audio
+Private 880 Hz in A, presentation and 440 Hz in B; no presentation video in A
+{"passed":true,"accounts":4,"physicalDevices":0,"elapsedSeconds":70.775,"handoffSpacingSeconds":64.353}

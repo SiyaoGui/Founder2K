@@ -1,0 +1,756 @@
+diff --git a/db/schema.ts b/db/schema.ts
+index 2d29c36..7f4648b 100644
+--- a/db/schema.ts
++++ b/db/schema.ts
+@@ -23,3 +23,5 @@ export const platformVotes = sqliteTable('platform_votes', {
+   voter: text('voter').notNull(),
+   choice: text('choice').notNull(),
+ }, table => [primaryKey({ columns: [table.ballot, table.voter] })]);
++
++export * from './venue-schema';
+diff --git a/db/venue-schema.ts b/db/venue-schema.ts
+new file mode 100644
+index 0000000..6f2284d
+--- /dev/null
++++ b/db/venue-schema.ts
+@@ -0,0 +1,37 @@
++import { sql } from 'drizzle-orm';
++import { check, integer, primaryKey, sqliteTable, text, unique } from 'drizzle-orm/sqlite-core';
++
++// The authenticated event API resolves these identifiers from the published schedule.
++export const venueMeetings = sqliteTable('venue_meetings', {
++  id: text('id').primaryKey(),
++  eventId: text('event_id').notNull(),
++  appointmentId: text('appointment_id').notNull(),
++  logicalRoom: text('logical_room').notNull(),
++  hostAccount: text('host_account').notNull(),
++  visitorAccount: text('visitor_account').notNull(),
++  plannedStartMs: integer('planned_start_ms').notNull(),
++  plannedEndMs: integer('planned_end_ms').notNull(),
++  mediaConnectedMs: integer('media_connected_ms'),
++  mediaClosedMs: integer('media_closed_ms'),
++}, t => [
++  unique().on(t.eventId, t.appointmentId),
++  check('venue_distinct_accounts', sql`${t.hostAccount} <> ${t.visitorAccount}`),
++  check('venue_planned_interval', sql`${t.plannedEndMs} > ${t.plannedStartMs}`),
++  check('venue_media_interval', sql`${t.mediaConnectedMs} IS NULL OR ${t.mediaClosedMs} IS NULL OR ${t.mediaClosedMs} >= ${t.mediaConnectedMs}`),
++]);
++
++export const venueAdmissions = sqliteTable('venue_admissions', {
++  meetingId: text('meeting_id').primaryKey().references(() => venueMeetings.id),
++  mediaGeneration: text('media_generation').notNull().unique(),
++});
++
++export const venueRoomOccupancy = sqliteTable('venue_room_occupancy', {
++  eventId: text('event_id').notNull(),
++  logicalRoom: text('logical_room').notNull(),
++  meetingId: text('meeting_id').notNull().unique().references(() => venueAdmissions.meetingId, { onDelete: 'cascade' }),
++}, t => [primaryKey({ columns: [t.eventId, t.logicalRoom] })]);
++
++export const venueAccountOccupancy = sqliteTable('venue_account_occupancy', {
++  accountId: text('account_id').primaryKey(),
++  meetingId: text('meeting_id').notNull().references(() => venueAdmissions.meetingId, { onDelete: 'cascade' }),
++});
+diff --git a/drizzle/0003_venue_execution.sql b/drizzle/0003_venue_execution.sql
+new file mode 100644
+index 0000000..2ed8ef3
+--- /dev/null
++++ b/drizzle/0003_venue_execution.sql
+@@ -0,0 +1,57 @@
++CREATE TABLE `venue_account_occupancy` (
++	`account_id` text PRIMARY KEY NOT NULL,
++	`meeting_id` text NOT NULL,
++	FOREIGN KEY (`meeting_id`) REFERENCES `venue_admissions`(`meeting_id`) ON UPDATE no action ON DELETE cascade
++);
++--> statement-breakpoint
++CREATE TABLE `venue_admissions` (
++	`meeting_id` text PRIMARY KEY NOT NULL,
++	`media_generation` text NOT NULL,
++	FOREIGN KEY (`meeting_id`) REFERENCES `venue_meetings`(`id`) ON UPDATE no action ON DELETE no action
++);
++--> statement-breakpoint
++CREATE UNIQUE INDEX `venue_admissions_media_generation_unique` ON `venue_admissions` (`media_generation`);--> statement-breakpoint
++CREATE TABLE `venue_meetings` (
++	`id` text PRIMARY KEY NOT NULL,
++	`event_id` text NOT NULL,
++	`appointment_id` text NOT NULL,
++	`logical_room` text NOT NULL,
++	`host_account` text NOT NULL,
++	`visitor_account` text NOT NULL,
++	`planned_start_ms` integer NOT NULL,
++	`planned_end_ms` integer NOT NULL,
++	`media_connected_ms` integer,
++	`media_closed_ms` integer,
++	CONSTRAINT "venue_distinct_accounts" CHECK("venue_meetings"."host_account" <> "venue_meetings"."visitor_account"),
++	CONSTRAINT "venue_planned_interval" CHECK("venue_meetings"."planned_end_ms" > "venue_meetings"."planned_start_ms"),
++	CONSTRAINT "venue_media_interval" CHECK("venue_meetings"."media_connected_ms" IS NULL OR "venue_meetings"."media_closed_ms" IS NULL OR "venue_meetings"."media_closed_ms" >= "venue_meetings"."media_connected_ms")
++);
++--> statement-breakpoint
++CREATE UNIQUE INDEX `venue_meetings_event_id_appointment_id_unique` ON `venue_meetings` (`event_id`,`appointment_id`);--> statement-breakpoint
++CREATE TABLE `venue_room_occupancy` (
++	`event_id` text NOT NULL,
++	`logical_room` text NOT NULL,
++	`meeting_id` text NOT NULL,
++	PRIMARY KEY(`event_id`, `logical_room`),
++	FOREIGN KEY (`meeting_id`) REFERENCES `venue_admissions`(`meeting_id`) ON UPDATE no action ON DELETE cascade
++);
++--> statement-breakpoint
++CREATE UNIQUE INDEX `venue_room_occupancy_meeting_id_unique` ON `venue_room_occupancy` (`meeting_id`);
++--> statement-breakpoint
++CREATE TRIGGER venue_reserve AFTER INSERT ON venue_admissions
++BEGIN
++  SELECT CASE WHEN NOT EXISTS (
++    SELECT 1 FROM venue_meetings WHERE id = NEW.meeting_id AND media_closed_ms IS NULL
++  ) THEN RAISE(ABORT, 'meeting unavailable') END;
++  INSERT INTO venue_room_occupancy
++    SELECT event_id, logical_room, id FROM venue_meetings WHERE id = NEW.meeting_id;
++  INSERT INTO venue_account_occupancy
++    SELECT host_account, id FROM venue_meetings WHERE id = NEW.meeting_id
++    UNION ALL SELECT visitor_account, id FROM venue_meetings WHERE id = NEW.meeting_id;
++END;
++--> statement-breakpoint
++CREATE TRIGGER venue_release AFTER UPDATE OF media_closed_ms ON venue_meetings
++WHEN OLD.media_closed_ms IS NULL AND NEW.media_closed_ms IS NOT NULL
++BEGIN
++  DELETE FROM venue_admissions WHERE meeting_id = NEW.id;
++END;
+diff --git a/drizzle/meta/0003_snapshot.json b/drizzle/meta/0003_snapshot.json
+new file mode 100644
+index 0000000..57eee5a
+--- /dev/null
++++ b/drizzle/meta/0003_snapshot.json
+@@ -0,0 +1,534 @@
++{
++  "version": "6",
++  "dialect": "sqlite",
++  "id": "eecec023-9773-4394-88ab-b549545ad817",
++  "prevId": "37b7cb6d-9423-42e7-b55a-a4d6a55c025b",
++  "tables": {
++    "her_entries": {
++      "name": "her_entries",
++      "columns": {
++        "id": {
++          "name": "id",
++          "type": "text",
++          "primaryKey": true,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "kind": {
++          "name": "kind",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "author": {
++          "name": "author",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "target": {
++          "name": "target",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false,
++          "default": "''"
++        },
++        "state": {
++          "name": "state",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "data": {
++          "name": "data",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "updated": {
++          "name": "updated",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        }
++      },
++      "indexes": {
++        "her_author": {
++          "name": "her_author",
++          "columns": [
++            "author",
++            "kind"
++          ],
++          "isUnique": false
++        },
++        "her_target": {
++          "name": "her_target",
++          "columns": [
++            "target",
++            "kind"
++          ],
++          "isUnique": false
++        },
++        "her_catalog": {
++          "name": "her_catalog",
++          "columns": [
++            "kind",
++            "state",
++            "updated"
++          ],
++          "isUnique": false
++        }
++      },
++      "foreignKeys": {},
++      "compositePrimaryKeys": {},
++      "uniqueConstraints": {},
++      "checkConstraints": {}
++    },
++    "platform_items": {
++      "name": "platform_items",
++      "columns": {
++        "id": {
++          "name": "id",
++          "type": "text",
++          "primaryKey": true,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "kind": {
++          "name": "kind",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "owner": {
++          "name": "owner",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "parent": {
++          "name": "parent",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false,
++          "default": "''"
++        },
++        "status": {
++          "name": "status",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "payload": {
++          "name": "payload",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "created": {
++          "name": "created",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "updated": {
++          "name": "updated",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        }
++      },
++      "indexes": {
++        "platform_owner": {
++          "name": "platform_owner",
++          "columns": [
++            "owner",
++            "kind"
++          ],
++          "isUnique": false
++        },
++        "platform_parent": {
++          "name": "platform_parent",
++          "columns": [
++            "parent",
++            "kind",
++            "status"
++          ],
++          "isUnique": false
++        }
++      },
++      "foreignKeys": {},
++      "compositePrimaryKeys": {},
++      "uniqueConstraints": {},
++      "checkConstraints": {}
++    },
++    "platform_votes": {
++      "name": "platform_votes",
++      "columns": {
++        "ballot": {
++          "name": "ballot",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "voter": {
++          "name": "voter",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "choice": {
++          "name": "choice",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        }
++      },
++      "indexes": {},
++      "foreignKeys": {
++        "platform_votes_ballot_platform_items_id_fk": {
++          "name": "platform_votes_ballot_platform_items_id_fk",
++          "tableFrom": "platform_votes",
++          "tableTo": "platform_items",
++          "columnsFrom": [
++            "ballot"
++          ],
++          "columnsTo": [
++            "id"
++          ],
++          "onDelete": "no action",
++          "onUpdate": "no action"
++        }
++      },
++      "compositePrimaryKeys": {
++        "platform_votes_ballot_voter_pk": {
++          "columns": [
++            "ballot",
++            "voter"
++          ],
++          "name": "platform_votes_ballot_voter_pk"
++        }
++      },
++      "uniqueConstraints": {},
++      "checkConstraints": {}
++    },
++    "records": {
++      "name": "records",
++      "columns": {
++        "id": {
++          "name": "id",
++          "type": "text",
++          "primaryKey": true,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "owner": {
++          "name": "owner",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "kind": {
++          "name": "kind",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "payload": {
++          "name": "payload",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "updated": {
++          "name": "updated",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        }
++      },
++      "indexes": {},
++      "foreignKeys": {},
++      "compositePrimaryKeys": {},
++      "uniqueConstraints": {},
++      "checkConstraints": {}
++    },
++    "venue_account_occupancy": {
++      "name": "venue_account_occupancy",
++      "columns": {
++        "account_id": {
++          "name": "account_id",
++          "type": "text",
++          "primaryKey": true,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "meeting_id": {
++          "name": "meeting_id",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        }
++      },
++      "indexes": {},
++      "foreignKeys": {
++        "venue_account_occupancy_meeting_id_venue_admissions_meeting_id_fk": {
++          "name": "venue_account_occupancy_meeting_id_venue_admissions_meeting_id_fk",
++          "tableFrom": "venue_account_occupancy",
++          "tableTo": "venue_admissions",
++          "columnsFrom": [
++            "meeting_id"
++          ],
++          "columnsTo": [
++            "meeting_id"
++          ],
++          "onDelete": "cascade",
++          "onUpdate": "no action"
++        }
++      },
++      "compositePrimaryKeys": {},
++      "uniqueConstraints": {},
++      "checkConstraints": {}
++    },
++    "venue_admissions": {
++      "name": "venue_admissions",
++      "columns": {
++        "meeting_id": {
++          "name": "meeting_id",
++          "type": "text",
++          "primaryKey": true,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "media_generation": {
++          "name": "media_generation",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        }
++      },
++      "indexes": {
++        "venue_admissions_media_generation_unique": {
++          "name": "venue_admissions_media_generation_unique",
++          "columns": [
++            "media_generation"
++          ],
++          "isUnique": true
++        }
++      },
++      "foreignKeys": {
++        "venue_admissions_meeting_id_venue_meetings_id_fk": {
++          "name": "venue_admissions_meeting_id_venue_meetings_id_fk",
++          "tableFrom": "venue_admissions",
++          "tableTo": "venue_meetings",
++          "columnsFrom": [
++            "meeting_id"
++          ],
++          "columnsTo": [
++            "id"
++          ],
++          "onDelete": "no action",
++          "onUpdate": "no action"
++        }
++      },
++      "compositePrimaryKeys": {},
++      "uniqueConstraints": {},
++      "checkConstraints": {}
++    },
++    "venue_meetings": {
++      "name": "venue_meetings",
++      "columns": {
++        "id": {
++          "name": "id",
++          "type": "text",
++          "primaryKey": true,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "event_id": {
++          "name": "event_id",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "appointment_id": {
++          "name": "appointment_id",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "logical_room": {
++          "name": "logical_room",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "host_account": {
++          "name": "host_account",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "visitor_account": {
++          "name": "visitor_account",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "planned_start_ms": {
++          "name": "planned_start_ms",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "planned_end_ms": {
++          "name": "planned_end_ms",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "media_connected_ms": {
++          "name": "media_connected_ms",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": false,
++          "autoincrement": false
++        },
++        "media_closed_ms": {
++          "name": "media_closed_ms",
++          "type": "integer",
++          "primaryKey": false,
++          "notNull": false,
++          "autoincrement": false
++        }
++      },
++      "indexes": {
++        "venue_meetings_event_id_appointment_id_unique": {
++          "name": "venue_meetings_event_id_appointment_id_unique",
++          "columns": [
++            "event_id",
++            "appointment_id"
++          ],
++          "isUnique": true
++        }
++      },
++      "foreignKeys": {},
++      "compositePrimaryKeys": {},
++      "uniqueConstraints": {},
++      "checkConstraints": {
++        "venue_distinct_accounts": {
++          "name": "venue_distinct_accounts",
++          "value": "\"venue_meetings\".\"host_account\" <> \"venue_meetings\".\"visitor_account\""
++        },
++        "venue_planned_interval": {
++          "name": "venue_planned_interval",
++          "value": "\"venue_meetings\".\"planned_end_ms\" > \"venue_meetings\".\"planned_start_ms\""
++        },
++        "venue_media_interval": {
++          "name": "venue_media_interval",
++          "value": "\"venue_meetings\".\"media_connected_ms\" IS NULL OR \"venue_meetings\".\"media_closed_ms\" IS NULL OR \"venue_meetings\".\"media_closed_ms\" >= \"venue_meetings\".\"media_connected_ms\""
++        }
++      }
++    },
++    "venue_room_occupancy": {
++      "name": "venue_room_occupancy",
++      "columns": {
++        "event_id": {
++          "name": "event_id",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "logical_room": {
++          "name": "logical_room",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        },
++        "meeting_id": {
++          "name": "meeting_id",
++          "type": "text",
++          "primaryKey": false,
++          "notNull": true,
++          "autoincrement": false
++        }
++      },
++      "indexes": {
++        "venue_room_occupancy_meeting_id_unique": {
++          "name": "venue_room_occupancy_meeting_id_unique",
++          "columns": [
++            "meeting_id"
++          ],
++          "isUnique": true
++        }
++      },
++      "foreignKeys": {
++        "venue_room_occupancy_meeting_id_venue_admissions_meeting_id_fk": {
++          "name": "venue_room_occupancy_meeting_id_venue_admissions_meeting_id_fk",
++          "tableFrom": "venue_room_occupancy",
++          "tableTo": "venue_admissions",
++          "columnsFrom": [
++            "meeting_id"
++          ],
++          "columnsTo": [
++            "meeting_id"
++          ],
++          "onDelete": "cascade",
++          "onUpdate": "no action"
++        }
++      },
++      "compositePrimaryKeys": {
++        "venue_room_occupancy_event_id_logical_room_pk": {
++          "columns": [
++            "event_id",
++            "logical_room"
++          ],
++          "name": "venue_room_occupancy_event_id_logical_room_pk"
++        }
++      },
++      "uniqueConstraints": {},
++      "checkConstraints": {}
++    }
++  },
++  "views": {},
++  "enums": {},
++  "_meta": {
++    "schemas": {},
++    "tables": {},
++    "columns": {}
++  },
++  "internal": {
++    "indexes": {}
++  }
++}
+\ No newline at end of file
+diff --git a/drizzle/meta/_journal.json b/drizzle/meta/_journal.json
+index 8876a70..56dbd06 100644
+--- a/drizzle/meta/_journal.json
++++ b/drizzle/meta/_journal.json
+@@ -22,6 +22,13 @@
+       "when": 1795213443997,
+       "tag": "0002_wonderful_randall_flagg",
+       "breakpoints": true
++    },
++    {
++      "idx": 3,
++      "version": "6",
++      "when": 1795296220961,
++      "tag": "0003_venue_execution",
++      "breakpoints": true
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/tests/venue-occupancy.test.mjs b/tests/venue-occupancy.test.mjs
+new file mode 100644
+index 0000000..ed78a76
+--- /dev/null
++++ b/tests/venue-occupancy.test.mjs
+@@ -0,0 +1,74 @@
++import { readFileSync, mkdtempSync, rmSync } from 'node:fs';
++import { tmpdir } from 'node:os';
++import { join } from 'node:path';
++import { test } from 'node:test';
++import assert from 'node:assert/strict';
++import { DatabaseSync } from 'node:sqlite';
++
++const migrationsDir = new URL('../drizzle/', import.meta.url);
++const journal = JSON.parse(readFileSync(new URL('meta/_journal.json', migrationsDir), 'utf8'));
++
++function migrate(db, tag) {
++  const sql = readFileSync(new URL(tag + '.sql', migrationsDir), 'utf8');
++  for (const statement of sql.split('--> statement-breakpoint')) {
++    if (statement.trim()) db.prepare(statement).run();
++  }
++}
++
++function upgrade(db) {
++  for (const { tag } of journal.entries) {
++    migrate(db, tag);
++    if (tag === '0003_venue_execution') break;
++  }
++}
++
++test('upgrade from 0002 preserves the four existing tables and their rows', t => {
++  const db = new DatabaseSync(':memory:');
++  t.after(() => db.close());
++  assert.deepEqual(journal.entries.slice(0, 4).map(entry => entry.tag), [
++    '0000_quick_miek', '0001_youthful_quasar', '0002_wonderful_randall_flagg', '0003_venue_execution',
++  ]);
++  for (const entry of journal.entries.slice(0, 3)) migrate(db, entry.tag);
++  db.exec(`
++    INSERT INTO records VALUES ('r', 'member', 'draft', '{}', 1);
++    INSERT INTO platform_items VALUES ('i', 'ballot', 'member', '', 'open', '{}', 1, 2);
++    INSERT INTO platform_votes VALUES ('i', 'member', 'yes');
++    INSERT INTO her_entries VALUES ('h', 'activity', 'member', '', 'published', '{}', 1);
++  `);
++  const tables = ['records', 'platform_items', 'platform_votes', 'her_entries'];
++  const readRows = () => tables.map(name => db.prepare('SELECT * FROM ' + name).all());
++  const before = readRows();
++  migrate(db, '0003_venue_execution');
++  assert.deepEqual(readRows(), before);
++  assert.deepEqual(db.prepare('PRAGMA foreign_key_check').all(), []);
++});
++
++test('competing dispatches cannot take either account or the room before media closure', t => {
++  const dir = mkdtempSync(join(tmpdir(), 'venue-test-'));
++  t.after(() => rmSync(dir, {recursive: true, force: true}));
++  const path = join(dir, 'rehearsal.db');
++  const primary = new DatabaseSync(path);
++  const second = new DatabaseSync(path);
++  t.after(() => { primary.close(); second.close(); });
++  primary.exec('PRAGMA foreign_keys=ON');
++  second.exec('PRAGMA foreign_keys=ON');
++  upgrade(primary);
++  const schedule = primary.prepare('INSERT INTO venue_meetings VALUES (?, ?, ?, ?, ?, ?, 1000, 2000, NULL, NULL)');
++  schedule.run('first', 'event1', 'appointment1', 'room1', 'host1', 'visitor1');
++  schedule.run('next', 'event1', 'appointment2', 'room1', 'host2', 'visitor2');
++  schedule.run('elsewhere', 'event2', 'appointment3', 'room2', 'visitor1', 'visitor3');
++  const hold = 'INSERT INTO venue_admissions VALUES (?, ?)';
++  primary.exec('BEGIN IMMEDIATE');
++  primary.prepare(hold).run('first', 'media1');
++  second.exec('PRAGMA busy_timeout=0');
++  assert.throws(() => second.prepare(hold).run('elsewhere', 'media2'), /locked/);
++  primary.exec('COMMIT');
++  assert.throws(() => second.prepare(hold).run('elsewhere', 'media2'), /UNIQUE/);
++  assert.throws(() => second.prepare(hold).run('next', 'media3'), /UNIQUE/);
++  assert.equal(second.prepare('SELECT count(*) AS n FROM venue_room_occupancy').get().n, 1);
++  assert.equal(second.prepare('SELECT count(*) AS n FROM venue_account_occupancy').get().n, 2);
++  primary.prepare('UPDATE venue_meetings SET media_closed_ms=1600 WHERE id=?').run('first');
++  second.prepare(hold).run('next', 'media3');
++  assert.throws(() => primary.prepare(hold).run('first', 'stale'), /unavailable/);
++  assert.equal(second.prepare('SELECT planned_start_ms FROM venue_meetings WHERE id=?').get('next').planned_start_ms, 1000);
++});

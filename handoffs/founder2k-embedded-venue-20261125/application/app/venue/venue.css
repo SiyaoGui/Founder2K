@@ -1,0 +1,172 @@
+.venue-shell {
+  max-width: 80rem;
+  margin: auto;
+  padding: clamp(1rem, 4vw, 3rem);
+  color: #1c3129;
+  font:
+    1rem/1.55 system-ui,
+    sans-serif;
+  background: #faf9f5;
+  min-height: 100vh;
+}
+.venue-shell header,
+.venue-actions {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.venue-shell h1 {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+}
+.venue-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2.4fr) minmax(15rem, 1fr);
+  gap: 1rem;
+}
+.venue-stage,
+.venue-agenda,
+.venue-console,
+.venue-check {
+  padding: 1.3rem;
+  border-radius: 1rem;
+  background: white;
+  border: 1px solid #cbd6ce;
+}
+.venue-stage {
+  background: #17372c;
+  color: white;
+  min-height: 20rem;
+}
+.venue-stage p,
+.venue-stage small {
+  color: #dcebe3;
+}
+.venue-shell button,
+.venue-shell input:not([type="checkbox"]),
+.venue-shell select {
+  border: 1px solid #899d90;
+  border-radius: 0.5rem;
+  min-height: 44px;
+  padding: 0.4rem 0.8rem;
+  color: #183d2e;
+  background: white;
+}
+.venue-shell button:disabled {
+  opacity: 0.5;
+}
+.venue-shell label,
+.venue-agenda strong,
+.venue-agenda small,
+.venue-agenda span {
+  display: block;
+}
+.venue-shell label {
+  margin: 0.6rem 0;
+}
+.venue-shell input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.venue-actions {
+  justify-content: flex-start;
+  margin: 0.7rem 0;
+}
+.venue-agenda ol {
+  max-height: 50vh;
+  overflow: auto;
+  padding-left: 1.6rem;
+}
+.venue-agenda li,
+.venue-console article {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #dce6de;
+}
+.venue-tracks video {
+  max-width: 100%;
+  max-height: 60vh;
+}
+.venue-alert {
+  padding: 0.8rem;
+  background: #ffedbc;
+  color: #49371b;
+}
+.venue-console {
+  margin: 1.2rem 0;
+}
+.venue-check {
+  max-width: 32rem;
+}
+.venue-shell a {
+  text-decoration: underline;
+}
+.venue-shell button:focus-visible {
+  outline: 3px solid #e18f2e;
+}
+@media (max-width: 700px) {
+  .venue-layout {
+    display: block;
+  }
+  .venue-shell {
+    padding: 1rem 1rem 12rem;
+  }
+  .venue-agenda {
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 1rem 1rem 0 0;
+    padding: 0.6rem 1rem max(0.6rem, env(safe-area-inset-bottom));
+  }
+  .venue-agenda p {
+    margin: 0.1rem 0;
+  }
+  .venue-agenda ol {
+    max-height: 45dvh;
+  }
+  .venue-agenda > button {
+    float: right;
+  }
+  .venue-stage {
+    min-height: 16rem;
+  }
+}
+
+.venue-board {
+  border-block: 1px solid #b6c9bc;
+  padding: 1rem 0;
+}
+.venue-board select {
+  display: block;
+  max-width: 100%;
+}
+.venue-board .venue-actions {
+  align-items: end;
+}
+.venue-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 0.8rem;
+}
+.venue-team-grid section {
+  background: #f5f8f2;
+  padding: 0.8rem;
+  border: 1px solid #ccd6ce;
+  border-radius: 0.8rem;
+}
+.venue-team-grid h4 {
+  margin: 0;
+}
+.venue-team-grid label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: white;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  cursor: grab;
+}
+.venue-team-grid span {
+  font-size: 0.82rem;
+}

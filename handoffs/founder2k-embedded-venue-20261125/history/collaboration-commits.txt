@@ -1,0 +1,14 @@
+576bf35b997fe9672b9c94ec45bbca6dfd69067f 2026-11-24 Record final regression from the delivered Sites patch
+325348bef50f1ba7aab1f43b9d14de692561319d 2026-11-23 Document flash team assignment and simultaneous room measurements
+44c1cc366621f422bdb8d35f604ea20ba0fdfb91 2026-11-23 Record visible media checks and the role previews
+90e0df32eecb1b13400e650925d31e1b4ccd8bf9 2026-11-23 Record embedded venue implementation, media rehearsal results and operating guide
+5a75b592604ad021a92f1f4be4bc37a509428d6d 2026-11-21 Design embedded event venue execution, media and rehearsal contracts
+c213e965d61a7d0348106e71e2635021346e28b8 2026-11-21 Record matching permissions, scheduling and handoff for event operators
+afbd3ac6612f55579f2243db93cc38f1b30d5da1 2026-11-21 Design women founder pre-incubation and matching operations
+7a9dfd47aae9a2d2c1422115070ca0c1a7e0b8e8 2026-11-21 Document shared funding catalogue, member workflows and verification
+e956326818ffc55fbc63ea6c8c241d47b6ab1b5c 2026-11-21 Plan the shared resource library and sprint and women founder pathways
+cd9455becda440f55c8395db54879aef40e01e90 2026-11-20 Record shipped HerStartupCamp subsite, production schema and verification
+fd89fbc96992b56e1651b2618c7fa48d1c2309fd 2026-11-20 Specify HerStartupCamp as a nested community site before development
+5d12b535c363025752f8ea7195bbec21c06b499a 2026-11-20 Record validated journeys, release revision and remaining pilot work
+f507721f60a1297fce639fb4c338c48b6dc5df6e 2026-11-20 Document nine user journeys, sprint rules and site architecture before implementation
+22f1362987167ed8f1edc44af64101405eeb88f1 2026-11-20 Initial commit

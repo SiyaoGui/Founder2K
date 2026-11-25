@@ -1,0 +1,414 @@
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+
+ ⛅️ wrangler 4.92.0
+───────────────────
+Using secrets defined in dist/server/.dev.vars
+Your Worker has access to the following bindings:
+Binding                                          Resource                  Mode
+env.DB (site-creator-d1)                         D1 Database               local
+env.LIVEKIT_URL ("(hidden)")                     Environment Variable      local
+env.LIVEKIT_API_KEY ("(hidden)")                 Environment Variable      local
+env.LIVEKIT_API_SECRET ("(hidden)")              Environment Variable      local
+env.VENUE_CLOCK_KEY ("(hidden)")                 Environment Variable      local
+env.FOUNDER2K_ADMIN_EMAIL ("(hidden)")           Environment Variable      local
+
+Attaching additional modules:
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────┬─────────────┐
+│ Name                                                                                                                          │ Type │ Size        │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ __vite_rsc_assets_manifest.js                                                                                                 │ esm  │ 2.63 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-page-cache-DwO-k7IS.js                                                                                       │ esm  │ 5.07 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-page-cache-finalizer-BQZIy0qN.js                                                                             │ esm  │ 3.40 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-page-cache-render-C18KNQ6Y.js                                                                                │ esm  │ 1.90 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-page-stream-p_CjhAzU.js                                                                                      │ esm  │ 9.73 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-prerender-endpoints-D7lDUIIc.js                                                                              │ esm  │ 1.96 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-prerender-static-params-DvXNdgtR.js                                                                          │ esm  │ 0.17 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-route-handler-dispatch-fSy_4AsO.js                                                                           │ esm  │ 25.57 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-segment-config-ZhWjrMs5.js                                                                                   │ esm  │ 13.32 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/app-static-generation-DkxOPByJ.js                                                                                │ esm  │ 0.89 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/cache-headers-BSM4JFOb.js                                                                                        │ esm  │ 38.38 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/chatgpt-auth-CUO6BhAP.js                                                                                         │ esm  │ 0.51 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/framework~index-BLKnKFTQ.js                                                                                      │ esm  │ 0.19 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/framework~index~layout~page~page~app-page-cache-render~app-page-cache~app-route-handler-dispatch-BJ2WUiAD.js     │ esm  │ 0.80 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/framework~index~page~page~app-route-handler-dispatch-D7Bqzq_t.js                                                 │ esm  │ 55.29 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/framework~index~route~route~route~route~route~layout~page~page~app-page-cache-render~app-pa~o0wa7ajl-KgG6x1Ml.js │ esm  │ 5.37 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/headers-BBgHuOI_.js                                                                                              │ esm  │ 4.85 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/headers-j0QAsRga.js                                                                                              │ esm  │ 10.72 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/implicit-tags-AQB0Dhzi.js                                                                                        │ esm  │ 1.31 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/isr-cache-Cpl-77US.js                                                                                            │ esm  │ 4.81 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/media-CYp05q-B.js                                                                                                │ esm  │ 103.70 KiB  │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/navigation-errors-CiAF027m.js                                                                                    │ esm  │ 1.22 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/navigation-runtime-CFZlSJIM.js                                                                                   │ esm  │ 0.78 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/navigation.react-server-7pE9S7WZ.js                                                                              │ esm  │ 0.26 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/page-BoO-qQW0.js                                                                                                 │ esm  │ 0.34 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/page-DK75cSTz.js                                                                                                 │ esm  │ 0.34 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/platform-content-C23lnvy0.js                                                                                     │ esm  │ 3.13 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/record-Cz3MrZeO.js                                                                                               │ esm  │ 0.08 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/redirect-digest-C-06pD9r.js                                                                                      │ esm  │ 0.37 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/rolldown-runtime-DUnMT5BP.js                                                                                     │ esm  │ 0.68 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/root-params-CarSBhWB.js                                                                                          │ esm  │ 1.21 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/route-BAGLTAkt.js                                                                                                │ esm  │ 12.54 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/route-Bg5MaPKq.js                                                                                                │ esm  │ 0.76 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/route-BmbIOzhC.js                                                                                                │ esm  │ 69.20 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/route-C7hvyqu2.js                                                                                                │ esm  │ 0.98 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/route-CFbjWuRR.js                                                                                                │ esm  │ 8.32 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/route-COF2I2Pn.js                                                                                                │ esm  │ 5.77 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/route-LOTttu4s.js                                                                                                │ esm  │ 186.85 KiB  │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/rsc-BTkhIJpz.js                                                                                                  │ esm  │ 0.71 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/text-stream-CbvVj4gX.js                                                                                          │ esm  │ 18.99 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ _next/static/types-CZP8KucV.js                                                                                                │ esm  │ 55.39 KiB   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/__vite_rsc_assets_manifest.js                                                                                             │ esm  │ 2.63 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/app-prefetch-fetch-queue-BiCJWNaj.js                                                                         │ esm  │ 0.00 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/app-router-scroll-CXOyZlaL.js                                                                                │ esm  │ 2.49 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/club-TaZXnkP6.js                                                                                             │ esm  │ 286.98 KiB  │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/error-boundary-BUqFNxw2.js                                                                                   │ esm  │ 5.27 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/layout-segment-context-CDLvutnz.js                                                                           │ esm  │ 0.37 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/static.edge-B1aDkHaQ.js                                                                                      │ esm  │ 0.16 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/streamed-icons-DWb8HRqm.js                                                                                   │ esm  │ 0.67 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/_next/static/venue-sBS9ev2T.js                                                                                            │ esm  │ 546.44 KiB  │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/index.js                                                                                                                  │ esm  │ 271.90 KiB  │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/vinext-client-assets.js                                                                                                   │ esm  │ 1.66 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ vinext-client-assets.js                                                                                                       │ esm  │ 1.66 KiB    │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼─────────────┤
+│ Total (53 modules)                                                                                                            │      │ 1778.75 KiB │
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────┴─────────────┘
+⎔ Starting local server...
+[wrangler:info] ✨ Parsed 1 valid header rule.
+[wrangler:info] Ready on http://127.0.0.1:8790
+[wrangler:info] GET /venue 200 OK (152ms)
+[wrangler:info] GET /_next/static/css/index.Bx5SiZu7.css 200 OK (15ms)
+[wrangler:info] GET /_next/static/chunks/layout-segment-context-qTc7A2oP.js 200 OK (25ms)
+[wrangler:info] GET /_next/static/chunks/venue-C8tho_Qf.js 200 OK (24ms)
+[wrangler:info] GET /_next/static/css/venue.BrXxBOZN.css 200 OK (36ms)
+[wrangler:info] GET /_next/static/chunks/rolldown-runtime-C60lm6uB.js 200 OK (27ms)
+[wrangler:info] GET /_next/static/chunks/framework-D_rUT4EX.js 200 OK (27ms)
+[wrangler:info] GET /_next/static/chunks/index-Cy1fWpPa.js 200 OK (45ms)
+[wrangler:info] POST /api/venue 200 OK (49ms)
+[wrangler:info] POST /api/venue 200 OK (34ms)
+[wrangler:info] POST /api/venue 200 OK (33ms)
+[wrangler:info] GET /venue 200 OK (94ms)
+[wrangler:info] GET /venue 200 OK (80ms)
+[wrangler:info] GET /venue 200 OK (82ms)
+[wrangler:info] GET /_next/static/css/index.Bx5SiZu7.css 200 OK (15ms)
+[wrangler:info] GET /_next/static/css/index.Bx5SiZu7.css 200 OK (22ms)
+[wrangler:info] GET /_next/static/css/index.Bx5SiZu7.css 200 OK (100ms)
+[wrangler:info] GET /_next/static/css/venue.BrXxBOZN.css 200 OK (98ms)
+[wrangler:info] GET /_next/static/chunks/framework-D_rUT4EX.js 200 OK (74ms)
+[wrangler:info] GET /_next/static/css/venue.BrXxBOZN.css 200 OK (74ms)
+[wrangler:info] GET /_next/static/css/venue.BrXxBOZN.css 200 OK (78ms)
+[wrangler:info] GET /_next/static/chunks/rolldown-runtime-C60lm6uB.js 200 OK (77ms)
+[wrangler:info] GET /_next/static/chunks/venue-C8tho_Qf.js 200 OK (216ms)
+[wrangler:info] GET /_next/static/chunks/layout-segment-context-qTc7A2oP.js 200 OK (217ms)
+[wrangler:info] GET /_next/static/chunks/venue-C8tho_Qf.js 200 OK (239ms)
+[wrangler:info] GET /_next/static/chunks/index-Cy1fWpPa.js 200 OK (238ms)
+[wrangler:info] GET /_next/static/chunks/rolldown-runtime-C60lm6uB.js 200 OK (237ms)
+[wrangler:info] GET /_next/static/chunks/framework-D_rUT4EX.js 200 OK (221ms)
+[wrangler:info] GET /_next/static/chunks/layout-segment-context-qTc7A2oP.js 200 OK (217ms)
+[wrangler:info] GET /_next/static/chunks/framework-D_rUT4EX.js 200 OK (224ms)
+[wrangler:info] GET /_next/static/chunks/layout-segment-context-qTc7A2oP.js 200 OK (223ms)
+[wrangler:info] GET /_next/static/chunks/venue-C8tho_Qf.js 200 OK (222ms)
+[wrangler:info] GET /_next/static/chunks/index-Cy1fWpPa.js 200 OK (220ms)
+[wrangler:info] GET /_next/static/chunks/rolldown-runtime-C60lm6uB.js 200 OK (221ms)
+[wrangler:info] GET /_next/static/chunks/index-Cy1fWpPa.js 200 OK (414ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (54ms)
+[wrangler:info] POST /api/venue 200 OK (57ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue 200 OK (76ms)
+[wrangler:info] POST /api/venue 200 OK (75ms)
+[wrangler:info] POST /api/venue 200 OK (62ms)
+[wrangler:info] POST /api/venue 200 OK (24ms)
+[wrangler:info] POST /api/venue 200 OK (52ms)
+[wrangler:info] POST /api/venue 200 OK (60ms)
+[wrangler:info] POST /api/venue 200 OK (136ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (39ms)
+[wrangler:info] POST /api/venue 200 OK (134ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (64ms)
+[wrangler:info] POST /api/venue 200 OK (95ms)
+[wrangler:info] POST /api/venue 200 OK (106ms)
+[wrangler:info] POST /api/venue 200 OK (80ms)
+[wrangler:info] POST /api/venue 200 OK (92ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (40ms)
+[wrangler:info] POST /api/venue 200 OK (43ms)
+[wrangler:info] POST /api/venue 200 OK (52ms)
+[wrangler:info] POST /api/venue 409 Conflict (87ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (17ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (19ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (4ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (8ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (6ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (7ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (8ms)
+[wrangler:info] POST /api/venue 200 OK (57ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (14ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (6ms)
+[wrangler:info] POST /api/venue 200 OK (63ms)
+[wrangler:info] POST /api/venue 200 OK (70ms)
+[wrangler:info] POST /api/venue 200 OK (75ms)
+[wrangler:info] POST /api/venue 200 OK (89ms)
+[wrangler:info] POST /api/venue 200 OK (79ms)
+[wrangler:info] POST /api/venue 200 OK (117ms)
+[wrangler:info] POST /api/venue 200 OK (119ms)
+[wrangler:info] POST /api/venue 200 OK (138ms)
+[wrangler:info] POST /api/venue 200 OK (131ms)
+[wrangler:info] POST /api/venue 200 OK (53ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (9ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (7ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (14ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (7ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (6ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (8ms)
+[wrangler:info] POST /api/venue 200 OK (24ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (5ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (5ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (6ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (5ms)
+[wrangler:info] POST /api/venue 200 OK (25ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (9ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (6ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (6ms)
+[wrangler:info] POST /api/venue 200 OK (39ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (10ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (5ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (8ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (5ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue 200 OK (32ms)
+[wrangler:info] POST /api/venue 200 OK (36ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (24ms)
+[wrangler:info] POST /api/venue 200 OK (28ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (7ms)
+[wrangler:info] POST /api/venue 200 OK (49ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (23ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (5ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (14ms)
+[wrangler:info] POST /api/venue 200 OK (71ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (71ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (39ms)
+[wrangler:info] POST /api/venue 200 OK (46ms)
+[wrangler:info] POST /api/venue 200 OK (53ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (10ms)
+[wrangler:info] POST /api/venue 200 OK (91ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (34ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue 200 OK (126ms)
+[wrangler:info] POST /api/venue 200 OK (31ms)
+[wrangler:info] POST /api/venue 200 OK (72ms)
+[wrangler:info] POST /api/venue 200 OK (79ms)
+[wrangler:info] POST /api/venue 200 OK (27ms)
+[wrangler:info] POST /api/venue 200 OK (20ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue 200 OK (40ms)
+[wrangler:info] POST /api/venue 200 OK (51ms)
+[wrangler:info] POST /api/venue 200 OK (85ms)
+[wrangler:info] POST /api/venue 200 OK (99ms)
+[wrangler:info] POST /api/venue 200 OK (90ms)
+[wrangler:info] POST /api/venue 200 OK (52ms)
+[wrangler:info] POST /api/venue 200 OK (54ms)
+[wrangler:info] POST /api/venue 200 OK (38ms)
+[wrangler:info] POST /api/venue 200 OK (25ms)
+[wrangler:info] POST /api/venue 200 OK (24ms)
+[wrangler:info] POST /api/venue 200 OK (33ms)
+[wrangler:info] POST /api/venue 200 OK (64ms)
+[wrangler:info] POST /api/venue 200 OK (58ms)
+[wrangler:info] POST /api/venue 200 OK (23ms)
+[wrangler:info] POST /api/venue 200 OK (28ms)
+[wrangler:info] POST /api/venue 200 OK (66ms)
+[wrangler:info] POST /api/venue 200 OK (69ms)
+[wrangler:info] POST /api/venue 200 OK (26ms)
+[wrangler:info] POST /api/venue 200 OK (37ms)
+[wrangler:info] POST /api/venue 200 OK (32ms)
+[wrangler:info] POST /api/venue 200 OK (38ms)
+[wrangler:info] POST /api/venue 200 OK (22ms)
+[wrangler:info] POST /api/venue 200 OK (27ms)
+[wrangler:info] POST /api/venue 503 Service Unavailable (28ms)
+[wrangler:info] POST /api/venue 200 OK (60ms)
+[wrangler:info] POST /api/venue 200 OK (28ms)
+[wrangler:info] POST /api/venue 200 OK (23ms)
+[wrangler:info] POST /api/venue 200 OK (23ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue 200 OK (51ms)
+[wrangler:info] POST /api/venue 200 OK (54ms)
+[wrangler:info] POST /api/venue 200 OK (61ms)
+[wrangler:info] POST /api/venue 200 OK (91ms)
+[wrangler:info] POST /api/venue 200 OK (88ms)
+[wrangler:info] POST /api/venue 200 OK (101ms)
+[wrangler:info] POST /api/venue 200 OK (78ms)
+[wrangler:info] POST /api/venue 200 OK (22ms)
+[wrangler:info] POST /api/venue 200 OK (36ms)
+[wrangler:info] POST /api/venue 200 OK (31ms)
+[wrangler:info] POST /api/venue 200 OK (36ms)
+[wrangler:info] POST /api/venue 200 OK (31ms)
+[wrangler:info] POST /api/venue 200 OK (53ms)
+[wrangler:info] POST /api/venue 200 OK (190ms)
+[wrangler:info] POST /api/venue 200 OK (164ms)
+[wrangler:info] POST /api/venue 200 OK (23ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue 200 OK (63ms)
+[wrangler:info] POST /api/venue 200 OK (66ms)
+[wrangler:info] POST /api/venue 200 OK (117ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (24ms)
+[wrangler:info] POST /api/venue 200 OK (32ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue 200 OK (24ms)
+[wrangler:info] POST /api/venue 200 OK (32ms)
+[wrangler:info] POST /api/venue 200 OK (27ms)
+[wrangler:info] POST /api/venue 200 OK (34ms)
+[wrangler:info] POST /api/venue 200 OK (51ms)
+[wrangler:info] POST /api/venue 200 OK (53ms)
+[wrangler:info] POST /api/venue 200 OK (67ms)
+[wrangler:info] POST /api/venue 200 OK (58ms)
+[wrangler:info] POST /api/venue 200 OK (50ms)
+[wrangler:info] POST /api/venue 200 OK (50ms)
+[wrangler:info] POST /api/venue 200 OK (28ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue 200 OK (31ms)
+[wrangler:info] POST /api/venue 200 OK (36ms)
+[wrangler:info] POST /api/venue 200 OK (36ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue 200 OK (43ms)
+[wrangler:info] POST /api/venue 200 OK (41ms)
+[wrangler:info] POST /api/venue 200 OK (32ms)
+[wrangler:info] POST /api/venue 200 OK (25ms)
+[wrangler:info] POST /api/venue 200 OK (36ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (26ms)
+[wrangler:info] POST /api/venue 200 OK (24ms)
+[wrangler:info] POST /api/venue 200 OK (24ms)
+[wrangler:info] POST /api/venue 200 OK (27ms)
+[wrangler:info] POST /api/venue 200 OK (51ms)
+[wrangler:info] POST /api/venue 200 OK (39ms)
+[wrangler:info] POST /api/venue 200 OK (46ms)
+[wrangler:info] POST /api/venue 200 OK (61ms)
+[wrangler:info] POST /api/venue 503 Service Unavailable (22ms)
+[wrangler:info] POST /api/venue 200 OK (44ms)
+[wrangler:info] POST /api/venue 200 OK (78ms)
+[wrangler:info] POST /api/venue 200 OK (83ms)
+[wrangler:info] POST /api/venue 200 OK (47ms)
+[wrangler:info] POST /api/venue 200 OK (60ms)
+[wrangler:info] POST /api/venue 200 OK (35ms)
+[wrangler:info] POST /api/venue 200 OK (34ms)
+[wrangler:info] POST /api/venue 200 OK (23ms)
+[wrangler:info] POST /api/venue 200 OK (34ms)
+[wrangler:info] POST /api/venue 200 OK (33ms)
+[wrangler:info] POST /api/venue 200 OK (60ms)
+[wrangler:info] POST /api/venue 200 OK (39ms)
+[wrangler:info] POST /api/venue 200 OK (45ms)
+[wrangler:info] POST /api/venue 200 OK (48ms)
+[wrangler:info] POST /api/venue 200 OK (31ms)
+[wrangler:info] POST /api/venue 200 OK (64ms)
+[wrangler:info] POST /api/venue 200 OK (74ms)
+[wrangler:info] POST /api/venue 200 OK (78ms)
+[wrangler:info] POST /api/venue 200 OK (50ms)
+[wrangler:info] POST /api/venue 200 OK (34ms)
+[wrangler:info] POST /api/venue 200 OK (29ms)
+[wrangler:info] POST /api/venue 200 OK (127ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (65ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (24ms)
+[wrangler:info] POST /api/venue 409 Conflict (108ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (11ms)
+[wrangler:info] POST /api/venue 200 OK (67ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (18ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (12ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (23ms)
+[wrangler:info] POST /api/venue 200 OK (31ms)
+[wrangler:info] POST /api/venue 200 OK (21ms)
+[wrangler:info] POST /api/venue 200 OK (52ms)
+[wrangler:info] POST /api/venue 200 OK (95ms)
+[wrangler:info] POST /api/venue 200 OK (91ms)
+[wrangler:info] POST /api/venue 200 OK (115ms)
+[wrangler:info] POST /api/venue 200 OK (37ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (65ms)
+[wrangler:info] POST /api/venue 200 OK (89ms)
+[wrangler:info] POST /api/venue 200 OK (80ms)
+[wrangler:info] POST /api/venue 200 OK (94ms)
+[wrangler:info] POST /api/venue 200 OK (27ms)
+[wrangler:info] POST /api/venue 200 OK (68ms)
+[wrangler:info] POST /api/venue 200 OK (30ms)
+[wrangler:info] POST /api/venue 200 OK (28ms)
+[wrangler:info] POST /api/venue 200 OK (44ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (25ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (28ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (28ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (27ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (40ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (42ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (41ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (41ms)
+[wrangler:info] POST /api/venue 200 OK (72ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (36ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (18ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (26ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (27ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (27ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (22ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (26ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (30ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (30ms)
+[wrangler:info] POST /api/venue/webhook 204 No Content (11ms)

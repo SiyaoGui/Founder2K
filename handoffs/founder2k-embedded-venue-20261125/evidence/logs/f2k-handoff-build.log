@@ -1,0 +1,62 @@
+
+> site-creator-vinext-starter@0.1.0 build
+> node scripts/run-framework.mjs build
+
+
+  vinext build  (Vite 8.0.13)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2K
+transforming...✓ 360 modules transformed.
+rendering chunks...
+✓ built in 1.48s
+[2/5] analyze server references...
+[2K
+transforming...✓ 120 modules transformed.
+rendering chunks...
+✓ built in 582ms
+[3/5] build rsc environment...
+[2K
+transforming...✓ 357 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 1.09s
+[4/5] build client environment...
+[2K
+transforming...✓ 1915 modules transformed.
+rendering chunks...
+computing gzip size...
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - vinext:middleware-server-only (41%)
+  - alias (12%)
+  - rsc:virtual-client-package (11%)
+  - vinext:css-data-url (9%)
+  - vinext:jsx-in-js (7%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 3.44s
+[5/5] build ssr environment...
+[2K
+transforming...✓ 126 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 883ms
+[0m
+  Route (app)
+  ┌ ? /                 
+  ├ λ /api/herstartup   
+  ├ λ /api/platform     
+  ├ λ /api/records      
+  └ λ /api/women-program
+
+  λ API  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+

@@ -1,0 +1,534 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "eecec023-9773-4394-88ab-b549545ad817",
+  "prevId": "37b7cb6d-9423-42e7-b55a-a4d6a55c025b",
+  "tables": {
+    "her_entries": {
+      "name": "her_entries",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "kind": {
+          "name": "kind",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "author": {
+          "name": "author",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "target": {
+          "name": "target",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "''"
+        },
+        "state": {
+          "name": "state",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "data": {
+          "name": "data",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated": {
+          "name": "updated",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "her_author": {
+          "name": "her_author",
+          "columns": [
+            "author",
+            "kind"
+          ],
+          "isUnique": false
+        },
+        "her_target": {
+          "name": "her_target",
+          "columns": [
+            "target",
+            "kind"
+          ],
+          "isUnique": false
+        },
+        "her_catalog": {
+          "name": "her_catalog",
+          "columns": [
+            "kind",
+            "state",
+            "updated"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "platform_items": {
+      "name": "platform_items",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "kind": {
+          "name": "kind",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "owner": {
+          "name": "owner",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "parent": {
+          "name": "parent",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "''"
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "payload": {
+          "name": "payload",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created": {
+          "name": "created",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated": {
+          "name": "updated",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "platform_owner": {
+          "name": "platform_owner",
+          "columns": [
+            "owner",
+            "kind"
+          ],
+          "isUnique": false
+        },
+        "platform_parent": {
+          "name": "platform_parent",
+          "columns": [
+            "parent",
+            "kind",
+            "status"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "platform_votes": {
+      "name": "platform_votes",
+      "columns": {
+        "ballot": {
+          "name": "ballot",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "voter": {
+          "name": "voter",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "choice": {
+          "name": "choice",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "platform_votes_ballot_platform_items_id_fk": {
+          "name": "platform_votes_ballot_platform_items_id_fk",
+          "tableFrom": "platform_votes",
+          "tableTo": "platform_items",
+          "columnsFrom": [
+            "ballot"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "platform_votes_ballot_voter_pk": {
+          "columns": [
+            "ballot",
+            "voter"
+          ],
+          "name": "platform_votes_ballot_voter_pk"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "records": {
+      "name": "records",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "owner": {
+          "name": "owner",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "kind": {
+          "name": "kind",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "payload": {
+          "name": "payload",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated": {
+          "name": "updated",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "venue_account_occupancy": {
+      "name": "venue_account_occupancy",
+      "columns": {
+        "account_id": {
+          "name": "account_id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "meeting_id": {
+          "name": "meeting_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "venue_account_occupancy_meeting_id_venue_admissions_meeting_id_fk": {
+          "name": "venue_account_occupancy_meeting_id_venue_admissions_meeting_id_fk",
+          "tableFrom": "venue_account_occupancy",
+          "tableTo": "venue_admissions",
+          "columnsFrom": [
+            "meeting_id"
+          ],
+          "columnsTo": [
+            "meeting_id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "venue_admissions": {
+      "name": "venue_admissions",
+      "columns": {
+        "meeting_id": {
+          "name": "meeting_id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "media_generation": {
+          "name": "media_generation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "venue_admissions_media_generation_unique": {
+          "name": "venue_admissions_media_generation_unique",
+          "columns": [
+            "media_generation"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "venue_admissions_meeting_id_venue_meetings_id_fk": {
+          "name": "venue_admissions_meeting_id_venue_meetings_id_fk",
+          "tableFrom": "venue_admissions",
+          "tableTo": "venue_meetings",
+          "columnsFrom": [
+            "meeting_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "venue_meetings": {
+      "name": "venue_meetings",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "event_id": {
+          "name": "event_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "appointment_id": {
+          "name": "appointment_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "logical_room": {
+          "name": "logical_room",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "host_account": {
+          "name": "host_account",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "visitor_account": {
+          "name": "visitor_account",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "planned_start_ms": {
+          "name": "planned_start_ms",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "planned_end_ms": {
+          "name": "planned_end_ms",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "media_connected_ms": {
+          "name": "media_connected_ms",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "media_closed_ms": {
+          "name": "media_closed_ms",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "venue_meetings_event_id_appointment_id_unique": {
+          "name": "venue_meetings_event_id_appointment_id_unique",
+          "columns": [
+            "event_id",
+            "appointment_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "venue_distinct_accounts": {
+          "name": "venue_distinct_accounts",
+          "value": "\"venue_meetings\".\"host_account\" <> \"venue_meetings\".\"visitor_account\""
+        },
+        "venue_planned_interval": {
+          "name": "venue_planned_interval",
+          "value": "\"venue_meetings\".\"planned_end_ms\" > \"venue_meetings\".\"planned_start_ms\""
+        },
+        "venue_media_interval": {
+          "name": "venue_media_interval",
+          "value": "\"venue_meetings\".\"media_connected_ms\" IS NULL OR \"venue_meetings\".\"media_closed_ms\" IS NULL OR \"venue_meetings\".\"media_closed_ms\" >= \"venue_meetings\".\"media_connected_ms\""
+        }
+      }
+    },
+    "venue_room_occupancy": {
+      "name": "venue_room_occupancy",
+      "columns": {
+        "event_id": {
+          "name": "event_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "logical_room": {
+          "name": "logical_room",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "meeting_id": {
+          "name": "meeting_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "venue_room_occupancy_meeting_id_unique": {
+          "name": "venue_room_occupancy_meeting_id_unique",
+          "columns": [
+            "meeting_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "venue_room_occupancy_meeting_id_venue_admissions_meeting_id_fk": {
+          "name": "venue_room_occupancy_meeting_id_venue_admissions_meeting_id_fk",
+          "tableFrom": "venue_room_occupancy",
+          "tableTo": "venue_admissions",
+          "columnsFrom": [
+            "meeting_id"
+          ],
+          "columnsTo": [
+            "meeting_id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "venue_room_occupancy_event_id_logical_room_pk": {
+          "columns": [
+            "event_id",
+            "logical_room"
+          ],
+          "name": "venue_room_occupancy_event_id_logical_room_pk"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    }
+  },
+  "views": {},
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "indexes": {}
+  }
+}

@@ -1,0 +1,1 @@
+app/api/venue/route.ts(99,65): error TS18048: 'c.speakers' is possibly 'undefined'.

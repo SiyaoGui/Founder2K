@@ -1,0 +1,7 @@
+﻿对照点,标识,用途
+用户原始 Sites 源码,8205b6801de8017dbb9ed23033bddb8971822a52,ZIP 注释记录此提交；使用 originals/uploads 的原件验证基线
+本地 Git 导入快照,99b29af,导入上述 ZIP 后的本地根提交，保留于 history/sites.bundle
+本窗口最终应用,9145d9f,application/ 对应该树；173 个源码文件
+原始协作文档,c213e96,originals/collaboration-docs/
+会场设计文档初稿,5a75b59,可通过 history/collaboration.bundle 查看
+汇总后的协作文档,576bf35,documentation/ 保存最终会场文档

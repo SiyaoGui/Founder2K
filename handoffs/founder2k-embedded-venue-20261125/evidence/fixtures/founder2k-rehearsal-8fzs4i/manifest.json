@@ -1,0 +1,343 @@
+{
+  "id": "f4b38982-323d-43b6-9c72-1bfbc4843547",
+  "members": [
+    {
+      "id": "c2d93ae2-feb4-4c1d-b998-d4ad8d5691d6",
+      "name": "彩排1",
+      "role": "项目发起人",
+      "account": "rehearsal-0",
+      "topic": "原型项目 1",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "e9851b5f-8ff3-45c9-a0ab-a0a6ac0a02ca",
+      "name": "彩排2",
+      "role": "项目发起人",
+      "account": "rehearsal-1",
+      "topic": "原型项目 2",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "8ad4e13c-7603-41a7-b842-f6b80cd4cec3",
+      "name": "彩排3",
+      "role": "项目发起人",
+      "account": "rehearsal-2",
+      "topic": "原型项目 3",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "ac4b60d2-1602-4e13-9a10-15076ca48654",
+      "name": "彩排4",
+      "role": "项目发起人",
+      "account": "rehearsal-3",
+      "topic": "原型项目 4",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "e2d337bf-b912-4a3a-b162-a7014d9d75ba",
+      "name": "彩排5",
+      "role": "项目发起人",
+      "account": "rehearsal-4",
+      "topic": "原型项目 5",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "e203f6a6-f53f-4daf-bf6a-b36693643410",
+      "name": "彩排6",
+      "role": "项目发起人",
+      "account": "rehearsal-5",
+      "topic": "原型项目 6",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "77567853-c568-4225-8bf0-a45c7e7d25be",
+      "name": "彩排7",
+      "role": "共创伙伴",
+      "account": "rehearsal-6",
+      "topic": "研究与开发",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "fe52eb50-d735-4bf7-8de8-20657fca8a24",
+      "name": "彩排8",
+      "role": "共创伙伴",
+      "account": "rehearsal-7",
+      "topic": "研究与开发",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "a5fef255-0560-431b-b8ad-b9bca20e68bc",
+      "name": "彩排9",
+      "role": "共创伙伴",
+      "account": "rehearsal-8",
+      "topic": "研究与开发",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "f016d5d6-4422-425a-b929-ebccd5baa0c7",
+      "name": "彩排10",
+      "role": "共创伙伴",
+      "account": "rehearsal-9",
+      "topic": "研究与开发",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "1c05e474-bed8-42ab-8481-ca8f565b52f3",
+      "name": "彩排11",
+      "role": "共创伙伴",
+      "account": "rehearsal-10",
+      "topic": "研究与开发",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    },
+    {
+      "id": "7f8df6cf-ed87-4abd-819a-e771409b6582",
+      "name": "彩排12",
+      "role": "共创伙伴",
+      "account": "rehearsal-11",
+      "topic": "研究与开发",
+      "availability": "测试时段",
+      "choices": [],
+      "open": true
+    }
+  ],
+  "meetings": [
+    {
+      "round": 1,
+      "room": 1,
+      "lead": "8ad4e13c-7603-41a7-b842-f6b80cd4cec3",
+      "partner": "1c05e474-bed8-42ab-8481-ca8f565b52f3"
+    },
+    {
+      "round": 1,
+      "room": 2,
+      "lead": "ac4b60d2-1602-4e13-9a10-15076ca48654",
+      "partner": "77567853-c568-4225-8bf0-a45c7e7d25be"
+    },
+    {
+      "round": 1,
+      "room": 3,
+      "lead": "c2d93ae2-feb4-4c1d-b998-d4ad8d5691d6",
+      "partner": "7f8df6cf-ed87-4abd-819a-e771409b6582"
+    },
+    {
+      "round": 1,
+      "room": 4,
+      "lead": "e203f6a6-f53f-4daf-bf6a-b36693643410",
+      "partner": "a5fef255-0560-431b-b8ad-b9bca20e68bc"
+    },
+    {
+      "round": 1,
+      "room": 5,
+      "lead": "e2d337bf-b912-4a3a-b162-a7014d9d75ba",
+      "partner": "f016d5d6-4422-425a-b929-ebccd5baa0c7"
+    },
+    {
+      "round": 1,
+      "room": 6,
+      "lead": "e9851b5f-8ff3-45c9-a0ab-a0a6ac0a02ca",
+      "partner": "fe52eb50-d735-4bf7-8de8-20657fca8a24"
+    },
+    {
+      "round": 2,
+      "room": 2,
+      "lead": "ac4b60d2-1602-4e13-9a10-15076ca48654",
+      "partner": "1c05e474-bed8-42ab-8481-ca8f565b52f3"
+    },
+    {
+      "round": 2,
+      "room": 1,
+      "lead": "8ad4e13c-7603-41a7-b842-f6b80cd4cec3",
+      "partner": "77567853-c568-4225-8bf0-a45c7e7d25be"
+    },
+    {
+      "round": 2,
+      "room": 4,
+      "lead": "e203f6a6-f53f-4daf-bf6a-b36693643410",
+      "partner": "7f8df6cf-ed87-4abd-819a-e771409b6582"
+    },
+    {
+      "round": 2,
+      "room": 3,
+      "lead": "c2d93ae2-feb4-4c1d-b998-d4ad8d5691d6",
+      "partner": "a5fef255-0560-431b-b8ad-b9bca20e68bc"
+    },
+    {
+      "round": 2,
+      "room": 6,
+      "lead": "e9851b5f-8ff3-45c9-a0ab-a0a6ac0a02ca",
+      "partner": "f016d5d6-4422-425a-b929-ebccd5baa0c7"
+    },
+    {
+      "round": 2,
+      "room": 5,
+      "lead": "e2d337bf-b912-4a3a-b162-a7014d9d75ba",
+      "partner": "fe52eb50-d735-4bf7-8de8-20657fca8a24"
+    },
+    {
+      "round": 3,
+      "room": 3,
+      "lead": "c2d93ae2-feb4-4c1d-b998-d4ad8d5691d6",
+      "partner": "1c05e474-bed8-42ab-8481-ca8f565b52f3"
+    },
+    {
+      "round": 3,
+      "room": 4,
+      "lead": "e203f6a6-f53f-4daf-bf6a-b36693643410",
+      "partner": "77567853-c568-4225-8bf0-a45c7e7d25be"
+    },
+    {
+      "round": 3,
+      "room": 5,
+      "lead": "e2d337bf-b912-4a3a-b162-a7014d9d75ba",
+      "partner": "7f8df6cf-ed87-4abd-819a-e771409b6582"
+    },
+    {
+      "round": 3,
+      "room": 6,
+      "lead": "e9851b5f-8ff3-45c9-a0ab-a0a6ac0a02ca",
+      "partner": "a5fef255-0560-431b-b8ad-b9bca20e68bc"
+    },
+    {
+      "round": 3,
+      "room": 1,
+      "lead": "8ad4e13c-7603-41a7-b842-f6b80cd4cec3",
+      "partner": "f016d5d6-4422-425a-b929-ebccd5baa0c7"
+    },
+    {
+      "round": 3,
+      "room": 2,
+      "lead": "ac4b60d2-1602-4e13-9a10-15076ca48654",
+      "partner": "fe52eb50-d735-4bf7-8de8-20657fca8a24"
+    },
+    {
+      "round": 4,
+      "room": 4,
+      "lead": "e203f6a6-f53f-4daf-bf6a-b36693643410",
+      "partner": "1c05e474-bed8-42ab-8481-ca8f565b52f3"
+    },
+    {
+      "round": 4,
+      "room": 3,
+      "lead": "c2d93ae2-feb4-4c1d-b998-d4ad8d5691d6",
+      "partner": "77567853-c568-4225-8bf0-a45c7e7d25be"
+    },
+    {
+      "round": 4,
+      "room": 6,
+      "lead": "e9851b5f-8ff3-45c9-a0ab-a0a6ac0a02ca",
+      "partner": "7f8df6cf-ed87-4abd-819a-e771409b6582"
+    },
+    {
+      "round": 4,
+      "room": 5,
+      "lead": "e2d337bf-b912-4a3a-b162-a7014d9d75ba",
+      "partner": "a5fef255-0560-431b-b8ad-b9bca20e68bc"
+    },
+    {
+      "round": 4,
+      "room": 2,
+      "lead": "ac4b60d2-1602-4e13-9a10-15076ca48654",
+      "partner": "f016d5d6-4422-425a-b929-ebccd5baa0c7"
+    },
+    {
+      "round": 4,
+      "room": 1,
+      "lead": "8ad4e13c-7603-41a7-b842-f6b80cd4cec3",
+      "partner": "fe52eb50-d735-4bf7-8de8-20657fca8a24"
+    },
+    {
+      "round": 5,
+      "room": 5,
+      "lead": "e2d337bf-b912-4a3a-b162-a7014d9d75ba",
+      "partner": "1c05e474-bed8-42ab-8481-ca8f565b52f3"
+    },
+    {
+      "round": 5,
+      "room": 6,
+      "lead": "e9851b5f-8ff3-45c9-a0ab-a0a6ac0a02ca",
+      "partner": "77567853-c568-4225-8bf0-a45c7e7d25be"
+    },
+    {
+      "round": 5,
+      "room": 1,
+      "lead": "8ad4e13c-7603-41a7-b842-f6b80cd4cec3",
+      "partner": "7f8df6cf-ed87-4abd-819a-e771409b6582"
+    },
+    {
+      "round": 5,
+      "room": 2,
+      "lead": "ac4b60d2-1602-4e13-9a10-15076ca48654",
+      "partner": "a5fef255-0560-431b-b8ad-b9bca20e68bc"
+    },
+    {
+      "round": 5,
+      "room": 3,
+      "lead": "c2d93ae2-feb4-4c1d-b998-d4ad8d5691d6",
+      "partner": "f016d5d6-4422-425a-b929-ebccd5baa0c7"
+    },
+    {
+      "round": 5,
+      "room": 4,
+      "lead": "e203f6a6-f53f-4daf-bf6a-b36693643410",
+      "partner": "fe52eb50-d735-4bf7-8de8-20657fca8a24"
+    },
+    {
+      "round": 6,
+      "room": 6,
+      "lead": "e9851b5f-8ff3-45c9-a0ab-a0a6ac0a02ca",
+      "partner": "1c05e474-bed8-42ab-8481-ca8f565b52f3"
+    },
+    {
+      "round": 6,
+      "room": 5,
+      "lead": "e2d337bf-b912-4a3a-b162-a7014d9d75ba",
+      "partner": "77567853-c568-4225-8bf0-a45c7e7d25be"
+    },
+    {
+      "round": 6,
+      "room": 2,
+      "lead": "ac4b60d2-1602-4e13-9a10-15076ca48654",
+      "partner": "7f8df6cf-ed87-4abd-819a-e771409b6582"
+    },
+    {
+      "round": 6,
+      "room": 1,
+      "lead": "8ad4e13c-7603-41a7-b842-f6b80cd4cec3",
+      "partner": "a5fef255-0560-431b-b8ad-b9bca20e68bc"
+    },
+    {
+      "round": 6,
+      "room": 4,
+      "lead": "e203f6a6-f53f-4daf-bf6a-b36693643410",
+      "partner": "f016d5d6-4422-425a-b929-ebccd5baa0c7"
+    },
+    {
+      "round": 6,
+      "room": 3,
+      "lead": "c2d93ae2-feb4-4c1d-b998-d4ad8d5691d6",
+      "partner": "fe52eb50-d735-4bf7-8de8-20657fca8a24"
+    }
+  ]
+}

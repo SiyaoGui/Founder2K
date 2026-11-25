@@ -1,0 +1,71 @@
+
+> site-creator-vinext-starter@0.1.0 build
+> node scripts/run-framework.mjs build
+
+
+  vinext build  (Vite 8.0.13)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2K
+transforming...✓ 516 modules transformed.
+rendering chunks...
+✓ built in 1.17s
+[2/5] analyze server references...
+[2K
+transforming...✓ 127 modules transformed.
+rendering chunks...
+✓ built in 1.57s
+[3/5] build rsc environment...
+[2K
+transforming...✓ 513 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 1.10s
+[4/5] build client environment...
+[2K
+transforming...✓ 1922 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - vinext:middleware-server-only (42%)
+  - alias (16%)
+  - rsc:scan-strip (9%)
+  - vinext:css-data-url (7%)
+  - rsc:virtual-client-package (6%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 3.40s
+[5/5] build ssr environment...
+[2K
+transforming...✓ 133 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 1.26s
+[0m
+  Route (app)
+  ┌ ? /                     
+  ├ λ /api/herstartup       
+  ├ λ /api/platform         
+  ├ λ /api/records          
+  ├ λ /api/venue            
+  ├ λ /api/venue/maintenance
+  ├ λ /api/venue/webhook    
+  ├ λ /api/women-program    
+  └ ? /venue                
+
+  λ API  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+

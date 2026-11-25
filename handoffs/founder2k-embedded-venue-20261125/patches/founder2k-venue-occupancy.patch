@@ -1,0 +1,102 @@
+diff --git a/drizzle/0003_venue_execution.sql b/drizzle/0003_venue_execution.sql
+new file mode 100644
+index 0000000..f23df53
+--- /dev/null
++++ b/drizzle/0003_venue_execution.sql
+@@ -0,0 +1,52 @@
++-- Account and event references are resolved by the existing authenticated event API.
++-- One row represents one execution of an appointment in a published schedule.
++CREATE TABLE venue_meetings (
++  id TEXT PRIMARY KEY NOT NULL,
++  event_id TEXT NOT NULL,
++  appointment_id TEXT NOT NULL,
++  logical_room TEXT NOT NULL,
++  host_account TEXT NOT NULL,
++  visitor_account TEXT NOT NULL,
++  planned_start_ms INTEGER NOT NULL,
++  planned_end_ms INTEGER NOT NULL,
++  media_connected_ms INTEGER,
++  media_closed_ms INTEGER,
++  CHECK (host_account <> visitor_account),
++  CHECK (planned_end_ms > planned_start_ms),
++  CHECK (media_connected_ms IS NULL OR media_closed_ms IS NULL OR media_closed_ms >= media_connected_ms),
++  UNIQUE (event_id, appointment_id)
++);
++
++-- An admission occupies the room and both accounts in a single INSERT.
++-- Keep the admission during disconnects and revocation. Close only after the
++-- authenticated media adapter confirms the old media session has been fenced.
++CREATE TABLE venue_admissions (
++  meeting_id TEXT PRIMARY KEY NOT NULL REFERENCES venue_meetings(id),
++  media_generation TEXT NOT NULL UNIQUE
++);
++CREATE TABLE venue_room_occupancy (
++  event_id TEXT NOT NULL,
++  logical_room TEXT NOT NULL,
++  meeting_id TEXT NOT NULL UNIQUE REFERENCES venue_admissions(meeting_id) ON DELETE CASCADE,
++  PRIMARY KEY (event_id, logical_room)
++);
++CREATE TABLE venue_account_occupancy (
++  account_id TEXT PRIMARY KEY NOT NULL,
++  meeting_id TEXT NOT NULL REFERENCES venue_admissions(meeting_id) ON DELETE CASCADE
++);
++CREATE TRIGGER venue_reserve AFTER INSERT ON venue_admissions
++BEGIN
++  SELECT CASE WHEN NOT EXISTS (
++    SELECT 1 FROM venue_meetings WHERE id = NEW.meeting_id AND media_closed_ms IS NULL
++  ) THEN RAISE(ABORT, 'meeting unavailable') END;
++  INSERT INTO venue_room_occupancy
++    SELECT event_id, logical_room, id FROM venue_meetings WHERE id = NEW.meeting_id;
++  INSERT INTO venue_account_occupancy
++    SELECT host_account, id FROM venue_meetings WHERE id = NEW.meeting_id
++    UNION ALL SELECT visitor_account, id FROM venue_meetings WHERE id = NEW.meeting_id;
++END;
++CREATE TRIGGER venue_release AFTER UPDATE OF media_closed_ms ON venue_meetings
++WHEN OLD.media_closed_ms IS NULL AND NEW.media_closed_ms IS NOT NULL
++BEGIN
++  DELETE FROM venue_admissions WHERE meeting_id = NEW.id;
++END;
+diff --git a/tests/venue-occupancy.test.mjs b/tests/venue-occupancy.test.mjs
+new file mode 100644
+index 0000000..f7fd9f3
+--- /dev/null
++++ b/tests/venue-occupancy.test.mjs
+@@ -0,0 +1,38 @@
++import { readFileSync, mkdtempSync, rmSync } from 'node:fs';
++import { tmpdir } from 'node:os';
++import { join } from 'node:path';
++import { test } from 'node:test';
++import assert from 'node:assert/strict';
++import { DatabaseSync } from 'node:sqlite';
++
++const migration = readFileSync(new URL('../drizzle/0003_venue_execution.sql', import.meta.url), 'utf8');
++
++test('competing dispatches cannot take either account or the room before media closure', t => {
++  const dir = mkdtempSync(join(tmpdir(), 'venue-test-'));
++  t.after(() => rmSync(dir, {recursive: true, force: true}));
++  const path = join(dir, 'rehearsal.db');
++  const primary = new DatabaseSync(path);
++  const second = new DatabaseSync(path);
++  t.after(() => { primary.close(); second.close(); });
++  primary.exec('PRAGMA foreign_keys=ON');
++  second.exec('PRAGMA foreign_keys=ON');
++  primary.exec(migration);
++  const schedule = primary.prepare('INSERT INTO venue_meetings VALUES (?, ?, ?, ?, ?, ?, 1000, 2000, NULL, NULL)');
++  schedule.run('first', 'event1', 'appointment1', 'room1', 'host1', 'visitor1');
++  schedule.run('next', 'event1', 'appointment2', 'room1', 'host2', 'visitor2');
++  schedule.run('elsewhere', 'event2', 'appointment3', 'room2', 'visitor1', 'visitor3');
++  const hold = 'INSERT INTO venue_admissions VALUES (?, ?)';
++  primary.exec('BEGIN IMMEDIATE');
++  primary.prepare(hold).run('first', 'media1');
++  second.exec('PRAGMA busy_timeout=0');
++  assert.throws(() => second.prepare(hold).run('elsewhere', 'media2'), /locked/);
++  primary.exec('COMMIT');
++  assert.throws(() => second.prepare(hold).run('elsewhere', 'media2'), /UNIQUE/);
++  assert.throws(() => second.prepare(hold).run('next', 'media3'), /UNIQUE/);
++  assert.equal(second.prepare('SELECT count(*) AS n FROM venue_room_occupancy').get().n, 1);
++  assert.equal(second.prepare('SELECT count(*) AS n FROM venue_account_occupancy').get().n, 2);
++  primary.prepare('UPDATE venue_meetings SET media_closed_ms=1600 WHERE id=?').run('first');
++  second.prepare(hold).run('next', 'media3');
++  assert.throws(() => primary.prepare(hold).run('first', 'stale'), /unavailable/);
++  assert.equal(second.prepare('SELECT planned_start_ms FROM venue_meetings WHERE id=?').get('next').planned_start_ms, 1000);
++});
